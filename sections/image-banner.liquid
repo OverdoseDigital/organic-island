@@ -33,7 +33,11 @@
     flex-direction: row-reverse !important;
 } {% endcomment %}
 
-.banner.image--reverse .banner__media-half+.banner__media-half {
+.banner.image--reverse .banner__media.banner__media-half:first-child {
+    left: 0;
+    right: auto;
+}
+.banner.image--reverse .banner__media.banner__media-half:second-child {
     left: 0;
     right: auto;
 }
