@@ -158,7 +158,7 @@
       {%- endfor -%}
     
 </div>
-    <div class="custom-banner-btns banner__buttons{% if section.settings.button_label_1 != blank and section.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+    <div class="custom-banner-btns color-{{ section.settings.color_scheme }} gradient banner__buttons{% if section.settings.button_label_1 != blank and section.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
       {{ block.shopify_attributes }}>
       {%- if section.settings.button_label_1 != blank -%}
         <a
