@@ -1,1 +1,1 @@
-.button.button--primary:hover, .button.button--primary:focus {background: transparent;}
+.button.button--primary:hover, .button.button--primary:focus {background: transparent; border: 1px solid #fff; color: #fff;}
