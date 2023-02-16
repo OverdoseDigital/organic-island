@@ -160,7 +160,7 @@ p{font-size: 1.8rem; font-weight: 400; line-height: 25px; letter-spacing: 0.2px;
 
 .button{font-style: normal; font-weight: 400; font-size: 1.4rem; line-height: 14px; letter-spacing: 1px; text-transform: uppercase; border: 1px solid #fff;}
 .button:before, .button:after{display: none;}
-.button.button--primary{border:1px solid #232936;}
+/* .custom-banner-btns.banner__buttons .button.button--primary{border:1px solid #232936;} */
 
 
 @media(max-width:749px){
