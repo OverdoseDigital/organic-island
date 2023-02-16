@@ -1,0 +1,179 @@
+body{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+  }
+  h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+  /* for global use */
+  .full-width {
+    width: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0 40px;
+  }
+  ::-webkit-placeholder {
+    color: #737373;
+  }
+  ::-moz-placeholder {
+    color: #737373;
+  }
+  ::-ms-placeholder {
+    color: #737373;
+  }
+  ::placeholder { 
+    color: #737373;
+    opacity: 1;
+  }
+  /* ::-moz-selection {color: #fff; background: #114D80;}
+  ::selection {color: #fff; background: #114D80;} */
+  
+  * {
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+*:focus-visible {outline: none; box-shadow: none;}
+a.button {cursor: pointer;}
+
+    /* .d-flex {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    .flex-align-center {
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    
+    .flex-justify-content-center {
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    
+    .flex-justify-content-space-between {
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+    }
+    
+    
+    @media screen and (max-width: 749px) {
+      .small-flex-justify-content-center {
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+    
+      .small-flex-justify-content-start {
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+      }
+    
+      .small-flex-justify-content-space-between {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+    
+      .small-flex-justify-content-end {
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+      }
+    }
+    
+    @media screen and (min-width: 750px) and (max-width: 989px) {
+      .medium-flex-justify-content-center {
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+    
+      .medium-flex-justify-content-start {
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+      }
+    
+      .medium-flex-justify-content-space-between {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+    
+      .medium-flex-justify-content-end {
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+      }
+    } 
+    
+    
+    
+    
+    @media screen and (min-width: 990px) {
+      .large-flex-justify-content-center {
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+    
+      .large-flex-justify-content-start {
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+      }
+    
+      .large-flex-justify-content-space-between {
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+    
+      .large-flex-justify-content-end {
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+      }
+    }
+    
+    .field:after,
+    .select:after,
+    .customer .field:after,
+    .customer select:after,
+    .localization-form__select:after {
+      display: none;
+    }
+    
+    .field:before,
+    .select:before,
+    .customer .field:before,
+    .customer select:before,
+    .localization-form__select:before {
+      display: none;
+    }
+    
+    .link,
+    .customer a {
+      text-decoration: none;
+    }*/
+
+/* global css */
+h2, .h0 {font-size: 5rem; font-weight: 400;}
+h2, .h1 {font-size: 3.5rem; font-weight: 400;}
+h2, .h2 {font-size: 3rem; font-weight: 400;}
+p{font-size: 1.8rem; font-weight: 400; line-height: 25px; letter-spacing: 0.2px;}   
+
+.button{font-style: normal; font-weight: 400; font-size: 1.4rem; line-height: 14px; letter-spacing: 1px; text-transform: uppercase;}
+
+
+
+@media(max-width:749px){
+h2, .h0 {font-size: 3.2rem;}
+h2, .h1 {font-size: 2.8rem;}
+h2, .h2 {font-size: 2.4rem;}
+p{font-size: 1.5rem; line-height: 21px;}   
+}
+
+
+
+
+
+
+
+
+
