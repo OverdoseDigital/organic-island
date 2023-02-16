@@ -12,6 +12,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "shop skincare",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -36,6 +37,12 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "button_label_1": "shop skincare",
+        "button_link_1": "#",
+        "button_style_secondary_1": false,
+        "button_label_2": "shop everyday bundles",
+        "button_link_2": "#",
+        "button_style_secondary_2": true,
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
