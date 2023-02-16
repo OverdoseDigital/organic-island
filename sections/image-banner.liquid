@@ -19,7 +19,7 @@
         content: '';
         display: block;
       }
-      .banner--desktop-transparent .banner__box{max-width:100%;}
+     
        
     }
   {%- endstyle -%}
@@ -42,6 +42,10 @@
     right: auto;
 }
 .custom-banner-btns.banner__buttons{justify-content: space-between; width: 67%;}
+@media screen and (min-width: 750px) {
+ .banner--desktop-transparent .banner__box{max-width:100%;}
+
+}
 
 {%- endstyle -%}
 
