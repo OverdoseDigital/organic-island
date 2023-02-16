@@ -29,7 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/banner1.jpg",
         "image_2": "shopify:\/\/shop_images\/banner2.jpg",
-        "image_layout": "reverse_image",
+        "image_layout": "image_first",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
