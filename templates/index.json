@@ -29,6 +29,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/banner1.jpg",
         "image_2": "shopify:\/\/shop_images\/banner2.jpg",
+        "image_layout": "reverse_image",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -101,7 +102,7 @@
         "image": "shopify:\/\/shop_images\/capturing.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
