@@ -235,7 +235,7 @@
         "template--17870003372322__a5194981-8759-46d7-8063-1f8b38927900-16766388083bd949a3-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "bg_color": "",
         "cover_image": "shopify:\/\/shop_images\/video-bg.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
