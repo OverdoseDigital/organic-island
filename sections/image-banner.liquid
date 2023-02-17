@@ -123,7 +123,7 @@
 
 
 {%- if section.settings.mob_image != blank -%}
-    <div class="banner__media media">
+    <div class="banner__media media medium-up-hide large-up-hide">
       {%- liquid
         assign image_height_2 = section.settings.mob_image.width | divided_by: section.settings.mob_image.aspect_ratio
         if section.settings.mob_image != blank
@@ -248,6 +248,11 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "mob_image",
+      "label": "Mobile Image"
     },
     {
       "type": "select",
