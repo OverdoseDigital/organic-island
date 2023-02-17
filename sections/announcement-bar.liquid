@@ -7,12 +7,12 @@
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
               <div class="page-width">
-<div>
+<div class="d-flex">
   {% assign top_menu = section.settings.menu %}
-  {% for link in top_menu.links %}
-    {{link.title}}
-  {% endfor %}
-                <p class="announcement-bar__message {{ block.settings.text_alignment }} h5"><span>{{ block.settings.text | escape }}</span>{%- if block.settings.link != blank -%}{% render 'icon-arrow' %}{%- endif -%}</p>
+  <ul>{% for link in top_menu.links %}
+  <li>  {{link.title}}</li>
+  {% endfor %}</ul>
+  <div><p class="announcement-bar__message {{ block.settings.text_alignment }} h5"><span>{{ block.settings.text | escape }}</span>{%- if block.settings.link != blank -%}{% render 'icon-arrow' %}{%- endif -%}</p></div>
 </div>
               </div>
           {%- if block.settings.link != blank -%}
