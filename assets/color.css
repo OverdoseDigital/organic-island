@@ -5,8 +5,8 @@
 .button.button--secondary{background: transparent; border: 1px solid #232936; color: #232936;}
 .button.button--secondary:hover, .button.button--secondary:focus {background: #232936; border: 1px solid #232936; color: #fff;}
 
-.banner__buttons .button.button--primary{background: #232936; border: 1px solid #232936; color: #fff;}
-.banner__buttons .button.button--primary:hover, .button.button--primary:focus {background: transparent; border: 1px solid #232936; color: #232936;}
+.banner__buttons .button.button--primary{background: #fff; border: 1px solid #fff; color: #232936;}
+.banner__buttons .button.button--primary:hover, .button.button--primary:focus {background: transparent; border: 1px solid #fff; color: #232936;}
 
 
 
