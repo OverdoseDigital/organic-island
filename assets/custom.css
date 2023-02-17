@@ -176,7 +176,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 .announcement-bar__message {width: 100%;}
 .topmenu {display: flex; align-items: center;     position: absolute;
   z-index: 999;
-  top: -38.5px;}
+  top: -19.5px;}
 .topmenu ul {padding: 0; margin: 0; position: absolute;}
 .section-header.shopify-section-group-header-group {
   z-index: 4;
