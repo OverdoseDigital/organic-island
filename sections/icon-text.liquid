@@ -42,7 +42,7 @@ transition:all 0.5s ease-in;
     padding-left:0.5rem;
     padding-right:0.5rem;
   }
-   .section-{{ section.id }}-padding .multicolumn-list .multicolumn-card__info .rte p{color:{{section.settings.title_color}};}
+   .section-{{ section.id }}-padding .multicolumn-list .multicolumn-card__info .rte p{color:{{section.settings.paragraph_color}};}
 .section-{{ section.id }}-padding .multicolumn-card.content-container{
   display:flex;
   align-items:center;
@@ -546,6 +546,12 @@ background-primary
           "id": "title_color",
           "default": "#000",
           "label": "Block Title Color"
+        },
+        {
+          "type": "color",
+          "id": "paragraph_color",
+          "default": "#4F5861",
+          "label": "Block Paragraph Color"
         },
      {
       "type": "select",
