@@ -220,10 +220,10 @@
         "template--17870003372322__a5194981-8759-46d7-8063-1f8b38927900-16766388083bd949a3-2": {
           "type": "button",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "take our 5 minute skin quiz",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
