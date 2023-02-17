@@ -47,7 +47,7 @@ transition:all 0.5s ease-in;
   display:flex;
   align-items:center;
   justify-content: center;
-  flex-direction:column;
+  flex-direction:{{section.settings.direction_wise}};
 }
 .section-{{ section.id }}-padding .multicolumn-card-spacing{
   padding-top:0;
@@ -122,7 +122,7 @@ padding:35px 2%;
   }
   @media(max-width:989px){
     /*upto tablet*/
-      .section-{{ section.id }}-padding .multicolumn-card.content-container{flex-direction:column;}
+      {% comment %} .section-{{ section.id }}-padding .multicolumn-card.content-container{flex-direction:column;} {% endcomment %}
       .section-{{ section.id }}-padding .multicolumn-list{gap:8px;}
       .section-{{ section.id }}-padding .multicolumn-list .multicolumn-card__info{padding-top:1rem;padding-bottom:0rem;} 
       .section-{{ section.id }}-padding .multicolumn-list .image-side-by-side .multicolumn-card__info{padding-bottom:3rem; padding-left:0.5rem !important; padding-right:0.5rem !important; }  
@@ -260,7 +260,7 @@ background-primary
             <a href="{{ block.settings.link }}">
               {% endif %}
           
-              <div class="multicolumn-card content-container
+              <div class="multicolumn-card content-container {% if section.settings.direction_wise == 'column'%}direction--column{% else %}direction--row{% endif %}
               {% if section.settings.box_shadow %} show_box_shadow {% endif %} image-{{section.settings.img_text_align}}">
               {% if block.settings.image != blank %} {% endif %}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
