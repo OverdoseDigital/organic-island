@@ -33,7 +33,7 @@
         "mob_image": "shopify:\/\/shop_images\/mob.jpg",
         "image_layout": "image_first",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
