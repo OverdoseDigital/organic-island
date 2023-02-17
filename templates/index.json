@@ -206,7 +206,7 @@
         "template--17870003372322__a5194981-8759-46d7-8063-1f8b38927900-16766388083bd949a3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Skincare as it should be",
             "heading_size": "h1"
           }
         },
@@ -243,7 +243,7 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "heading_color": "",
