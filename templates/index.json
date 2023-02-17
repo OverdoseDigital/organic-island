@@ -237,6 +237,7 @@
       "settings": {
         "full_width": true,
         "bg_color": "",
+        "image": "shopify:\/\/shop_images\/mob.jpg",
         "cover_image": "shopify:\/\/shop_images\/video-bg.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
