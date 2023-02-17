@@ -131,8 +131,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/refillable.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Refillable & recyclable",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque mattis.<\/p>",
             "link_label": "",
             "link": ""
           }
