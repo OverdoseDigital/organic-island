@@ -8,7 +8,8 @@
           {%- endif -%}
               <div class="page-width">
 <div>
-  {% for link in section.settings.menu.link %}
+  {% assign top_menu = section.settings.menu %}
+  {% for link in top_menu.links %}
     {{link.title}}
   {% endfor %}
                 <p class="announcement-bar__message {{ block.settings.text_alignment }} h5"><span>{{ block.settings.text | escape }}</span>{%- if block.settings.link != blank -%}{% render 'icon-arrow' %}{%- endif -%}</p>
