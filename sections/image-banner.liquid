@@ -119,6 +119,40 @@
       }}
     </div>
   {%- endif -%}
+
+
+
+{%- if section.settings.mob_image != blank -%}
+    <div class="banner__media media">
+      {%- liquid
+        assign image_height_2 = section.settings.mob_image.width | divided_by: section.settings.mob_image.aspect_ratio
+        if section.settings.mob_image != blank
+          assign image_class_2 = 'banner__media-image-half'
+        endif
+        if section.settings.mob_image != blank and section.settings.stack_images_on_mobile
+          assign sizes = '(min-width: 750px) 50vw, 100vw'
+        elsif section.settings.mob_image != blank
+          assign sizes = '50vw'
+        else
+          assign sizes = '100vw'
+        endif
+      -%}
+      {{
+        section.settings.mob_image
+        | image_url: width: 3840
+        | image_tag:
+          loading: 'lazy',
+          width: section.settings.mob_image.width,
+          height: image_height_2,
+          class: image_class_2,
+          sizes: sizes,
+          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+      }}
+    </div>
+  {%- endif -%}
+
+
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
