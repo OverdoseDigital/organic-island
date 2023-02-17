@@ -172,7 +172,7 @@
         "heading_color": "rgba(0,0,0,0)",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
