@@ -95,8 +95,12 @@
         "template--17870003372322__9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b-16765506967e51d89a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label_1": "learn more",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "#",
+            "button_style_secondary_2": true
           }
         }
       },
