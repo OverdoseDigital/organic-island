@@ -19,6 +19,7 @@
         "announcement-bar-0"
       ],
       "settings": {
+        "menu": "main-menu"
       }
     },
     "header": {
