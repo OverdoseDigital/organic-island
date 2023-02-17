@@ -161,13 +161,12 @@
         "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-2"
       ],
       "settings": {
-        "light_curve": false,
         "layout": "full_bleed",
         "title": "Multicolumn",
         "heading_size": "h1",
-        "paragraph": "",
+        "paragraph": "eegge",
         "text_align": "left",
-        "heading_color": "",
+        "heading_color": "#e22120",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",

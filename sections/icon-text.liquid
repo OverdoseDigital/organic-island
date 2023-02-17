@@ -110,11 +110,7 @@ padding-right: 0!important;
 
 }
 .section-{{ section.id }}-padding .multicolumn-card.full_width .multicolumn-card__image-wrapper { margin: 0;}
-{% if section.settings.light_curve == true %}
-#shopify-section-{{ section.id }}{position:relative;}
-#shopify-section-{{ section.id }}:before{content:''; left:0; z-index:-1; top: -99.14px; position:absolute; width:100%; height:99.14px; 
-background:url({{ 'https://cdn.shopify.com/s/files/1/0552/1634/1078/files/light-curve.png?v=1668081713'}}) repeat; background-size: 100% 100%;}
-{% endif %}
+
 
 /* design code */
 .section-{{ section.id }}-padding .multicolumn-list .multicolumn-card__info p{font-size:2.2rem; font-weight:400; line-height:26px;}
@@ -378,11 +374,6 @@ background-primary
   "class": "section icon-text-section",
   "tag": "section",
   "settings": [
-    {
-      "type": "checkbox",
-      "id": "light_curve",
-      "label": "Section Curve"
-    },
     {
       "type": "select",
       "id": "layout",
