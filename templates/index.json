@@ -221,7 +221,7 @@
           "type": "button",
           "settings": {
             "button_label_1": "take our 5 minute skin quiz",
-            "button_link_1": "",
+            "button_link_1": "#",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
