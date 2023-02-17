@@ -106,7 +106,7 @@
         "mob_title_size": 20,
         "title_color": "#232936",
         "paragraph_color": "#4f5861",
-        "font_weight": "600",
+        "font_weight": "400",
         "blockBg": "rgba(0,0,0,0)",
         "direction_wise": "row",
         "icon_width": 70,
