@@ -47,8 +47,10 @@ transition:all 0.5s ease-in;
   display:flex;
   align-items:center;
   justify-content: center;
-  flex-direction:{{section.settings.direction_wise}};
 }
+
+.section-{{ section.id }}-padding .multicolumn-card.content-container.direction--row{flex-direction:row;}
+.section-{{ section.id }}-padding .multicolumn-card.content-container.direction--column{flex-direction:column;}
 .section-{{ section.id }}-padding .multicolumn-card-spacing{
   padding-top:0;
 }
