@@ -247,7 +247,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "heading_color": "",
-        "paragraph_color": "",
+        "paragraph_color": "#cd2a2a",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36,
