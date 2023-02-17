@@ -182,7 +182,7 @@
         "title_color": "#232936",
         "paragraph_color": "#4f5861",
         "font_weight": "600",
-        "blockBg": "#6d889f",
+        "blockBg": "rgba(0,0,0,0)",
         "direction_wise": "row",
         "icon_width": 70,
         "mob_icon_width": 50,
