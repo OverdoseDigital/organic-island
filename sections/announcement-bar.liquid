@@ -9,7 +9,7 @@
               <div class="page-width">
 <div class="d-flex topmenu">
   {% assign top_menu = section.settings.menu %}
-  <ul>{% for link in top_menu.links %}
+  <ul class="d-flex">{% for link in top_menu.links %}
   <li>  {{link.title}}</li>
   {% endfor %}</ul>
   <div><p class="announcement-bar__message {{ block.settings.text_alignment }} h5"><span>{{ block.settings.text | escape }}</span>{%- if block.settings.link != blank -%}{% render 'icon-arrow' %}{%- endif -%}</p></div>
