@@ -178,7 +178,9 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
   z-index: 999;
   top: -38.5px;}
 .topmenu ul {padding: 0; margin: 0; position: absolute;}
-
+.section-header.shopify-section-group-header-group {
+  z-index: 4;
+}
 
 
 
