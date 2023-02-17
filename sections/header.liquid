@@ -138,6 +138,7 @@
 </svg>
 
 
+{% assign top_menu = section.settings.top_menu %}
 <top-menu class="topmenu">
   <ul class="d-flex">{% for link in top_menu.links %}
     <li class="{% if forloop.first %} active {% endif %}">  {{link.title}}</li>
@@ -888,6 +889,11 @@
       ],
       "default": "middle-left",
       "label": "t:sections.header.settings.logo_position.label"
+    },
+    {
+      "type": "link_list",
+      "label": "Top Menu",
+      "id": "top_menu"
     },
     {
       "type": "link_list",
