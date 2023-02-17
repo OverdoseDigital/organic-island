@@ -49,6 +49,75 @@
         "show_text_below": false
       }
     },
+    "81304df3-454d-47eb-a03f-cd12df4ea830": {
+      "type": "icon-text",
+      "blocks": {
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/refillable.png",
+            "title": "Refillable & recyclable",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque mattis.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/organic-ingredients.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainable.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-0",
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-1",
+        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "title": "",
+        "heading_size": "h1",
+        "paragraph": "",
+        "text_align": "left",
+        "heading_color": "rgba(0,0,0,0)",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "button_style_secondary": false,
+        "color_scheme": "background-1",
+        "title_size": 20,
+        "mob_title_size": 20,
+        "title_color": "#232936",
+        "paragraph_color": "#4f5861",
+        "font_weight": "600",
+        "blockBg": "rgba(0,0,0,0)",
+        "direction_wise": "row",
+        "icon_width": 70,
+        "mob_icon_width": 50,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mob_padding_top": 40,
+        "mob_padding_bottom": 40
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -123,81 +192,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "81304df3-454d-47eb-a03f-cd12df4ea830": {
-      "type": "icon-text",
-      "blocks": {
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/refillable.png",
-            "title": "Refillable & recyclable",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque mattis.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/organic-ingredients.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sustainable.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-0",
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-1",
-        "template--17870003372322__81304df3-454d-47eb-a03f-cd12df4ea830-1676631944a916cd45-2"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "title": "",
-        "heading_size": "h1",
-        "paragraph": "",
-        "text_align": "left",
-        "heading_color": "rgba(0,0,0,0)",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "button_label": "",
-        "button_link": "",
-        "button_style_secondary": false,
-        "color_scheme": "background-1",
-        "title_size": 20,
-        "mob_title_size": 20,
-        "title_color": "#232936",
-        "paragraph_color": "#4f5861",
-        "font_weight": "600",
-        "blockBg": "rgba(0,0,0,0)",
-        "direction_wise": "row",
-        "icon_width": 70,
-        "mob_icon_width": 50,
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mob_padding_top": 40,
-        "mob_padding_bottom": 40
-      }
     }
   },
   "order": [
     "image_banner",
+    "81304df3-454d-47eb-a03f-cd12df4ea830",
     "featured_collection",
-    "9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b",
-    "81304df3-454d-47eb-a03f-cd12df4ea830"
+    "9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b"
   ]
 }
