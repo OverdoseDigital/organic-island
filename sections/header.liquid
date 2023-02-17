@@ -161,7 +161,7 @@
             <div class="menu-drawer__inner-container">
               <top-menu class="topmenu large-up-hide">
                 <ul class="d-flex">{% for link in top_menu.links %}
-                  <li class="{% if forloop.first %} active {% endif %}">  {{link.title}}</li>
+                  <li class="{% if section.settings.menu.title == link.title %} active {% endif %}">  {{link.title}}</li>
                   {% endfor %}
                 </ul>
               </top-menu>
