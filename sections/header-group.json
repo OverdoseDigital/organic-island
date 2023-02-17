@@ -19,7 +19,6 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "menu": "top-menu"
       }
     },
     "header": {
@@ -27,6 +26,7 @@
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-center",
+        "top_menu": "top-menu",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
