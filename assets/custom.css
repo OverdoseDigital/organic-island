@@ -38,7 +38,7 @@ body{
 *:focus-visible {outline: none; box-shadow: none;}
 a.button {cursor: pointer;}
 
-    /* .d-flex {
+    .d-flex {
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -131,7 +131,7 @@ a.button {cursor: pointer;}
       }
     }
     
-    .field:after,
+    /* .field:after,
     .select:after,
     .customer .field:after,
     .customer select:after,
@@ -150,7 +150,7 @@ a.button {cursor: pointer;}
     .link,
     .customer a {
       text-decoration: none;
-    }*/
+    } */
 
 /* global css */
 h2, .h0 {font-size: 5rem; font-weight: 400;}
