@@ -10,7 +10,7 @@
           "settings": {
             "text": "Free shipping available on all orders!",
             "text_alignment": "center",
-            "color_scheme": "background-2",
+            "color_scheme": "accent-2",
             "link": ""
           }
         }
