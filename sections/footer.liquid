@@ -152,6 +152,10 @@
                           {%- if section.settings.newsletter_heading != blank -%}
                             <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
                           {%- endif -%}
+
+                          {%- if section.settings.paragraph_text -%}
+                            <div class="news_text">{{section.settings.paragraph_text}}</div>
+                          {%- endif -%}
                           {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                             <input type="hidden" name="contact[tags]" value="newsletter">
                             <div class="newsletter-form__field-wrapper">
@@ -569,8 +573,14 @@
         {
           "type": "text",
           "id": "heading",
-          "default": "Quick links",
-          "label": "t:sections.footer.blocks.link_list.settings.heading.label"
+          "default": "Newsletter",
+          "label": "Newsletter Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "paragraph_text",
+          "default": "<p>Subscribe to the Organic Island newsletter to receive $20 off your first order and be the first to know about new releases, in-store events and special offers.</p>",
+          "label": "Subscribe"
         }
       ]
     }
