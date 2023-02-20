@@ -213,7 +213,7 @@
         "template--17870003372322__a5194981-8759-46d7-8063-1f8b38927900-16766388083bd949a3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet consectetur<\/p><p>Lorem ipsum dolor sit amet consectetur<\/p><ul><li>Lorem ipsum dolor sit amet consectetur<\/li><\/ul>",
+            "text": "<ul><li>Lorem ipsum dolor sit amet consectetur<\/li><li>Lorem ipsum dolor sit amet consectetur<\/li><li>Lorem ipsum dolor sit amet consectetur<\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -248,7 +248,7 @@
         "color_scheme": "background-1",
         "heading_color": "",
         "paragraph_color": "#232936",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36,
         "mob_padding_top": 36,
