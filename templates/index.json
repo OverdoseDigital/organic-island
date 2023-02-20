@@ -304,6 +304,7 @@
     },
     "d961a777-8313-4299-ac7a-970ab830071b": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
