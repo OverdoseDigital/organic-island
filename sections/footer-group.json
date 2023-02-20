@@ -26,13 +26,6 @@
             "menu": "help"
           }
         },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "04510c98-09e9-432f-8028-6d14cf5a8794": {
           "type": "socialmedia",
           "settings": {
@@ -50,7 +43,6 @@
         "footer-0",
         "488efafd-35c7-4ad1-b99c-11437981a8f6",
         "footer-1",
-        "footer-2",
         "04510c98-09e9-432f-8028-6d14cf5a8794",
         "b674decb-0d33-48cf-8edf-69d2ed470cf5"
       ],
