@@ -306,8 +306,8 @@
         "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "background-1",
-        "full_width": false,
-        "text_width": 78,
+        "full_width": true,
+        "text_width": 100,
         "padding_top": 40,
         "padding_bottom": 52
       }
