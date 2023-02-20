@@ -33,7 +33,7 @@ align-items: center; justify-content: center; height: 6.2rem; width: 6.2rem; pos
 .section-{{ section.id }}-padding .deferred-media__poster-button .icon {width: 2rem; height: 2rem;}
 .section-{{ section.id }}-padding .deferred-media__poster-button .icon-play {margin-left: .2rem;}   
 
-.section-{{ section.id }}-padding .image-with-text__text ul li::marker {font-size: 35px; font-weight:400;}
+.section-{{ section.id }}-padding .image-with-text__text ul li::marker {}
 .section-{{ section.id }}-padding .image-with-text__text ul li
 {
     counter-increment: custom;
@@ -42,6 +42,7 @@ align-items: center; justify-content: center; height: 6.2rem; width: 6.2rem; pos
 .section-{{ section.id }}-padding .image-with-text__text ul li:before
 {
     content: counter(custom) " ";   
+    font-size: 35px; font-weight:400;
 }
 
 .section-{{ section.id }}-padding .image-with-text__text ul li:first-child {
