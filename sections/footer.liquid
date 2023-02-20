@@ -152,7 +152,7 @@
           </div>
         {%- endif -%}
 
-        <div class="footer-block--newsletter">
+        {% comment %} <div class="footer-block--newsletter">
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
@@ -200,7 +200,7 @@
             </div>
           {%- endif -%}
 
-          {% comment %} {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
             <div class="footer__follow-on-shop">
            
             {% # theme-check-disable %}
@@ -211,8 +211,8 @@
 
           {%- if section.settings.show_social and has_social_icons -%}
             {%- render 'social-icons' -%}
-          {%- endif -%} {% endcomment %}
-        </div>
+          {%- endif -%} 
+        </div> {% endcomment %}
       </div>
     {%- endunless -%}
   {%- endif -%}
