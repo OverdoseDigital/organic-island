@@ -35,7 +35,8 @@
         "b674decb-0d33-48cf-8edf-69d2ed470cf5": {
           "type": "newsletter",
           "settings": {
-            "heading": "Sign up for $20 off"
+            "heading": "Sign up for $20 off",
+            "paragraph_text": "<p>Subscribe to the Organic Island newsletter to receive $20 off your first order and be the first to know about new releases, in-store events and special offers. <\/p>"
           }
         }
       },
