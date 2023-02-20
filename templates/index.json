@@ -257,7 +257,6 @@
     },
     "24daf0ca-de51-4f30-bac3-ac30151820b4": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
