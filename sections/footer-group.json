@@ -38,6 +38,12 @@
           "settings": {
             "social_heading": "Follow Us"
           }
+        },
+        "b674decb-0d33-48cf-8edf-69d2ed470cf5": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Quick links"
+          }
         }
       },
       "block_order": [
@@ -45,7 +51,8 @@
         "488efafd-35c7-4ad1-b99c-11437981a8f6",
         "footer-1",
         "footer-2",
-        "04510c98-09e9-432f-8028-6d14cf5a8794"
+        "04510c98-09e9-432f-8028-6d14cf5a8794",
+        "b674decb-0d33-48cf-8edf-69d2ed470cf5"
       ],
       "settings": {
         "color_scheme": "background-1",
