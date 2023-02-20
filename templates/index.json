@@ -213,7 +213,7 @@
         "template--17870003372322__a5194981-8759-46d7-8063-1f8b38927900-16766388083bd949a3-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Lorem ipsum dolor sit amet consectetur<\/li><li>Lorem ipsum dolor sit amet consectetur<\/li><li>Lorem ipsum dolor sit amet consectetur<\/li><\/ul>",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur<\/p><p>Lorem ipsum dolor sit amet consectetur<\/p><ul><li>Lorem ipsum dolor sit amet consectetur<\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -257,6 +257,7 @@
     },
     "24daf0ca-de51-4f30-bac3-ac30151820b4": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
