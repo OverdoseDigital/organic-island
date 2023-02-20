@@ -268,6 +268,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "188963f8-ca9f-462a-b51a-ebcb1e1e077a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-0",
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-1",
+        "template--17870003372322__188963f8-ca9f-462a-b51a-ebcb1e1e077a-1676890350118cfc06-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -276,6 +318,7 @@
     "9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b",
     "featured_collection",
     "a5194981-8759-46d7-8063-1f8b38927900",
-    "24daf0ca-de51-4f30-bac3-ac30151820b4"
+    "24daf0ca-de51-4f30-bac3-ac30151820b4",
+    "188963f8-ca9f-462a-b51a-ebcb1e1e077a"
   ]
 }
