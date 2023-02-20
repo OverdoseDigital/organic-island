@@ -16,6 +16,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+.section-{{ section.id }}-padding .rich-text__blocks{width:{{section.settings.text_width}};}
+
+
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -159,6 +163,16 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "range",
+      "id": "text_width",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "%",
+      "label": "Section Text Width",
+      "default": 100
     },
     {
       "type": "header",
