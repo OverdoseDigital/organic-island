@@ -18,8 +18,8 @@
   }
 
 .section-{{ section.id }}-padding .rich-text__blocks{width:{{section.settings.text_width}}%; max-width:100%;}
-.section-{{ section.id }}-padding .rich-text__blocks .rich-text__heading{font-size:{{section.settings.heading_text_size}}px; color:{{section.settings.heading_color}}; text-transform: uppercase; letter-spacing: 1px;}
-
+.section-{{ section.id }}-padding .rich-text__blocks .rich-text__heading{font-size:{{section.settings.heading_text_size}}px; line-height:normal; color:{{section.settings.heading_color}}; text-transform:uppercase; letter-spacing: 1px;}
+.section-{{ section.id }}-padding .rich-text__blocks .rich-text__text{margin-top:5px !important;}
 
 
 
@@ -32,7 +32,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="rich-text__heading rte" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | replace: 'p>', 'span>' }}
               </h2>
             {%- when 'caption' -%}
@@ -228,7 +228,8 @@
           "id": "heading",
           "default": "<p>Talk about your brand</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
-        },
+        }
+        /*,
         {
           "type": "select",
           "id": "heading_size",
@@ -252,7 +253,7 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
-        }
+        }*/
       ]
     },
     {
