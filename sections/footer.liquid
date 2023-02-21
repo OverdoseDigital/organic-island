@@ -368,9 +368,16 @@
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
-       {%- for block in section.blocks -%}
-        w
-       {%- endfor -%}
+      
+        
+      <div class="footer_logos">
+       {% if section.settings.footer_logo1 != blank %}
+            {{ section.settings.footer_logo1 | img_url: '160x160', scale: 2 | img_tag: section.settings.footer_logo1.alt, 'logo_image' }}
+          {% endif %}
+      </div>
+
+
+       
 
 
 
@@ -684,6 +691,15 @@
       "id": "enable_language_selector",
       "default": true,
       "label": "t:sections.footer.settings.enable_language_selector.label"
+    },
+    {
+      "type": "header",
+      "content": "Bottom Footer"
+    },
+    {
+      "type": "image_picker",
+      "id": "footer_logo1",
+      "label": "Footer Logo 1"
     },
     {
       "type": "header",
