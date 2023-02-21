@@ -236,7 +236,7 @@
       ],
       "settings": {
         "full_width": false,
-        "bg_color": "",
+        "bg_color": "#f3f0ea",
         "cover_image": "shopify:\/\/shop_images\/video-bg.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "medium",
@@ -245,7 +245,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "heading_color": "",
         "paragraph_color": "#232936",
         "mobile_content_alignment": "left",
