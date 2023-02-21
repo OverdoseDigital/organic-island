@@ -103,7 +103,7 @@
         {%- endif -%}
       </slider-component>
 
-      {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
+      {% comment %} {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
         <div class="blog__view-all center small-hide medium-hide">
           <a
             href="{{ section.settings.blog.url }}"
@@ -114,7 +114,7 @@
             {{ 'sections.featured_blog.view_all' | t }}
           </a>
         </div>
-      {%- endif -%}
+      {%- endif -%} {% endcomment %}
     {%- else -%}
       <div class="blog-placeholder">
         <div class="placeholder media media--landscape">
