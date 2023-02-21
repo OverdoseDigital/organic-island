@@ -12,6 +12,17 @@
 h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 .banner__box .banner__heading{color: #fff;}
 
+/* header */
+.topmenu li.active{background:#fff; color: #232936;}
+.topmenu li{color: #fff;}
+
+
+
+
+
+
+
+
 
 
 /* footer */
