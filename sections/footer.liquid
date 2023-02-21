@@ -52,6 +52,14 @@
 .footer .newsletter-form__field-wrapper .newsletter-form__button{width:8.3rem; height:4.6rem; position:unset; margin-top:15px; font-weight: 400; font-size: 14px; line-height: 14px; letter-spacing: 1px; text-transform: uppercase;}
 
 
+@media(min-width:990px){
+.footer .grid--5-col-desktop .grid__item.coloumn-sign-up-for-20-off {width: 30%; max-width: 30%;}
+.footer .grid--5-col-desktop .grid__item {width: calc(17% - var(--grid-desktop-horizontal-spacing) * 4 / 5); max-width: calc(17% - var(--grid-desktop-horizontal-spacing) * 4 / 5);}
+}
+
+
+
+
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
