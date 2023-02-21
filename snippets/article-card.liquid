@@ -140,7 +140,7 @@
               </p>
             {%- endif -%}
             {% if section.settings.read_more != blank  %}
-              <a href="https://ta-to-com.myshopify.com/" class="read-more">{{section.settings.read_more | default:"Read More"}}</a>
+              <a href="{{ article.url }}" class="read-more">{{section.settings.read_more | default:"Read More"}}</a>
             {% endif %}
             <div class="article-card__footer">
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
