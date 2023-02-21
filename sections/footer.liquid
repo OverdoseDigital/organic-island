@@ -370,11 +370,21 @@
       <div class="footer__column footer__column--info">
       
         
-      <div class="footer_logos">
-       {% if section.settings.footer_logo1 != blank %}
-            {{ section.settings.footer_logo1 | img_url: '160x160', scale: 2 | img_tag: section.settings.footer_logo1.alt, 'logo_image' }}
+      <ul class="footer_logos">
+        {% if section.settings.footer_logo1 != blank %}
+          <li>
+          {% if section.settings.logo_link1 != blank %}  
+          <a href="{{section.settings.logo_link1}}">
           {% endif %}
-      </div>
+          {{ section.settings.footer_logo1 | img_url: '160x160', scale: 2 | img_tag: section.settings.footer_logo1.alt, 'logo_image' }}
+          {% if section.settings.logo_link1 != blank %}  
+          </a>
+          {% endif %}  
+          </li>
+        {% endif %}
+
+
+      </ul>
 
 
        
