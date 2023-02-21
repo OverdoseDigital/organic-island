@@ -740,7 +740,7 @@ details > * {
 .underlined-link:hover,
 .customer a:hover {
   color: rgb(var(--color-link));
-  text-decoration-thickness: 0.2rem;
+  /* text-decoration-thickness: 0.2rem; */
 }
 
 .icon-arrow {
