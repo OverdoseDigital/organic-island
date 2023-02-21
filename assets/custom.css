@@ -15,9 +15,17 @@ body{
     margin: 0;
     padding: 0 40px;
   }
-
+  ::-webkit-placeholder {
+    color: #737373;
+  }
+  ::-moz-placeholder {
+    color: #737373;
+  }
+  ::-ms-placeholder {
+    color: #737373;
+  }
   ::placeholder { 
-    color: #f00;
+    color: #737373;
     opacity: 1;
   }
   /* ::-moz-selection {color: #fff; background: #114D80;}
