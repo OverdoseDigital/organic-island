@@ -29,6 +29,7 @@
         "04510c98-09e9-432f-8028-6d14cf5a8794": {
           "type": "socialmedia",
           "settings": {
+            "heading": "Follow Us"
           }
         },
         "b674decb-0d33-48cf-8edf-69d2ed470cf5": {
@@ -54,6 +55,8 @@
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
+        "footer_logo1": "shopify:\/\/shop_images\/organic-breakthrough.png",
+        "logo_link1": "",
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
