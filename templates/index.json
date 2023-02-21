@@ -255,6 +255,60 @@
         "mob_padding_bottom": 36
       }
     },
+    "d3590daa-874a-4429-8cb9-6a5ceb1ed37f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Organic ingredients, backed by science.",
+            "heading_size": "h1"
+          }
+        },
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>100% of our ingredients are certified organic or naturally derived. Each of our active ingredients is selected for their proven ability to protect, heal and nourish your skin.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-2": {
+          "type": "button",
+          "settings": {
+            "button_label_1": "learn more",
+            "button_link_1": "#",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-0",
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-1",
+        "template--17870003372322__d3590daa-874a-4429-8cb9-6a5ceb1ed37f-16769845818e31cd61-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "bg_color": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "heading_color": "",
+        "paragraph_color": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 36
+      }
+    },
     "d961a777-8313-4299-ac7a-970ab830071b": {
       "type": "featured-blog",
       "settings": {
@@ -313,6 +367,7 @@
     "9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b",
     "featured_collection",
     "a5194981-8759-46d7-8063-1f8b38927900",
+    "d3590daa-874a-4429-8cb9-6a5ceb1ed37f",
     "d961a777-8313-4299-ac7a-970ab830071b",
     "188963f8-ca9f-462a-b51a-ebcb1e1e077a"
   ]
