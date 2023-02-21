@@ -197,7 +197,8 @@
                                   {{ 'newsletter.label' | t }}
                                 </label>
                                 <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
-                                  {% render 'icon-arrow' %}
+                                  Join
+                                  {% comment %} {% render 'icon-arrow' %} {% endcomment %}
                                 </button>
                               </div>
                               {%- if form.errors -%}
