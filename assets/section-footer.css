@@ -232,7 +232,7 @@
   .footer__follow-on-shop,
   .footer-block__newsletter {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-block__newsletter {
@@ -555,7 +555,7 @@ noscript .localization-selector.link {
 }
 
 .footer-block:only-child .footer-block__brand-info .footer__list-social.list-social {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .footer-block__brand-info .footer__list-social.list-social {
