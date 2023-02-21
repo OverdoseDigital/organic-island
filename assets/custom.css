@@ -178,13 +178,18 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 }
  
 /* announcement bar */
-.topmenu li {font-size: 1.8rem; list-style: none; padding: .6rem 1.7rem; font-weight: 400; letter-spacing: 0;}
+.topmenu li {font-size: 1.8rem; text-align: center; list-style: none; padding: .6rem 1.7rem; font-weight: 400; letter-spacing: 0;}
 .announcement-bar__message {width: 100%; font-size: 1.2rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-family: 'Arial';}
 .topmenu {display: flex; align-items: center; position: absolute; z-index: 999; top: -19.5px;}
 .topmenu ul {padding: 0; margin: 0; position: absolute;}
 .section-header.shopify-section-group-header-group {
   z-index: 4;
 }
+
+@media(min-width:750px){
+  .topmenu li{min-width: 120px;}
+}
+
 
 /* blog section */
 .article-card .card__heading{min-height: 50px;}
