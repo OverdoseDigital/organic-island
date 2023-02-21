@@ -60,6 +60,10 @@
 }
 
 
+@media(max-width:989px){
+  .footer-block.grid__item.coloumn-sign-up-for-20-off{}
+}
+
 
 
 {%- endstyle -%}
@@ -94,7 +98,7 @@
               assign footer_grid_class = 'grid--3-col-tablet'
             endif
           -%}
-          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet ">
             {%- for block in section.blocks -%}
               <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %} coloumn-{{ block.settings.heading | handleize }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.heading != blank -%}
