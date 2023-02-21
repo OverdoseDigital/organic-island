@@ -383,6 +383,29 @@
           </li>
         {% endif %}
 
+        {% if section.settings.footer_logo2 != blank %}
+          <li>
+          {% if section.settings.logo_link2 != blank %}  
+          <a href="{{section.settings.logo_link2}}">
+          {% endif %}
+          {{ section.settings.footer_logo2 | img_url: '160x160', scale: 2 | img_tag: section.settings.footer_logo2.alt, 'logo_image2' }}
+          {% if section.settings.logo_link2 != blank %}  
+          </a>
+          {% endif %}  
+          </li>
+        {% endif %}
+
+        {% if section.settings.footer_logo3 != blank %}
+          <li>
+          {% if section.settings.logo_link3 != blank %}  
+          <a href="{{section.settings.logo_link3}}">
+          {% endif %}
+          {{ section.settings.footer_logo3 | img_url: '160x160', scale: 2 | img_tag: section.settings.footer_logo3.alt, 'logo_image3' }}
+          {% if section.settings.logo_link3 != blank %}  
+          </a>
+          {% endif %}  
+          </li>
+        {% endif %}
 
       </ul>
 
