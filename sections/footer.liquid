@@ -68,6 +68,20 @@
   .footer .grid{display:flex; flex-wrap:wrap;}
   .footer-block.grid__item.coloumn-sign-up-for-20-off {order: -1;}
   .footer .footer-block__details-content{margin-bottom:1rem;}
+
+/* accordion */
+
+.arrow:before{width: 10px; height: 10px; position: absolute; content: ''; color: #000; border-bottom: 1px solid #000; border-right: 1px solid #000; transform: rotate(312deg); right: 15px;
+top: 17px;}
+
+.arrow.footer-accordion-active:before{display:none;}   
+.arrow:after{display:none;}
+.arrow.footer-accordion-active:after{display:block;}
+.arrow:after{width: 10px; height: 10px; position: absolute; content: ''; color: #000; border-bottom: 1px solid #000; border-right: 1px solid #000; transform: rotate(40deg); right: 15px;
+top: 17px;} 
+
+
+  
 }
 
 
