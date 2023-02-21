@@ -179,7 +179,6 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
  
 /* announcement bar */
 .topmenu li {font-size: 1.8rem; list-style: none; padding: 0.6rem 1rem 0.6rem 1rem; font-weight: 400; letter-spacing: 0;}
-.topmenu li.active{background:#fff;}
 .announcement-bar__message {width: 100%; font-size: 1.2rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-family: 'Arial';}
 .topmenu {display: flex; align-items: center;     position: absolute;
   z-index: 999;
