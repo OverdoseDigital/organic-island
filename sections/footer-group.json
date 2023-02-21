@@ -56,7 +56,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "footer_logo1": "shopify:\/\/shop_images\/organic-breakthrough.png",
-        "logo_link1": "",
+        "logo_link1": "shopify:\/\/pages\/contact",
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
