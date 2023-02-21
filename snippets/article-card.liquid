@@ -99,9 +99,7 @@
                 </p>
               {%- endif -%}
 
-               {% if read_more == 'show' or section.settings.read_more != blank  %}
-              <a href="{{ article.url }}" class="read-more">{{section.settings.read_more | default:"Read More"}}</a>
-            {% endif %}
+              
               <div class="article-card__footer">
                 {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                   <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
@@ -141,6 +139,9 @@
                 {%- endif -%}
               </p>
             {%- endif -%}
+            {% if read_more == 'show' or section.settings.read_more != blank  %}
+              <a href="{{ article.url }}" class="read-more">{{section.settings.read_more | default:"Read More"}}</a>
+            {% endif %}
             <div class="article-card__footer">
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
