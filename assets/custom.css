@@ -195,7 +195,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 .blog .article-card__info.caption-with-letter-spacing{font-size: 1.2rem; font-weight: 400; line-height: 21px; letter-spacing: 1px; text-transform: uppercase; font-family: 'Arial';}
 .blog .read-more{font-size: 1.3rem; font-weight: 400; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration: underline;}
 .blog .read-more:hover, .blog .read-more:focus{text-decoration: none;}
-
+.blog .card__heading a:after{display: none;}
 
 
 
