@@ -741,6 +741,7 @@ details > * {
 .customer a:hover {
   color: rgb(var(--color-link));
   /* text-decoration-thickness: 0.2rem; */
+  text-decoration: none;
 }
 
 .icon-arrow {
