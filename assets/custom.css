@@ -25,7 +25,7 @@ body{
     color: #737373;
   }
   ::placeholder { 
-    color: #737373;
+    color: #f00;
     opacity: 1;
   }
   /* ::-moz-selection {color: #fff; background: #114D80;}
