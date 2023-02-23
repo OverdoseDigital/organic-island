@@ -301,9 +301,89 @@
         "mob_padding_bottom": 36
       }
     },
+    "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I sign up?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet massa. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus aenean vel elit scelerisque. Nisi lacus sed viverra tellus in. Nunc consequat interdum varius sit amet. Non arcu risus quis varius quam quisque id diam vel. <\/p>",
+            "page": ""
+          }
+        },
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I earn points?",
+            "icon": "none",
+            "row_content": "<p>How do I earn points?<\/p>",
+            "page": ""
+          }
+        },
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I still use discount codes to purchase products?",
+            "icon": "none",
+            "row_content": "<p>Can I still use discount codes to purchase products?<\/p>",
+            "page": ""
+          }
+        },
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I make a purchase when I'm not signed in to my account?",
+            "icon": "none",
+            "row_content": "<p>What happens if I make a purchase when I'm not signed in to my account?<\/p>",
+            "page": ""
+          }
+        },
+        "e902ceef-91d0-4367-84d7-f9d35100c42e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I still use discount codes to purchase products?",
+            "icon": "none",
+            "row_content": "<p>Can I still use discount codes to purchase products?<\/p>",
+            "page": ""
+          }
+        },
+        "ed9307fe-c544-4a54-98df-b6f6059768f2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I make a purchase when I'm not signed in to my account?",
+            "icon": "none",
+            "row_content": "<p>What happens if I make a purchase when I'm not signed in to my account?<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-0",
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-1",
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-2",
+        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-3",
+        "e902ceef-91d0-4367-84d7-f9d35100c42e",
+        "ed9307fe-c544-4a54-98df-b6f6059768f2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "76564842-a77a-4049-9ebb-c379f38f1742": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--17949026844962__76564842-a77a-4049-9ebb-c379f38f1742-167715268815747078-0": {
           "type": "heading",
@@ -390,88 +470,6 @@
         "padding_top": 60,
         "padding_bottom": 28
       }
-    },
-    "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15": {
-      "type": "collapsible-content",
-      "disabled": true,
-      "blocks": {
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I sign up?",
-            "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet massa. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus aenean vel elit scelerisque. Nisi lacus sed viverra tellus in. Nunc consequat interdum varius sit amet. Non arcu risus quis varius quam quisque id diam vel. <\/p>",
-            "page": ""
-          }
-        },
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I earn points?",
-            "icon": "none",
-            "row_content": "<p>How do I earn points?<\/p>",
-            "page": ""
-          }
-        },
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I still use discount codes to purchase products?",
-            "icon": "none",
-            "row_content": "<p>Can I still use discount codes to purchase products?<\/p>",
-            "page": ""
-          }
-        },
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What happens if I make a purchase when I'm not signed in to my account?",
-            "icon": "none",
-            "row_content": "<p>What happens if I make a purchase when I'm not signed in to my account?<\/p>",
-            "page": ""
-          }
-        },
-        "e902ceef-91d0-4367-84d7-f9d35100c42e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I still use discount codes to purchase products?",
-            "icon": "none",
-            "row_content": "<p>Can I still use discount codes to purchase products?<\/p>",
-            "page": ""
-          }
-        },
-        "ed9307fe-c544-4a54-98df-b6f6059768f2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What happens if I make a purchase when I'm not signed in to my account?",
-            "icon": "none",
-            "row_content": "<p>What happens if I make a purchase when I'm not signed in to my account?<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-0",
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-1",
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-2",
-        "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-3",
-        "e902ceef-91d0-4367-84d7-f9d35100c42e",
-        "ed9307fe-c544-4a54-98df-b6f6059768f2"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -481,8 +479,8 @@
     "1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc",
     "290f4345-66f6-4c6e-99d7-47395a190ba1",
     "0064605b-cd75-455a-b828-336cc0b07054",
+    "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15",
     "76564842-a77a-4049-9ebb-c379f38f1742",
-    "df9cac0b-03c8-4391-a87e-262a8e868016",
-    "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15"
+    "df9cac0b-03c8-4391-a87e-262a8e868016"
   ]
 }
