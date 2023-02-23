@@ -35,7 +35,7 @@
         "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-2"
       ],
       "settings": {
-        "image_layout": "image_first",
+        "image_layout": "reverse_image",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
