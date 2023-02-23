@@ -372,23 +372,11 @@
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet massa. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus aenean vel elit scelerisque. Nisi lacus sed viverra tellus in. Nunc consequat interdum varius sit amet. Non arcu risus quis varius quam quisque id diam vel. <\/p>"
           }
-        },
-        "template--17949026844962__df9cac0b-03c8-4391-a87e-262a8e868016-1677155201dc520060-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "template--17949026844962__df9cac0b-03c8-4391-a87e-262a8e868016-1677155201dc520060-0",
-        "template--17949026844962__df9cac0b-03c8-4391-a87e-262a8e868016-1677155201dc520060-1",
-        "template--17949026844962__df9cac0b-03c8-4391-a87e-262a8e868016-1677155201dc520060-2"
+        "template--17949026844962__df9cac0b-03c8-4391-a87e-262a8e868016-1677155201dc520060-1"
       ],
       "settings": {
         "heading_text_size": 12,
