@@ -36,7 +36,6 @@
       ],
       "settings": {
         "bgcolor": "#f3f0ea",
-        "image": "shopify:\/\/shop_images\/video-bg.jpg",
         "image_layout": "image_first",
         "image_overlay_opacity": 0,
         "image_height": "medium",
