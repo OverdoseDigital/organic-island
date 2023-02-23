@@ -282,7 +282,7 @@
         "bg_color": "#6d889f",
         "image": "shopify:\/\/shop_images\/blog3.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
