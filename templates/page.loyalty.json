@@ -297,6 +297,62 @@
         "mob_padding_top": 36,
         "mob_padding_bottom": 36
       }
+    },
+    "3f8b079b-354e-42b2-abf2-8a02130237e2": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-0",
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-1",
+        "template--17949026844962__3f8b079b-354e-42b2-abf2-8a02130237e2-167715253028b7af8c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/join.png",
+        "image_2": "shopify:\/\/shop_images\/science.jpg",
+        "heading_color": "",
+        "image_layout": "image_first",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "button_label_1": "Button label",
+        "button_link_1": "",
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false,
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -305,6 +361,7 @@
     "d80148d2-d362-4fac-a374-d302b4087d42",
     "1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc",
     "290f4345-66f6-4c6e-99d7-47395a190ba1",
-    "0064605b-cd75-455a-b828-336cc0b07054"
+    "0064605b-cd75-455a-b828-336cc0b07054",
+    "3f8b079b-354e-42b2-abf2-8a02130237e2"
   ]
 }
