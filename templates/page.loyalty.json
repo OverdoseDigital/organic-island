@@ -235,6 +235,60 @@
         "mob_padding_top": 36,
         "mob_padding_bottom": 36
       }
+    },
+    "0064605b-cd75-455a-b828-336cc0b07054": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refer a friend",
+            "heading_size": "h1"
+          }
+        },
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a friend who wants to try Organic Island skincare? Let’s get both of you $20 off to celebrate your great taste in skincare.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2": {
+          "type": "button",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0",
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1",
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "bg_color": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "heading_color": "",
+        "paragraph_color": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -242,6 +296,7 @@
     "main",
     "d80148d2-d362-4fac-a374-d302b4087d42",
     "1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc",
-    "290f4345-66f6-4c6e-99d7-47395a190ba1"
+    "290f4345-66f6-4c6e-99d7-47395a190ba1",
+    "0064605b-cd75-455a-b828-336cc0b07054"
   ]
 }
