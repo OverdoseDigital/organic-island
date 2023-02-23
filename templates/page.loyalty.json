@@ -430,7 +430,7 @@
         "heading_color": "#ffffff",
         "paragraph_color": "",
         "mobile_layout": "text_first",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 0,
         "mob_padding_top": 36,
