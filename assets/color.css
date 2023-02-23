@@ -11,7 +11,8 @@
 .color-accent-2 .button.button--secondary{background: #fff; border: 1px solid #fff; color: #232936;}
 .color-accent-2 .button.button--secondary:hover, .color-accent-2 .button.button--secondary:focus {background: transparent; border: 1px solid #fff; color: #fff;}
 
-
+.color-accent-2 .button.button--primary{background: #232936; border: 1px solid #232936; color: #fff;}
+.color-accent-2 .button.button--primary:hover, .button.button--primary:focus {background: transparent; border: 1px solid #fff; color: #fff;}
 
 h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 /* .banner__box .banner__heading{color: #fff;} */
