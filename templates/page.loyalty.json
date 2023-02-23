@@ -82,8 +82,9 @@
         "template--17949026844962__d80148d2-d362-4fac-a374-d302b4087d42-1677145470ecb3f7bf-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/sustainable.png",
+            "title": "Step 02",
+            "text": "<p>Earn points every time you shop or engage.<\/p>",
             "link_label": "",
             "link": ""
           }
