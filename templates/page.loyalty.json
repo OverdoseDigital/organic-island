@@ -385,7 +385,6 @@
     },
     "76564842-a77a-4049-9ebb-c379f38f1742": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--17949026844962__76564842-a77a-4049-9ebb-c379f38f1742-167715268815747078-0": {
           "type": "heading",
