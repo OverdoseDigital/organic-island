@@ -199,8 +199,8 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 .blog .read-more:hover, .blog .read-more:focus{text-decoration: none;}
 .blog .card__heading a:after{display: none;}
 
- 
- 
+/* image width text */ 
+.banner__buttons_custom{display: inline-flex; flex-wrap: wrap; gap: 1rem; word-break: break-word; margin-top:4rem;}
 
 
 
