@@ -105,7 +105,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "button_style_secondary": false,
         "color_scheme": "background-1",
@@ -119,10 +119,10 @@
         "icon_width": 70,
         "mob_icon_width": 70,
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mob_padding_top": 40,
-        "mob_padding_bottom": 40
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mob_padding_top": 30,
+        "mob_padding_bottom": 30
       }
     }
   },
