@@ -399,7 +399,7 @@
           "settings": {
             "heading": "How do I sign up?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>How do I sign up?<\/p>",
             "page": ""
           }
         },
