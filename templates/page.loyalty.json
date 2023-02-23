@@ -236,7 +236,7 @@
         "color_scheme": "accent-2",
         "heading_color": "#ffffff",
         "paragraph_color": "",
-        "mobile_layout": "image_first",
+        "mobile_layout": "text_first",
         "mobile_content_alignment": "left",
         "padding_top": 80,
         "padding_bottom": 80,
