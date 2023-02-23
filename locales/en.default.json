@@ -239,6 +239,8 @@
         "title": "Contact form",
         "name": "Name",
         "email": "Email",
+        "r_email": "Your email address",
+        "friend_email": "Your friends email address",
         "phone": "Phone number",
         "comment": "Comment",
         "send": "Send",
