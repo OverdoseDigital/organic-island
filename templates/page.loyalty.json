@@ -264,12 +264,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557": {
+          "type": "newsletter-form",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0",
         "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1",
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2"
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2",
+        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557"
       ],
       "settings": {
         "full_width": false,
