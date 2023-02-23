@@ -26,10 +26,6 @@
 .title-wrapper-with-link.text--right{text-align:right;}
 
   @media screen and (min-width: 990px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
     .section-{{ section.id }}-padding .grid {column-gap: 32px;}
     .section-{{ section.id }}-padding .grid--5-col-desktop .grid__item {
     width: calc(20% - 32px * 4 / 5);
