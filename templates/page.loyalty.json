@@ -1,5 +1,58 @@
 {
   "sections": {
+    "0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-0",
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-1",
+        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-2"
+      ],
+      "settings": {
+        "image_layout": "image_first",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "button_label_1": "Button label",
+        "button_link_1": "",
+        "button_style_secondary_1": false,
+        "button_label_2": "Button label",
+        "button_link_2": "",
+        "button_style_secondary_2": false,
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +62,7 @@
     }
   },
   "order": [
+    "0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000",
     "main"
   ]
 }
