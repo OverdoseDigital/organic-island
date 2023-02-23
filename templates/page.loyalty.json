@@ -273,7 +273,7 @@
       ],
       "settings": {
         "full_width": false,
-        "bg_color": "",
+        "bg_color": "#6d889f",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
         "desktop_image_width": "medium",
