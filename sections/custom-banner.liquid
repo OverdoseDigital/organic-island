@@ -29,16 +29,7 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
-  {% comment %} .banner.image--reverse {
-    flex-direction: row-reverse !important;
-} {% endcomment %}
 
-.banner.image--reverse .banner__media.banner__media-half:first-child {right: 0; left: auto;}
-.banner.image--reverse .banner__media.banner__media-half:nth-child(2) {left: 0; right: auto;}
-
- .custom-banner-btns.banner__buttons{justify-content: space-between; width: 72%; max-width: unset; position:absolute; bottom:54px;}
-.custom-banner-btns.banner__buttons.banner__buttons--multiple>*{flex-grow: 0 !important;}
- .custom-banner-btns.banner__buttons.banner__buttons--multiple .button{min-width:30rem;}
  #Banner-{{ section.id }} {background:{{section.settings.bgcolor}};}
 
 @media screen and (min-width: 750px) {
@@ -169,33 +160,7 @@
       {%- endfor -%}
     
 </div>
-    <div class="custom-banner-btns banner__buttons{% if section.settings.button_label_1 != blank and section.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-      {{ block.shopify_attributes }}>
-      {%- if section.settings.button_label_1 != blank -%}
-        <a
-          {% if section.settings.button_link_1 == blank %}
-            role="link" aria-disabled="true"
-          {% else %}
-            href="{{ section.settings.button_link_1 }}"
-          {% endif %}
-          class="button{% if section.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-        >
-          {{- section.settings.button_label_1 | escape -}}
-        </a>
-      {%- endif -%}
-      {%- if section.settings.button_label_2 != blank -%}
-        <a
-          {% if section.settings.button_link_2 == blank %}
-            role="link" aria-disabled="true"
-          {% else %}
-            href="{{ section.settings.button_link_2 }}"
-          {% endif %}
-          class="button{% if section.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
-        >
-          {{- section.settings.button_label_2 | escape -}}
-        </a>
-      {%- endif -%}
-    </div>
+    
 
   </div>
 </div>
@@ -374,42 +339,6 @@
       "default": "background-1",
       "label": "t:sections.all.colors.label",
       "info": "t:sections.image-banner.settings.color_scheme.info"
-    },
-    {
-      "type": "text",
-      "id": "button_label_1",
-      "default": "Button label",
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-    },
-    {
-      "type": "url",
-      "id": "button_link_1",
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "button_style_secondary_1",
-      "default": false,
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
-    },
-    {
-      "type": "text",
-      "id": "button_label_2",
-      "default": "Button label",
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
-      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
-    },
-    {
-      "type": "url",
-      "id": "button_link_2",
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "button_style_secondary_2",
-      "default": false,
-      "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
     },
     {
       "type": "header",
