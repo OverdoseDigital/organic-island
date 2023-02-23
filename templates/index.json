@@ -295,7 +295,7 @@
         "bg_color": "",
         "image": "shopify:\/\/shop_images\/science.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
