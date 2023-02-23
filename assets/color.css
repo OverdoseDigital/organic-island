@@ -8,6 +8,10 @@
 .banner__buttons .button.button--secondary{background: transparent; border: 1px solid #fff; color: #fff;}
 .banner__buttons .button.button--secondary:hover, .banner__buttons .button.button--secondary:focus {background: #232936; border: 1px solid #232936; color: #fff;}
 
+.color-accent-2 .button.button--secondary{background: #fff; border: 1px solid #fff; color: #232936;}
+
+
+
 
 h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 /* .banner__box .banner__heading{color: #fff;} */
