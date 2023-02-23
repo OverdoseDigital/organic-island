@@ -296,8 +296,8 @@
         "mobile_content_alignment": "left",
         "padding_top": 80,
         "padding_bottom": 80,
-        "mob_padding_top": 36,
-        "mob_padding_bottom": 36
+        "mob_padding_top": 38,
+        "mob_padding_bottom": 0
       }
     },
     "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15": {
