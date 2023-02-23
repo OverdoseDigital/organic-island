@@ -397,7 +397,7 @@
         "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How do I sign up?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -406,7 +406,7 @@
         "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How do I earn points?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -415,7 +415,7 @@
         "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can I still use discount codes to purchase products?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -424,7 +424,7 @@
         "template--17949026844962__c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15-1677155440d389a0d1-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What happens if I make a purchase when I'm not signed in to my account?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
