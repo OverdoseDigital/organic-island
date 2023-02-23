@@ -160,14 +160,14 @@
         "template--17949026844962__1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc-16771489672208e260-2"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "bg_color": "",
         "image": "shopify:\/\/shop_images\/birthday-gifts.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
