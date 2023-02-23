@@ -772,7 +772,7 @@ summary {
 
 summary .icon-caret {
   position: absolute;
-  height: 0.6rem;
+  height: 1rem;
   right: 0.7rem;
   top: calc(50% - 0.2rem);
 }
