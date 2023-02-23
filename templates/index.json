@@ -296,7 +296,7 @@
         "image": "shopify:\/\/shop_images\/science.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
