@@ -1,23 +1,23 @@
 {
   "sections": {
-    "0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000": {
-      "type": "image-banner",
+    "8b7cd6cc-b61e-4416-9021-30c623ba684d": {
+      "type": "custom-banner",
       "blocks": {
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-0": {
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-0": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-1": {
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-1": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-2": {
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Button label",
@@ -30,9 +30,9 @@
         }
       },
       "block_order": [
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-0",
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-1",
-        "template--17949026844962__0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000-1677134836bae9940b-2"
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-0",
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-1",
+        "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-2"
       ],
       "settings": {
         "image_layout": "image_first",
@@ -62,7 +62,7 @@
     }
   },
   "order": [
-    "0e7db0fa-f9ea-4d34-a3ae-4bb1630fe000",
+    "8b7cd6cc-b61e-4416-9021-30c623ba684d",
     "main"
   ]
 }
