@@ -158,6 +158,10 @@ align-items: center; justify-content: center; height: 6.2rem; width: 6.2rem; pos
               <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
+            {%- when 'newsletter-form' -%}
+            
+
+
             {%- when 'button' -%}
             <div
               class="banner__buttons_custom{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
