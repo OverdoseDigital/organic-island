@@ -773,7 +773,7 @@ summary {
 summary .icon-caret {
   position: absolute;
   height: 0.6rem;
-  right: 1.5rem;
+  right: 0.7rem;
   top: calc(50% - 0.2rem);
 }
 
