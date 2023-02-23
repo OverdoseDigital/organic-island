@@ -333,7 +333,7 @@
         "template--17949026844962__76564842-a77a-4049-9ebb-c379f38f1742-167715268815747078-2"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "bg_color": "",
         "image": "shopify:\/\/shop_images\/join.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -344,7 +344,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "accent-2",
-        "heading_color": "",
+        "heading_color": "#ffffff",
         "paragraph_color": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
