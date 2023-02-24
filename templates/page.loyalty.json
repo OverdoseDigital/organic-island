@@ -323,9 +323,9 @@
         "b307a799-da7e-4156-b12a-0627a52abe5b": {
           "type": "table_th_head",
           "settings": {
-            "level": "",
-            "table_heading": "Table row",
-            "spend_value": ""
+            "level": "Level4",
+            "table_heading": "BFF",
+            "spend_value": "$1800 lifetime spend"
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
