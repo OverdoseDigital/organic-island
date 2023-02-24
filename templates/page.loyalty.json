@@ -257,10 +257,21 @@
             "bestie_check": true,
             "bff_check": true
           }
+        },
+        "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4": {
+          "type": "row",
+          "settings": {
+            "row_text": "<p>Free Go-To samples with every order.<\/p>",
+            "mate_check": true,
+            "friend_check": true,
+            "bestie_check": true,
+            "bff_check": true
+          }
         }
       },
       "block_order": [
-        "d767e113-5baa-4f50-b2ca-13e7a6cca515"
+        "d767e113-5baa-4f50-b2ca-13e7a6cca515",
+        "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4"
       ],
       "settings": {
         "full_width": true,
