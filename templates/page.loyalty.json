@@ -181,69 +181,6 @@
         "mob_padding_bottom": 10
       }
     },
-    "0064605b-cd75-455a-b828-336cc0b07054": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Refer a friend",
-            "heading_size": "h1"
-          }
-        },
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Have a friend who wants to try Organic Island skincare? Let’s get both of you $20 off to celebrate your great taste in skincare.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557": {
-          "type": "newsletter-form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0",
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1",
-        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2",
-        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557"
-      ],
-      "settings": {
-        "full_width": false,
-        "bg_color": "#6d889f",
-        "image": "shopify:\/\/shop_images\/blog3.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "heading_color": "#ffffff",
-        "paragraph_color": "",
-        "mobile_layout": "text_first",
-        "mobile_content_alignment": "left",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "mob_padding_top": 0,
-        "mob_padding_bottom": 40
-      }
-    },
     "52b70854-3d77-48bc-ab47-c281a776bf47": {
       "type": "loyalty-table",
       "blocks": {
@@ -348,6 +285,69 @@
         "padding_bottom": 76,
         "mob_padding_top": 36,
         "mob_padding_bottom": 36
+      }
+    },
+    "0064605b-cd75-455a-b828-336cc0b07054": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refer a friend",
+            "heading_size": "h1"
+          }
+        },
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a friend who wants to try Organic Island skincare? Let’s get both of you $20 off to celebrate your great taste in skincare.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557": {
+          "type": "newsletter-form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0",
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-1",
+        "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-2",
+        "87bf4e39-bd70-40a4-92fd-cf2ed1e9a557"
+      ],
+      "settings": {
+        "full_width": false,
+        "bg_color": "#6d889f",
+        "image": "shopify:\/\/shop_images\/blog3.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "heading_color": "#ffffff",
+        "paragraph_color": "",
+        "mobile_layout": "text_first",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "mob_padding_top": 0,
+        "mob_padding_bottom": 40
       }
     },
     "290f4345-66f6-4c6e-99d7-47395a190ba1": {
@@ -582,8 +582,8 @@
     "main",
     "d80148d2-d362-4fac-a374-d302b4087d42",
     "1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc",
-    "0064605b-cd75-455a-b828-336cc0b07054",
     "52b70854-3d77-48bc-ab47-c281a776bf47",
+    "0064605b-cd75-455a-b828-336cc0b07054",
     "290f4345-66f6-4c6e-99d7-47395a190ba1",
     "c243b60f-a9a1-42e1-b7ee-e5d8e5f91e15",
     "76564842-a77a-4049-9ebb-c379f38f1742",
