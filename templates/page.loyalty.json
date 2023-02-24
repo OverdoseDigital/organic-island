@@ -252,14 +252,14 @@
           "type": "row",
           "settings": {
             "heading": "Table row",
-            "row_content": ""
+            "row_content": "<p>ewgergerg<\/p>"
           }
         },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
           "type": "row",
           "settings": {
             "heading": "Table row",
-            "row_content": ""
+            "row_content": "<p>ergerg<\/p>"
           }
         },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
