@@ -48,6 +48,20 @@
             </div>
 
             <div class="loyalty-th-head">
+                    {% if section.settings.level1 != blank %}
+                        <span class="table-level">{{section.settings.level1}}</span>
+                    {% endif %}
+
+                    {% if section.settings.table_heading1 != blank %}
+                        <h2 class="table-heading">{{section.settings.table_heading1}}</h2>
+                    {% endif %}
+
+                    {% if section.settings.spend_value1 != blank %}
+                        <span class="spend-value">{{section.settings.spend_value1}}</span>
+                    {% endif %}
+            </div>
+
+            <div class="loyalty-th-head">
                     {% if section.settings.level2 != blank %}
                         <span class="table-level">{{section.settings.level2}}</span>
                     {% endif %}
