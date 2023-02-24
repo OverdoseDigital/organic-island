@@ -21,9 +21,18 @@
         <div class="grid__item">
         {%- for block in section.blocks -%}
            <div class="loyalty-table">
+           {% if block.settings.level != blank %}
+            <span class="table-level">{{block.settings.level}}</span>
+           {% endif %}
+
            {% if block.settings.table_heading != blank %}
             <h2 class="table-heading">{{block.settings.table_heading}}</h2>
            {% endif %}
+
+           {% if block.settings.spend_value != blank %}
+            <span class="spend-value">{{block.settings.spend_value}}</span>
+           {% endif %}
+
            </div>
         {%- endfor -%}
         </div>
