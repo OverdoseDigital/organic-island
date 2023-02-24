@@ -267,11 +267,22 @@
             "bestie_check": true,
             "bff_check": true
           }
+        },
+        "b0c73b14-62d5-4014-afa2-a9902ed76d67": {
+          "type": "row",
+          "settings": {
+            "row_text": "<p>A very special Go-To voucher to celebrate your birthday.<\/p>",
+            "mate_check": true,
+            "friend_check": true,
+            "bestie_check": true,
+            "bff_check": true
+          }
         }
       },
       "block_order": [
         "d767e113-5baa-4f50-b2ca-13e7a6cca515",
-        "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4"
+        "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4",
+        "b0c73b14-62d5-4014-afa2-a9902ed76d67"
       ],
       "settings": {
         "full_width": true,
