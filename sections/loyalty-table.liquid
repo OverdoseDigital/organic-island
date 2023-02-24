@@ -25,8 +25,9 @@
 
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
         <div class="section-{{ section.id }}-padding">
-        {%- for block in section.blocks -%}
         <div class="loyalty-table">
+        {%- for block in section.blocks -%}
+        
         <div class="loyalty-column">
             <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
@@ -51,8 +52,9 @@
                 {% endif %}
             </div>
         </div>
-        </div>
+        
         {%- endfor -%}
+        </div>
         </div>
 </div>
 
