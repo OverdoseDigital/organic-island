@@ -260,7 +260,7 @@
           "type": "row",
           "settings": {
             "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
-            "mate_check": true,
+            "mate_check": false,
             "friend_check": false,
             "bestie_check": false,
             "bff_check": false
@@ -278,10 +278,10 @@
           "type": "row",
           "settings": {
             "row_text": "",
-            "mate_check": true,
+            "mate_check": false,
             "friend_check": true,
-            "bestie_check": true,
-            "bff_check": true
+            "bestie_check": false,
+            "bff_check": false
           }
         },
         "156bb026-c767-4af5-b201-a533d6a20188": {
