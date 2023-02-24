@@ -161,7 +161,7 @@
       ],
       "settings": {
         "full_width": false,
-        "bg_color": "",
+        "bg_color": "#fff",
         "image": "shopify:\/\/shop_images\/birthday-gifts.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
