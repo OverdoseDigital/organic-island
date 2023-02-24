@@ -33,9 +33,9 @@
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
         {%- for block in section.blocks -%}
-        
-        <div class="loyalty-column">
-            {% comment %} <div class="loyalty-th-head">
+        {% case block.type %}
+         {% when 'table_th_head' %}
+        <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
                     <span class="table-level">{{block.settings.level}}</span>
                 {% endif %}
@@ -47,7 +47,10 @@
                 {% if block.settings.spend_value != blank %}
                     <span class="spend-value">{{block.settings.spend_value}}</span>
                 {% endif %}
-            </div> {% endcomment %}
+        </div>
+
+         {% when 'row' %}
+        <div class="loyalty-column">
             <div class="loyalty-row-inner">
                 {% if block.settings.row_text != blank %}
                 <div class="table-row-text">{{block.settings.row_text}}</div>
@@ -70,7 +73,10 @@
                 {% endif %}
             </div>
         </div>
-        
+
+       
+
+        {%- endcase -%}
         {%- endfor -%}
         </div>
         </div>
