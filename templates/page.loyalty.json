@@ -302,9 +302,19 @@
           "type": "row",
           "settings": {
             "row_text": "<p>Access to skin care consults with a dermal therapist<\/p>",
-            "mate_check": true,
-            "friend_check": true,
+            "mate_check": false,
+            "friend_check": false,
             "bestie_check": true,
+            "bff_check": true
+          }
+        },
+        "a5f54a40-0e52-47be-8565-6270af553a57": {
+          "type": "row",
+          "settings": {
+            "row_text": "<p>Top-secret access to exclusive offers and treats.<\/p>",
+            "mate_check": false,
+            "friend_check": false,
+            "bestie_check": false,
             "bff_check": true
           }
         }
@@ -315,7 +325,8 @@
         "b0c73b14-62d5-4014-afa2-a9902ed76d67",
         "2829e0d6-c639-45cb-81b9-a246b33a3982",
         "29d94091-0d9b-4bb4-a8fb-dc5ff8e6fd96",
-        "dd4b6b67-e484-43c4-8733-48791f80c40e"
+        "dd4b6b67-e484-43c4-8733-48791f80c40e",
+        "a5f54a40-0e52-47be-8565-6270af553a57"
       ],
       "settings": {
         "full_width": true,
