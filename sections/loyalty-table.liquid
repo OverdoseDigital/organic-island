@@ -109,11 +109,11 @@
 
         <div class="loyalty-table-inner-row d-flex flex-align-center">
             {%- for block in section.blocks -%}
-                <div class="loyalty-column">
+                <div class="loyalty-row">
                         {% if block.settings.row_text != blank %}
                         <div class="table-row-text">{{block.settings.row_text}}</div>
                         {% endif %}
-                    <div class="loyalty-column-checkbox">
+                    <div class="loyalty-row-checkbox">
                         {% if block.settings.mate_check == true %}
                             <div class="mate_check"></div>
                         {% endif %}
