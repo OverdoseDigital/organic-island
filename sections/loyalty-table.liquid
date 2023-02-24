@@ -26,7 +26,8 @@
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
         <div class="section-{{ section.id }}-padding">
         {%- for block in section.blocks -%}
-           <div class="loyalty-table">
+        <div class="loyalty-table">
+        <div class="loyalty-column">
             <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
                     <span class="table-level">{{block.settings.level}}</span>
@@ -49,7 +50,8 @@
                 <div class="mate_check"></div>
                 {% endif %}
             </div>
-           </div>
+        </div>
+        </div>
         {%- endfor -%}
         </div>
 </div>
