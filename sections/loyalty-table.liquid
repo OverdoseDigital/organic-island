@@ -113,7 +113,7 @@
                         {% if block.settings.row_text != blank %}
                         <div class="table-row-text">{{block.settings.row_text}}</div>
                         {% endif %}
-
+                    <div class="loyalty-column-checkbox">
                         {% if block.settings.mate_check == true %}
                             <div class="mate_check"></div>
                         {% endif %}
@@ -129,6 +129,7 @@
                         {% if block.settings.bff_check == true %}
                             <div class="bff_check"></div>
                         {% endif %}
+                    </div>
                 </div>
             {%- endfor -%}
         </div>
