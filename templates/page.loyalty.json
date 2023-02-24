@@ -251,8 +251,8 @@
         "db448c27-7d73-4193-b676-d738ca341c90": {
           "type": "table_th_head",
           "settings": {
-            "level": "What’s in it for you:",
-            "table_heading": "Table row",
+            "level": "",
+            "table_heading": "What’s in it for you:",
             "spend_value": ""
           }
         },
