@@ -282,7 +282,7 @@
           "type": "row",
           "settings": {
             "row_text": "<p>Little gifs available to existing new Co-To products and launches.<\/p>",
-            "mate_check": true,
+            "mate_check": false,
             "friend_check": true,
             "bestie_check": true,
             "bff_check": true
@@ -292,8 +292,8 @@
           "type": "row",
           "settings": {
             "row_text": "<p>First access to existing new Go-To products and launches.<\/p>",
-            "mate_check": true,
-            "friend_check": true,
+            "mate_check": false,
+            "friend_check": false,
             "bestie_check": true,
             "bff_check": true
           }
