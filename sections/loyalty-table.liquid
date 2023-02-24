@@ -44,53 +44,6 @@
       "default": "Collapsible content"
     },
     {
-      "type": "select",
-      "id": "heading_alignment",
-      "label": "t:sections.collapsible_content.settings.heading_alignment.label",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.collapsible_content.settings.heading_alignment.options__3.label"
-        }
-      ],
-      "default": "center"
-    },
-    {
-      "type": "select",
-      "id": "layout",
-      "label": "t:sections.collapsible_content.settings.layout.label",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.collapsible_content.settings.layout.options__1.label"
-        },
-        {
-          "value": "row",
-          "label": "t:sections.collapsible_content.settings.layout.options__2.label"
-        },
-        {
-          "value": "section",
-          "label": "t:sections.collapsible_content.settings.layout.options__3.label"
-        }
-      ],
-      "default": "none"
-    },
-    
-    {
-      "type": "checkbox",
-      "id": "open_first_collapsible_row",
-      "default": false,
-      "label": "t:sections.collapsible_content.settings.open_first_collapsible_row.label"
-    },   
-    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -117,7 +70,7 @@
   ],
   "blocks": [
     {
-      "type": "collapsible_row",
+      "type": "row",
       "name": "t:sections.collapsible_content.blocks.collapsible_row.name",
       "settings": [
         {
@@ -140,17 +93,9 @@
       "name": "Loyal Table",
       "blocks": [
         {
-          "type": "collapsible_row"
-        },
-        {
-          "type": "collapsible_row"
-        },
-        {
-          "type": "collapsible_row"
-        },
-        {
-          "type": "collapsible_row"
+          "type": "row"
         }
+        
       ]
     }
   ]
