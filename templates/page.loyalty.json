@@ -255,7 +255,7 @@
             "table_heading": "What’s in it for you:",
             "spend_value": "",
             "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
-            "mate_check": true
+            "mate_check": false
           }
         },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
@@ -264,8 +264,8 @@
             "level": "Level 1",
             "table_heading": "Mate",
             "spend_value": "Free to join",
-            "row_text": "",
-            "mate_check": false
+            "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
+            "mate_check": true
           }
         },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
