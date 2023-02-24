@@ -251,8 +251,8 @@
         "16b32801-b0d2-48f4-9cc2-884053b24532": {
           "type": "row",
           "settings": {
-            "level": "Level 1",
-            "table_heading": "Table row",
+            "level": "",
+            "table_heading": "What’s in it for you:",
             "spend_value": ""
           }
         },
