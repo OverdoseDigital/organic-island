@@ -255,7 +255,10 @@
             "table_heading": "What’s in it for you:",
             "spend_value": "",
             "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
-            "mate_check": false
+            "mate_check": false,
+            "friend_check": false,
+            "bestie_check": false,
+            "bff_check": false
           }
         },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
@@ -265,7 +268,10 @@
             "table_heading": "Mate",
             "spend_value": "Free to join",
             "row_text": "",
-            "mate_check": true
+            "mate_check": true,
+            "friend_check": false,
+            "bestie_check": false,
+            "bff_check": false
           }
         },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
@@ -275,7 +281,10 @@
             "table_heading": "Friend",
             "spend_value": "$500 lifetime spend",
             "row_text": "",
-            "mate_check": true
+            "mate_check": false,
+            "friend_check": true,
+            "bestie_check": false,
+            "bff_check": false
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
@@ -285,7 +294,10 @@
             "table_heading": "Bestie",
             "spend_value": "$1000 lifetime spend",
             "row_text": "",
-            "mate_check": true
+            "mate_check": false,
+            "friend_check": false,
+            "bestie_check": true,
+            "bff_check": false
           }
         },
         "b020f389-52b4-4b41-8645-482f49eef930": {
@@ -295,7 +307,10 @@
             "table_heading": "BFF",
             "spend_value": "$1800 lifetime spend",
             "row_text": "",
-            "mate_check": true
+            "mate_check": false,
+            "friend_check": false,
+            "bestie_check": false,
+            "bff_check": true
           }
         }
       },
