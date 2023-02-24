@@ -248,14 +248,6 @@
     "52b70854-3d77-48bc-ab47-c281a776bf47": {
       "type": "loyalty-table",
       "blocks": {
-        "db448c27-7d73-4193-b676-d738ca341c90": {
-          "type": "table_th_head",
-          "settings": {
-            "level": "",
-            "table_heading": "What’s in it for you:",
-            "spend_value": ""
-          }
-        },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
           "type": "row",
           "settings": {
@@ -264,14 +256,6 @@
             "friend_check": false,
             "bestie_check": false,
             "bff_check": false
-          }
-        },
-        "78aa0140-9b10-4d80-9002-ecce90b4b344": {
-          "type": "table_th_head",
-          "settings": {
-            "level": "Level 1",
-            "table_heading": "Mate",
-            "spend_value": "Free to join"
           }
         },
         "f10e046f-7af9-476f-8d25-c912fb515629": {
@@ -284,14 +268,6 @@
             "bff_check": false
           }
         },
-        "156bb026-c767-4af5-b201-a533d6a20188": {
-          "type": "table_th_head",
-          "settings": {
-            "level": "Level 2",
-            "table_heading": "Friend",
-            "spend_value": "$500 lifetime spend"
-          }
-        },
         "16b32801-b0d2-48f4-9cc2-884053b24532": {
           "type": "row",
           "settings": {
@@ -302,14 +278,6 @@
             "bff_check": false
           }
         },
-        "5c61cb0a-ddad-4db4-816b-d95f52c6d25c": {
-          "type": "table_th_head",
-          "settings": {
-            "level": "Level 3",
-            "table_heading": "Bestie",
-            "spend_value": "$1000 lifetime spend"
-          }
-        },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
           "type": "row",
           "settings": {
@@ -318,14 +286,6 @@
             "friend_check": false,
             "bestie_check": true,
             "bff_check": false
-          }
-        },
-        "b307a799-da7e-4156-b12a-0627a52abe5b": {
-          "type": "table_th_head",
-          "settings": {
-            "level": "Level4",
-            "table_heading": "BFF",
-            "spend_value": "$1800 lifetime spend"
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
@@ -340,20 +300,20 @@
         }
       },
       "block_order": [
-        "db448c27-7d73-4193-b676-d738ca341c90",
         "d767e113-5baa-4f50-b2ca-13e7a6cca515",
-        "78aa0140-9b10-4d80-9002-ecce90b4b344",
         "f10e046f-7af9-476f-8d25-c912fb515629",
-        "156bb026-c767-4af5-b201-a533d6a20188",
         "16b32801-b0d2-48f4-9cc2-884053b24532",
-        "5c61cb0a-ddad-4db4-816b-d95f52c6d25c",
         "db0b47bd-565b-4bef-ae38-3ae567c31979",
-        "b307a799-da7e-4156-b12a-0627a52abe5b",
         "60f4e929-8224-4ab1-9a35-5685b7867c18"
       ],
       "settings": {
         "full_width": true,
-        "heading": "gergergreg",
+        "level": "",
+        "table_heading": "What’s in it for you:",
+        "spend_value": "",
+        "level2": "",
+        "table_heading2": "Table row",
+        "spend_value2": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
