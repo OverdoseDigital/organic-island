@@ -297,6 +297,16 @@
             "bestie_check": true,
             "bff_check": true
           }
+        },
+        "dd4b6b67-e484-43c4-8733-48791f80c40e": {
+          "type": "row",
+          "settings": {
+            "row_text": "<p>Access to skin care consults with a dermal therapist<\/p>",
+            "mate_check": true,
+            "friend_check": true,
+            "bestie_check": true,
+            "bff_check": true
+          }
         }
       },
       "block_order": [
@@ -304,7 +314,8 @@
         "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4",
         "b0c73b14-62d5-4014-afa2-a9902ed76d67",
         "2829e0d6-c639-45cb-81b9-a246b33a3982",
-        "29d94091-0d9b-4bb4-a8fb-dc5ff8e6fd96"
+        "29d94091-0d9b-4bb4-a8fb-dc5ff8e6fd96",
+        "dd4b6b67-e484-43c4-8733-48791f80c40e"
       ],
       "settings": {
         "full_width": true,
