@@ -251,22 +251,25 @@
         "16b32801-b0d2-48f4-9cc2-884053b24532": {
           "type": "row",
           "settings": {
-            "heading": "Table row",
-            "row_content": "<p>ewgergerg<\/p>"
+            "level": "Level 1",
+            "table_heading": "Table row",
+            "spend_value": ""
           }
         },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
           "type": "row",
           "settings": {
-            "heading": "Table row",
-            "row_content": "<p>ergerg<\/p>"
+            "level": "Level 1",
+            "table_heading": "Mate",
+            "spend_value": "Free to join"
           }
         },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
           "type": "row",
           "settings": {
-            "heading": "Table row",
-            "row_content": ""
+            "level": "",
+            "table_heading": "Table row",
+            "spend_value": ""
           }
         }
       },
