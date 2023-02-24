@@ -275,7 +275,7 @@
             "table_heading": "Friend",
             "spend_value": "$500 lifetime spend",
             "row_text": "",
-            "mate_check": false
+            "mate_check": true
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
@@ -285,7 +285,7 @@
             "table_heading": "Bestie",
             "spend_value": "$1000 lifetime spend",
             "row_text": "",
-            "mate_check": false
+            "mate_check": true
           }
         },
         "b020f389-52b4-4b41-8645-482f49eef930": {
@@ -295,7 +295,7 @@
             "table_heading": "Table row",
             "spend_value": "",
             "row_text": "",
-            "mate_check": false
+            "mate_check": true
           }
         }
       },
