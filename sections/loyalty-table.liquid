@@ -20,7 +20,7 @@
 .loyalty-table{width:100%; flex-wrap:wrap; flex-direction:column;}
 .table-heading{margin:5px 0;}
 .loyalty-th-cont, .loyalty-table-inner-row{width:100%;}
-.loyalty-th-head:first-child{width:32%; text-align:left;}
+.loyalty-th-head-first:first-child{width:32%; text-align:left;}
 .loyalty-th-head{width:17%; text-align:center;}
 .loyalty-row-checkbox{display:flex; align-items:center; width:100%;}
 
@@ -35,7 +35,7 @@
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
         <div class="loyalty-th-cont loyalty-row d-flex flex-align-center">
-            <div class="loyalty-th-head">
+            <div class="loyalty-th-head-first">
                     {% if section.settings.level != blank %}
                         <span class="table-level">{{section.settings.level}}</span>
                     {% endif %}
