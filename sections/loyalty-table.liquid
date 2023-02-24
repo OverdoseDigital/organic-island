@@ -32,9 +32,10 @@
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
-        {%- for block in section.blocks -%}
+       
         {% case block.type %}
          {% when 'table_th_head' %}
+ {%- for block in section.blocks -%}
         <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
                     <span class="table-level">{{block.settings.level}}</span>
@@ -48,8 +49,10 @@
                     <span class="spend-value">{{block.settings.spend_value}}</span>
                 {% endif %}
         </div>
+        {%- endfor -%}
 
          {% when 'row' %}
+          {%- for block in section.blocks -%}
         <div class="loyalty-column">
             <div class="loyalty-row-inner">
                 {% if block.settings.row_text != blank %}
@@ -73,11 +76,11 @@
                 {% endif %}
             </div>
         </div>
-
+         {%- endfor -%}
        
 
         {%- endcase -%}
-        {%- endfor -%}
+        
         </div>
         </div>
 </div>
