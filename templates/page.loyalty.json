@@ -252,59 +252,15 @@
           "type": "row",
           "settings": {
             "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
-            "mate_check": false,
-            "friend_check": false,
-            "bestie_check": false,
-            "bff_check": false
-          }
-        },
-        "f10e046f-7af9-476f-8d25-c912fb515629": {
-          "type": "row",
-          "settings": {
-            "row_text": "",
             "mate_check": true,
-            "friend_check": false,
-            "bestie_check": false,
-            "bff_check": false
-          }
-        },
-        "16b32801-b0d2-48f4-9cc2-884053b24532": {
-          "type": "row",
-          "settings": {
-            "row_text": "",
-            "mate_check": false,
             "friend_check": true,
-            "bestie_check": false,
-            "bff_check": false
-          }
-        },
-        "db0b47bd-565b-4bef-ae38-3ae567c31979": {
-          "type": "row",
-          "settings": {
-            "row_text": "",
-            "mate_check": false,
-            "friend_check": false,
             "bestie_check": true,
-            "bff_check": false
-          }
-        },
-        "60f4e929-8224-4ab1-9a35-5685b7867c18": {
-          "type": "row",
-          "settings": {
-            "row_text": "",
-            "mate_check": false,
-            "friend_check": false,
-            "bestie_check": false,
             "bff_check": true
           }
         }
       },
       "block_order": [
-        "d767e113-5baa-4f50-b2ca-13e7a6cca515",
-        "f10e046f-7af9-476f-8d25-c912fb515629",
-        "16b32801-b0d2-48f4-9cc2-884053b24532",
-        "db0b47bd-565b-4bef-ae38-3ae567c31979",
-        "60f4e929-8224-4ab1-9a35-5685b7867c18"
+        "d767e113-5baa-4f50-b2ca-13e7a6cca515"
       ],
       "settings": {
         "full_width": true,
