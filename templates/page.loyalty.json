@@ -248,12 +248,27 @@
     "52b70854-3d77-48bc-ab47-c281a776bf47": {
       "type": "loyalty-table",
       "blocks": {
+        "db448c27-7d73-4193-b676-d738ca341c90": {
+          "type": "table_th_head",
+          "settings": {
+            "level": "What’s in it for you:",
+            "table_heading": "Table row",
+            "spend_value": ""
+          }
+        },
+        "f10e046f-7af9-476f-8d25-c912fb515629": {
+          "type": "row",
+          "settings": {
+            "row_text": "",
+            "mate_check": true,
+            "friend_check": true,
+            "bestie_check": true,
+            "bff_check": true
+          }
+        },
         "16b32801-b0d2-48f4-9cc2-884053b24532": {
           "type": "row",
           "settings": {
-            "level": "",
-            "table_heading": "What’s in it for you:",
-            "spend_value": "",
             "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
             "mate_check": false,
             "friend_check": false,
@@ -264,9 +279,6 @@
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
           "type": "row",
           "settings": {
-            "level": "Level 1",
-            "table_heading": "Mate",
-            "spend_value": "Free to join",
             "row_text": "",
             "mate_check": true,
             "friend_check": false,
@@ -277,9 +289,6 @@
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
           "type": "row",
           "settings": {
-            "level": "Level 2",
-            "table_heading": "Friend",
-            "spend_value": "$500 lifetime spend",
             "row_text": "",
             "mate_check": false,
             "friend_check": true,
@@ -290,9 +299,6 @@
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
           "type": "row",
           "settings": {
-            "level": "Level 3",
-            "table_heading": "Bestie",
-            "spend_value": "$1000 lifetime spend",
             "row_text": "",
             "mate_check": false,
             "friend_check": false,
@@ -303,9 +309,6 @@
         "b020f389-52b4-4b41-8645-482f49eef930": {
           "type": "row",
           "settings": {
-            "level": "Level4",
-            "table_heading": "BFF",
-            "spend_value": "$1800 lifetime spend",
             "row_text": "",
             "mate_check": false,
             "friend_check": false,
@@ -315,6 +318,8 @@
         }
       },
       "block_order": [
+        "db448c27-7d73-4193-b676-d738ca341c90",
+        "f10e046f-7af9-476f-8d25-c912fb515629",
         "16b32801-b0d2-48f4-9cc2-884053b24532",
         "d767e113-5baa-4f50-b2ca-13e7a6cca515",
         "db0b47bd-565b-4bef-ae38-3ae567c31979",
