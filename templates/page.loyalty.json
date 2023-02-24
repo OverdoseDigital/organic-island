@@ -264,7 +264,7 @@
             "level": "Level 1",
             "table_heading": "Mate",
             "spend_value": "Free to join",
-            "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
+            "row_text": "",
             "mate_check": true
           }
         },
