@@ -29,6 +29,10 @@
             <h2 class="table-heading">{{block.settings.table_heading}}</h2>
            {% endif %}
 
+           {% if block.settings.row_text != blank %}
+            <div class="table-heading">{{block.settings.row_text}}</div>
+           {% endif %}
+
            {% if block.settings.spend_value != blank %}
             <span class="spend-value">{{block.settings.spend_value}}</span>
            {% endif %}
@@ -102,6 +106,11 @@
           "type": "text",
           "id": "spend_value",
           "label": "Spend Value"
+        },
+        {
+          "type": "richtext",
+          "id": "row_text",
+          "label": "Row Text"
         }
       ]
     }
