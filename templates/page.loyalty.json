@@ -291,9 +291,9 @@
         "b020f389-52b4-4b41-8645-482f49eef930": {
           "type": "row",
           "settings": {
-            "level": "",
-            "table_heading": "Table row",
-            "spend_value": "",
+            "level": "Level4",
+            "table_heading": "BFF",
+            "spend_value": "$1800 lifetime spend",
             "row_text": "",
             "mate_check": true
           }
