@@ -111,7 +111,7 @@
             {%- for block in section.blocks -%}
                 <div class="loyalty-row">
                         {% if block.settings.row_text != blank %}
-                        <div class="table-row-text">{{block.settings.row_text}}</div>
+                        <div class="table-row-text loyalty-th-head-first">{{block.settings.row_text}}</div>
                         {% endif %}
                     <div class="loyalty-row-checkbox">
                         {% if block.settings.mate_check == true %}
