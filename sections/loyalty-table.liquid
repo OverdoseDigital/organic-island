@@ -22,7 +22,7 @@
         {%- for block in section.blocks -%}
            <div class="loyalty-table">
            {% if block.settings.level != blank %}
-            <span class="table-level">{{block.settings.level}}</span>
+            <span class="table-level">{{block.settings.level}}{{forloop.index}}</span>
            {% endif %}
 
            {% if block.settings.table_heading != blank %}
