@@ -278,8 +278,8 @@
           "type": "row",
           "settings": {
             "row_text": "",
-            "mate_check": false,
-            "friend_check": true,
+            "mate_check": true,
+            "friend_check": false,
             "bestie_check": false,
             "bff_check": false
           }
@@ -307,8 +307,8 @@
           "settings": {
             "row_text": "",
             "mate_check": false,
-            "friend_check": true,
-            "bestie_check": false,
+            "friend_check": false,
+            "bestie_check": true,
             "bff_check": false
           }
         },
@@ -318,8 +318,8 @@
             "row_text": "",
             "mate_check": false,
             "friend_check": false,
-            "bestie_check": true,
-            "bff_check": false
+            "bestie_check": false,
+            "bff_check": true
           }
         }
       },
