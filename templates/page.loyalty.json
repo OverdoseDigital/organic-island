@@ -329,7 +329,7 @@
         "a5f54a40-0e52-47be-8565-6270af553a57"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "level": "",
         "table_heading": "What’s in it for you:",
         "spend_value": "",
