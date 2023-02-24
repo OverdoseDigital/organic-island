@@ -35,7 +35,7 @@
         {%- for block in section.blocks -%}
         
         <div class="loyalty-column">
-            <div class="loyalty-th-head">
+            {% comment %} <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
                     <span class="table-level">{{block.settings.level}}</span>
                 {% endif %}
@@ -47,7 +47,7 @@
                 {% if block.settings.spend_value != blank %}
                     <span class="spend-value">{{block.settings.spend_value}}</span>
                 {% endif %}
-            </div>
+            </div> {% endcomment %}
             <div class="loyalty-row-inner">
                 {% if block.settings.row_text != blank %}
                 <div class="table-row-text">{{block.settings.row_text}}</div>
