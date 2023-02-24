@@ -305,16 +305,6 @@
             "bestie_check": true,
             "bff_check": false
           }
-        },
-        "b020f389-52b4-4b41-8645-482f49eef930": {
-          "type": "row",
-          "settings": {
-            "row_text": "",
-            "mate_check": false,
-            "friend_check": false,
-            "bestie_check": false,
-            "bff_check": true
-          }
         }
       },
       "block_order": [
@@ -323,8 +313,7 @@
         "16b32801-b0d2-48f4-9cc2-884053b24532",
         "d767e113-5baa-4f50-b2ca-13e7a6cca515",
         "db0b47bd-565b-4bef-ae38-3ae567c31979",
-        "60f4e929-8224-4ab1-9a35-5685b7867c18",
-        "b020f389-52b4-4b41-8645-482f49eef930"
+        "60f4e929-8224-4ab1-9a35-5685b7867c18"
       ],
       "settings": {
         "full_width": true,
