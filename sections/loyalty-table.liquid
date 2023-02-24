@@ -21,7 +21,9 @@
         <div class="grid__item">
         {%- for block in section.blocks -%}
            <div class="loyalty-table">
-           wwgew
+           {% if block.settings.table_heading != blank %}
+            <h2 class="table-heading">{{block.settings.table_heading}}</h2>
+           {% endif %}
            </div>
         {%- endfor -%}
         </div>
@@ -77,10 +79,10 @@
       "settings": [
         {
           "type": "text",
-          "id": "heading",
+          "id": "table_heading",
           "default": "Table row",
-          "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.label",
-          "info": "t:sections.collapsible_content.blocks.collapsible_row.settings.heading.info"
+          "label": "Table Block Heading",
+          "info": "Table Block Heading"
         },
         {
           "type": "richtext",
