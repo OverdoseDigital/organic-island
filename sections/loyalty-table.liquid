@@ -34,8 +34,7 @@
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
-        <div class="loyalty-th-cont d-flex flex-align-center">
-        <div class="loyalty-row">
+        <div class="loyalty-th-cont loyalty-row d-flex flex-align-center">
             <div class="loyalty-th-head">
                     {% if section.settings.level != blank %}
                         <span class="table-level">{{section.settings.level}}</span>
@@ -105,7 +104,6 @@
                         <span class="spend-value">{{section.settings.spend_value4}}</span>
                     {% endif %}
             </div>
-        </div>
         </div>
         </div>
 
