@@ -33,8 +33,6 @@
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
         {%- for block in section.blocks -%}
-        {% case block.type %}
-         {% when 'table_th_head' %}
         <div class="loyalty-th-head">
                 {% if block.settings.level != blank %}
                     <span class="table-level">{{block.settings.level}}</span>
@@ -49,7 +47,6 @@
                 {% endif %}
         </div>
 
-         {% when 'row' %}
         <div class="loyalty-column">
             <div class="loyalty-row-inner">
                 {% if block.settings.row_text != blank %}
@@ -74,9 +71,6 @@
             </div>
         </div>
 
-       
-
-        {%- endcase -%}
         {%- endfor -%}
         </div>
         </div>
@@ -189,9 +183,6 @@
     {
       "name": "Loyal Table",
       "blocks": [
-        {
-          "type": "table_th_head"
-        },
         {
           "type": "row"
         }
