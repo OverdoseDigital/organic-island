@@ -295,9 +295,9 @@
         "16b32801-b0d2-48f4-9cc2-884053b24532": {
           "type": "row",
           "settings": {
-            "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>",
+            "row_text": "",
             "mate_check": false,
-            "friend_check": false,
+            "friend_check": true,
             "bestie_check": false,
             "bff_check": false
           }
