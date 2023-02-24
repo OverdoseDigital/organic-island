@@ -311,9 +311,15 @@
         "level": "",
         "table_heading": "What’s in it for you:",
         "spend_value": "",
-        "level2": "",
+        "level2": "Level 2",
         "table_heading2": "Table row",
         "spend_value2": "",
+        "level3": "",
+        "table_heading3": "Table row",
+        "spend_value3": "",
+        "level4": "",
+        "table_heading4": "Table row",
+        "spend_value4": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
