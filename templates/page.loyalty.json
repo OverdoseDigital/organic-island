@@ -248,47 +248,36 @@
     "52b70854-3d77-48bc-ab47-c281a776bf47": {
       "type": "loyalty-table",
       "blocks": {
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-0": {
-          "type": "collapsible_row",
+        "16b32801-b0d2-48f4-9cc2-884053b24532": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Table row",
             "row_content": ""
           }
         },
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-1": {
-          "type": "collapsible_row",
+        "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Table row",
             "row_content": ""
           }
         },
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-2": {
-          "type": "collapsible_row",
+        "db0b47bd-565b-4bef-ae38-3ae567c31979": {
+          "type": "row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": ""
-          }
-        },
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
+            "heading": "Table row",
             "row_content": ""
           }
         }
       },
       "block_order": [
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-0",
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-1",
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-2",
-        "template--17949026844962__52b70854-3d77-48bc-ab47-c281a776bf47-167722195473812343-3"
+        "16b32801-b0d2-48f4-9cc2-884053b24532",
+        "d767e113-5baa-4f50-b2ca-13e7a6cca515",
+        "db0b47bd-565b-4bef-ae38-3ae567c31979"
       ],
       "settings": {
         "caption": "",
         "heading": "gergergreg",
-        "heading_alignment": "center",
-        "layout": "none",
-        "open_first_collapsible_row": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
