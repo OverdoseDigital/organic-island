@@ -317,12 +317,12 @@
         "level2": "Level 2",
         "table_heading2": "Friend",
         "spend_value2": "$500 lifetime spend",
-        "level3": "",
-        "table_heading3": "Table row",
-        "spend_value3": "",
-        "level4": "",
-        "table_heading4": "Table row",
-        "spend_value4": "",
+        "level3": "Level 3",
+        "table_heading3": "Bestie",
+        "spend_value3": "$1000 lifetime spend",
+        "level4": "Level 4",
+        "table_heading4": "BFF",
+        "spend_value4": "$1800 lifetime spend",
         "padding_top": 36,
         "padding_bottom": 36
       }
