@@ -287,13 +287,24 @@
             "bestie_check": true,
             "bff_check": true
           }
+        },
+        "29d94091-0d9b-4bb4-a8fb-dc5ff8e6fd96": {
+          "type": "row",
+          "settings": {
+            "row_text": "<p>First access to existing new Go-To products and launches.<\/p>",
+            "mate_check": true,
+            "friend_check": true,
+            "bestie_check": true,
+            "bff_check": true
+          }
         }
       },
       "block_order": [
         "d767e113-5baa-4f50-b2ca-13e7a6cca515",
         "4fb08b49-6798-4f9c-bec7-07cf9be2a4e4",
         "b0c73b14-62d5-4014-afa2-a9902ed76d67",
-        "2829e0d6-c639-45cb-81b9-a246b33a3982"
+        "2829e0d6-c639-45cb-81b9-a246b33a3982",
+        "29d94091-0d9b-4bb4-a8fb-dc5ff8e6fd96"
       ],
       "settings": {
         "full_width": true,
