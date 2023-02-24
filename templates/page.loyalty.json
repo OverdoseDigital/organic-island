@@ -183,7 +183,6 @@
     },
     "0064605b-cd75-455a-b828-336cc0b07054": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--17949026844962__0064605b-cd75-455a-b828-336cc0b07054-16771489672208e260-0": {
           "type": "heading",
@@ -346,7 +345,9 @@
         "table_heading4": "BFF",
         "spend_value4": "$1800 lifetime spend",
         "padding_top": 60,
-        "padding_bottom": 76
+        "padding_bottom": 76,
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 36
       }
     },
     "290f4345-66f6-4c6e-99d7-47395a190ba1": {
