@@ -253,7 +253,8 @@
           "settings": {
             "level": "",
             "table_heading": "What’s in it for you:",
-            "spend_value": ""
+            "spend_value": "",
+            "row_text": "<p>Exclusive welcome gift when joining a new level.<\/p>"
           }
         },
         "d767e113-5baa-4f50-b2ca-13e7a6cca515": {
@@ -261,7 +262,8 @@
           "settings": {
             "level": "Level 1",
             "table_heading": "Mate",
-            "spend_value": "Free to join"
+            "spend_value": "Free to join",
+            "row_text": ""
           }
         },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
@@ -269,7 +271,8 @@
           "settings": {
             "level": "Level 2",
             "table_heading": "Friend",
-            "spend_value": "$500 lifetime spend"
+            "spend_value": "$500 lifetime spend",
+            "row_text": ""
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
@@ -277,7 +280,8 @@
           "settings": {
             "level": "Level 3",
             "table_heading": "Bestie",
-            "spend_value": "$1000 lifetime spend"
+            "spend_value": "$1000 lifetime spend",
+            "row_text": ""
           }
         },
         "b020f389-52b4-4b41-8645-482f49eef930": {
@@ -285,7 +289,8 @@
           "settings": {
             "level": "",
             "table_heading": "Table row",
-            "spend_value": ""
+            "spend_value": "",
+            "row_text": ""
           }
         }
       },
