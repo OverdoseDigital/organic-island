@@ -302,6 +302,14 @@
             "bff_check": false
           }
         },
+        "5c61cb0a-ddad-4db4-816b-d95f52c6d25c": {
+          "type": "table_th_head",
+          "settings": {
+            "level": "Level 3",
+            "table_heading": "Bestie",
+            "spend_value": "$1000 lifetime spend"
+          }
+        },
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
           "type": "row",
           "settings": {
@@ -310,6 +318,14 @@
             "friend_check": false,
             "bestie_check": true,
             "bff_check": false
+          }
+        },
+        "b307a799-da7e-4156-b12a-0627a52abe5b": {
+          "type": "table_th_head",
+          "settings": {
+            "level": "",
+            "table_heading": "Table row",
+            "spend_value": ""
           }
         },
         "60f4e929-8224-4ab1-9a35-5685b7867c18": {
@@ -330,7 +346,9 @@
         "f10e046f-7af9-476f-8d25-c912fb515629",
         "156bb026-c767-4af5-b201-a533d6a20188",
         "16b32801-b0d2-48f4-9cc2-884053b24532",
+        "5c61cb0a-ddad-4db4-816b-d95f52c6d25c",
         "db0b47bd-565b-4bef-ae38-3ae567c31979",
+        "b307a799-da7e-4156-b12a-0627a52abe5b",
         "60f4e929-8224-4ab1-9a35-5685b7867c18"
       ],
       "settings": {
