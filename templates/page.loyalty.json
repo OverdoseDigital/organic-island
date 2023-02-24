@@ -267,9 +267,9 @@
         "db0b47bd-565b-4bef-ae38-3ae567c31979": {
           "type": "row",
           "settings": {
-            "level": "",
-            "table_heading": "Table row",
-            "spend_value": ""
+            "level": "Level 2",
+            "table_heading": "Friend",
+            "spend_value": "$500 lifetime spend"
           }
         }
       },
