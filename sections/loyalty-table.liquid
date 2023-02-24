@@ -113,10 +113,9 @@ div:empty{display:flex !important; align-items: center; justify-content: center;
         <div class="loyalty-table-inner-row d-flex flex-align-center">
             {%- for block in section.blocks -%}
                 <div class="loyalty-row">
-                        
-                        <div class="table-row-text loyalty-th-head-first">{{block.settings.row_text}}</div>
+                <div class="table-row-text loyalty-th-head-first">{{block.settings.row_text}}</div>
                        
-                    <div class="loyalty-row-checkbox">
+                <div class="loyalty-row-checkbox">
                     <div class="checkbox-con">
                         {% if block.settings.mate_check == true %}
                             <div class="mate_check"></div>
@@ -125,17 +124,17 @@ div:empty{display:flex !important; align-items: center; justify-content: center;
                     
                     <div class="checkbox-con">
                         {% if block.settings.friend_check == true %}
-                            <div class="friend_check checkbox-con"></div>
+                            <div class="friend_check"></div>
                         {% endif %}
                     </div>
                     <div class="checkbox-con">
                         {% if block.settings.bestie_check == true %}
-                            <div class="bestie_check checkbox-con"></div>
+                            <div class="bestie_check"></div>
                         {% endif %}
                     </div>
                     <div class="checkbox-con">
                         {% if block.settings.bff_check == true %}
-                            <div class="bff_check checkbox-con"></div>
+                            <div class="bff_check"></div>
                         {% endif %}
                     </div>
                     </div>
