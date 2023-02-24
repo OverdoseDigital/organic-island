@@ -105,32 +105,33 @@
 
         </div>
 
+        <div class="loyalty-table-inner-row">
+            {%- for block in section.blocks -%}
+                <div class="loyalty-column">
+                    <div class="loyalty-row-inner">
+                        {% if block.settings.row_text != blank %}
+                        <div class="table-row-text">{{block.settings.row_text}}</div>
+                        {% endif %}
 
-        {%- for block in section.blocks -%}
-            <div class="loyalty-column">
-                <div class="loyalty-row-inner">
-                    {% if block.settings.row_text != blank %}
-                    <div class="table-row-text">{{block.settings.row_text}}</div>
-                    {% endif %}
+                        {% if block.settings.mate_check == true %}
+                            <div class="mate_check"></div>
+                        {% endif %}
 
-                    {% if block.settings.mate_check == true %}
-                        <div class="mate_check"></div>
-                    {% endif %}
+                        {% if block.settings.friend_check == true %}
+                            <div class="friend_check"></div>
+                        {% endif %}
 
-                    {% if block.settings.friend_check == true %}
-                        <div class="friend_check"></div>
-                    {% endif %}
+                        {% if block.settings.bestie_check == true %}
+                            <div class="bestie_check"></div>
+                        {% endif %}
 
-                    {% if block.settings.bestie_check == true %}
-                        <div class="bestie_check"></div>
-                    {% endif %}
-
-                    {% if block.settings.bff_check == true %}
-                        <div class="bff_check"></div>
-                    {% endif %}
+                        {% if block.settings.bff_check == true %}
+                            <div class="bff_check"></div>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
-        {%- endfor -%}
+            {%- endfor -%}
+        </div>
         </div>
         </div>
 </div>
