@@ -3,8 +3,6 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-.section-{{ section.id }}-padding .accordion__title{font-weight: 400; font-size: 15px; letter-spacing: 0.2px; color:#232936; font-family: 'Arial';}
-
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -12,13 +10,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+.mate_check{border-radius:50%; -webkit-border-radius:50%; -o-border-radius:50%; -moz-border-radius:50%; width:20px; height:20px;}
+
+
+
 {%- endstyle -%}
 
 
 
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
-    <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}">
-        <div class="grid__item">
+        <div class="section-{{ section.id }}-padding">
         {%- for block in section.blocks -%}
            <div class="loyalty-table">
            {% if block.settings.level != blank %}
@@ -44,7 +46,6 @@
            </div>
         {%- endfor -%}
         </div>
-    </div>
 </div>
 
 {% schema %}
@@ -54,9 +55,10 @@
   "class": "section loyalty-table",
   "settings": [
     {
-      "type": "text",
-      "id": "caption",
-      "label": "t:sections.collapsible_content.settings.caption.label"
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
     },
     {
       "type": "text",
@@ -115,6 +117,11 @@
           "type": "richtext",
           "id": "row_text",
           "label": "Row Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "mate_check",
+          "label": "Mate Checkbox"
         }
       ]
     }
