@@ -32,6 +32,66 @@
 <div class="mob-page-width{% unless section.settings.full_width %} page-width{% endunless %}">
         <div class="section-{{ section.id }}-padding">
         <div class="loyalty-table d-flex flex-align-center">
+        <div class="loyalty-th-cont">
+            <div class="loyalty-th-head">
+                    {% if section.settings.level != blank %}
+                        <span class="table-level">{{section.settings.level}}</span>
+                    {% endif %}
+
+                    {% if section.settings.table_heading != blank %}
+                        <h2 class="table-heading">{{section.settings.table_heading}}</h2>
+                    {% endif %}
+
+                    {% if section.settings.spend_value != blank %}
+                        <span class="spend-value">{{section.settings.spend_value}}</span>
+                    {% endif %}
+            </div>
+
+            <div class="loyalty-th-head">
+                    {% if section.settings.level2 != blank %}
+                        <span class="table-level">{{section.settings.level2}}</span>
+                    {% endif %}
+
+                    {% if section.settings.table_heading2 != blank %}
+                        <h2 class="table-heading">{{section.settings.table_heading2}}</h2>
+                    {% endif %}
+
+                    {% if section.settings.spend_value2 != blank %}
+                        <span class="spend-value">{{section.settings.spend_value2}}</span>
+                    {% endif %}
+            </div>
+
+            <div class="loyalty-th-head">
+                    {% if section.settings.level3 != blank %}
+                        <span class="table-level">{{section.settings.level3}}</span>
+                    {% endif %}
+
+                    {% if section.settings.table_heading3 != blank %}
+                        <h2 class="table-heading">{{section.settings.table_heading3}}</h2>
+                    {% endif %}
+
+                    {% if section.settings.spend_value3 != blank %}
+                        <span class="spend-value">{{section.settings.spend_value3}}</span>
+                    {% endif %}
+            </div>
+
+            <div class="loyalty-th-head">
+                    {% if section.settings.level4 != blank %}
+                        <span class="table-level">{{section.settings.level4}}</span>
+                    {% endif %}
+
+                    {% if section.settings.table_heading4 != blank %}
+                        <h2 class="table-heading">{{section.settings.table_heading4}}</h2>
+                    {% endif %}
+
+                    {% if section.settings.spend_value4 != blank %}
+                        <span class="spend-value">{{section.settings.spend_value4}}</span>
+                    {% endif %}
+            </div>
+
+        </div>
+
+
         {%- for block in section.blocks -%}
             <div class="loyalty-column">
                 <div class="loyalty-row-inner">
@@ -112,6 +172,46 @@
     {
         "type": "text",
         "id": "spend_value2",
+        "label": "Spend Value"
+    },
+    {
+      "type": "header",
+      "content": "For Level 3"
+    },
+    {
+        "type": "text",
+        "id": "level3",
+        "label": "Level"
+    },
+    {
+        "type": "text",
+        "id": "table_heading3",
+        "default": "Table row",
+        "label": "Table Block Heading"
+    },
+    {
+        "type": "text",
+        "id": "spend_value3",
+        "label": "Spend Value"
+    },
+    {
+      "type": "header",
+      "content": "For Level 4"
+    },
+    {
+        "type": "text",
+        "id": "level4",
+        "label": "Level"
+    },
+    {
+        "type": "text",
+        "id": "table_heading4",
+        "default": "Table row",
+        "label": "Table Block Heading"
+    },
+    {
+        "type": "text",
+        "id": "spend_value4",
         "label": "Spend Value"
     },
     {
