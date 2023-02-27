@@ -54,7 +54,7 @@
                 </div>
               <div class="megamenu-image-wrap">
                 {% for block in section.blocks %}
-                    {%- assign menu_name = block.settings.menu_name | handle -%}
+                    {%- assign menu_name = block.settings.title | handle -%}
                     {% if link.handle == menu_name %}
 
                         {%- if block.settings.subtitle != blank and block.settings.subscribe_title != blank  -%}
