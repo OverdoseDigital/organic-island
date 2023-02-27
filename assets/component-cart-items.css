@@ -78,9 +78,9 @@
 }
 
 .cart-item__name:hover {
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-underline-offset: 0.3rem;
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.2rem; */
 }
 
 .cart-item__price-wrapper > * {
