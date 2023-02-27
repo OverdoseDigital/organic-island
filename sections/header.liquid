@@ -546,7 +546,7 @@
         {% for link in linklists[section.settings.top_menu].links -%}
           {% assign top_menu = link.handle %} 
 
-          {% for link in linklists[top_menu].links -%}
+          {% for link in linklists['Skincare'].links -%}
             {{ link.title | link_to: link.url }}
         {%- endfor %}
           {% comment %} {% render 'megamenu' menu:top_menu %} {% endcomment %}
