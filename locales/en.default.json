@@ -288,7 +288,7 @@
       "update": "Update",
       "login": {
         "title": "Have an account?",
-        "paragraph_html": "Earn points with every order <a href=\"{{ link }}\" class=\"link underlined-link\">Sign up<\/a>"
+        "paragraph_html": "<span>Earn points with every order<\/span> <a href=\"{{ link }}\" class=\"link underlined-link\">Sign up<\/a>"
       }
     },
     "footer": {
