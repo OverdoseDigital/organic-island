@@ -57,7 +57,7 @@
                     {%- assign menu_name = block.settings.menu_name | handle -%}
                     {% if link.handle == menu_name %}
                         <div class="image-wrap">
-                          <img src="{{block.settings.image1 | img_url:'original' }}">
+                          <img src="{{block.settings.image | img_url:'original' }}">
                         </div>
                     {% endif %}
                 {% endfor %}
