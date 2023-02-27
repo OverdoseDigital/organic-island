@@ -12,8 +12,11 @@
                   {% render 'icon-caret' %}
                 </summary>
                 <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                  <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list"  links_levels="{{link.levels}}" links_size="{{link.links.size}}">
-                    <h2> {{menu.title}} </h2>
+                    <h2 content="noindex, nofollow"> {{menu.title}} </h2>
+                  <ul class="mega-menu__list page-width {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  links_levels="{{link.levels}}" links_size="{{link.links.size}}">
+                   
+                    {% assign breakingNumber = link.levels |  %}
+
                     {%- for childlink in link.links -%}
                       <li>
                         <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
