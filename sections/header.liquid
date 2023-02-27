@@ -539,6 +539,9 @@
 
 
         {% assign top_menu = section.settings.menu %}
+        {% for link in linklists[section.settings.top_menu].links -%}
+          {{ link.title | link_to: link.url }}
+        {%- endfor %}
 
         {% render 'megamenu' menu:top_menu %}
 
