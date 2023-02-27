@@ -202,6 +202,14 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 /* image width text */ 
 .banner__buttons_custom{display: inline-flex; flex-wrap: wrap; gap: 1.6rem; word-break: break-word; margin-top:3.5rem !important;}
 .button.w-100{width:100%;}
+
+/* cart drawer */
+.quantity__button:focus, .quantity__input:focus{background: transparent;}
+
+
+
+
+
  
 
 
