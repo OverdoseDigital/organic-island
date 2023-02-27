@@ -400,12 +400,15 @@
         <!-- Subtotals -->
 
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
+          <div class="discount_con">
+            <h2 class="discount-t">{{ 'sections.cart.shipping_text' | t }}</h2>
+            <p class="discount-value">Free</p>
+          </div>
 
-        <div class="discount_con">
+          <div class="discount_con">
             <h2 class="discount-t">{{ 'sections.cart.discount_text' | t }}</h2>
             <p class="discount-value">-$34.00</p>
           </div>
-
 
           <div class="totals" role="status">
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
