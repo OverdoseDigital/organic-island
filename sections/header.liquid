@@ -545,7 +545,7 @@
         {% comment %} {% assign top_menu = section.settings.menu %} {% endcomment %}
         {% for link in linklists[section.settings.top_menu].links -%}
           {% assign top_menu = link.handle | escape %} 
-          {% render 'megamenu' menu:top_menu %}
+          {% render 'megamenu' menu:top_menu, index:forloop.index %}
         {%- endfor %}
 
 
