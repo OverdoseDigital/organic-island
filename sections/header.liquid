@@ -537,7 +537,10 @@
           </ul>
         </nav> {% endcomment %}
 
-        {% render 'megamenu' %}
+
+        {% assign top_menu = section.settings.menu %}
+
+        {% render 'megamenu' menu:top_menu %}
 
 
       {%- endif -%}
