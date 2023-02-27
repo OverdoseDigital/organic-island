@@ -11,7 +11,7 @@
 </style>
 
 
-<nav class="header__inline-menu megamenu"  main_menu_title="{{menu.title}}" >
+<nav class="header__inline-menu megamenu" data_menu="{{menu}}" main_menu_title="{{menu.title}}" >
     <ul class="list-menu list-menu--inline" role="list">
       {%- for link in menu.links -%}
         <li link_title="{{link.handle}}" link_level="{{link.levels}}">
