@@ -52,13 +52,16 @@
                     {%- endfor -%}
                   </ul>
                 </div>
-
+              <div class="megamenu-image-wrap">
                 {% for block in section.blocks %}
                     {%- assign menu_name = block.settings.menu_name | handle -%}
                     {% if link.handle == menu_name %}
-                    <img src="{{block.settings.image1 | img_url:'original' }}">
+                        <div class="image-wrap">
+                          <img src="{{block.settings.image1 | img_url:'original' }}">
+                        </div>
                     {% endif %}
                 {% endfor %}
+              </div>
 
                 </div>
               </details>
