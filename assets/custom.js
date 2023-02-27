@@ -15,7 +15,7 @@ var mainNavElements = document.querySelectorAll(".topmenu li");
 for (var i = 0; i < topMenuElement.length; i++) {
   var nav_megamenu_title = mainNavElements[i].getAttribute('data_menu');
   var topMenuElement_title = topMenuElement[i].getAttribute('data-name');
-  console.log(topMenuElement[i]);
+  console.log(topMenuElement[i].getAttribute('data_menu'));
   // console.log(topMenuElement_title);
 
   if( menu_name == nav_megamenu_title ){
