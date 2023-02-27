@@ -24,7 +24,7 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 /* cart drawer */
 .drawer__inner .cart-item__name{color: #212121;}
 .quantity__input{color:#232936;}
-
+.cart-item__quantity-wrapper .button.button--tertiary{color: #919191;}
 
 
 
