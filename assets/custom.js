@@ -26,8 +26,6 @@ for (var i = 0; i < topMenuElement.length; i++) {
   }else{
     topMenuElement[i].classList.remove('active');
   }
-
-  mainNavElements[i].classList.remove("class-to-remove");
 }
 
 
