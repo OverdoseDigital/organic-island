@@ -23,6 +23,18 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "9de2d1b2-4275-4290-b08f-8fe68e16895d": {
+          "type": "megamenu",
+          "settings": {
+            "menu_name": "Shop",
+            "link_list": ""
+          }
+        }
+      },
+      "block_order": [
+        "9de2d1b2-4275-4290-b08f-8fe68e16895d"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "middle-center",
