@@ -15,7 +15,7 @@
                     <h2 content="noindex"> {{menu.title}} </h2>
                   <ul class="mega-menu__list page-width {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  links_levels="{{link.levels}}" links_size="{{link.links.size}}">
                    
-                    {% assign breakingNumber = link.levels |  %}
+                    {% assign breakingNumber = link.levels | divided_by: 2 %}
 
                     {%- for childlink in link.links -%}
                       <li>
