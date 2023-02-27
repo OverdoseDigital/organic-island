@@ -29,7 +29,13 @@
           "settings": {
             "menu_name": "Shop",
             "link_list": "",
-            "image1": "shopify:\/\/shop_images\/image.png"
+            "image_url": "",
+            "title": "Organic skincare inspired by wander and wellbeing",
+            "button_text": "shop All",
+            "subtitle": "SUBSCRIBE & Save",
+            "subscribe_title": "",
+            "subscribe_button_text": "Learn more",
+            "subscribe_button_url": ""
           }
         }
       },
