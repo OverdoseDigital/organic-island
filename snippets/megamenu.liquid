@@ -10,9 +10,7 @@
 
 </style>
 
-{% for link in linklists[menu].links -%}
-    {{ link.title | link_to: link.url }}
-{%- endfor %}
+
 
 <nav class="header__inline-menu megamenu" data_menu="{{menu}}" main_menu_title="{{menu.title}}" >
     <ul class="list-menu list-menu--inline" role="list">
