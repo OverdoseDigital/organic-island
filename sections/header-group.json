@@ -38,10 +38,25 @@
             "subscribe_button_text": "Learn more",
             "subscribe_button_url": ""
           }
+        },
+        "fdbeaf2b-6dd6-495c-a2c2-e1dbefb77688": {
+          "type": "megamenu",
+          "settings": {
+            "menu_name": "rituals",
+            "link_list": "",
+            "image_url": "",
+            "title": "",
+            "button_text": "shop All",
+            "subtitle": "SUBSCRIBE & Save",
+            "subscribe_title": "Subscribe to never run out of your staple products",
+            "subscribe_button_text": "Learn more",
+            "subscribe_button_url": ""
+          }
         }
       },
       "block_order": [
-        "9de2d1b2-4275-4290-b08f-8fe68e16895d"
+        "9de2d1b2-4275-4290-b08f-8fe68e16895d",
+        "fdbeaf2b-6dd6-495c-a2c2-e1dbefb77688"
       ],
       "settings": {
         "color_scheme": "background-1",
