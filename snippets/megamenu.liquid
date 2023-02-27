@@ -51,6 +51,9 @@
                   </ul>
                 </div>
 
+                {% for block in section.blocks %}
+                    {{block.settings.menu_name}}
+                {% endfor %}
 
                 </div>
               </details>
