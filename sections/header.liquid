@@ -441,6 +441,9 @@
     {%- endif -%}
 
     {%- if section.settings.menu != blank -%}
+    {%- endif -%}
+
+
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
@@ -492,6 +495,7 @@
           </ul>
         </nav>
       {%- else -%}
+
         {% comment %} <nav class="header__inline-menu megamenu"  title="{{section.settings.menu.title}}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
@@ -545,11 +549,9 @@
           {% render 'megamenu' menu:top_menu %}
         {%- endfor %}
 
-       
-
 
       {%- endif -%}
-    {%- endif -%}
+
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
