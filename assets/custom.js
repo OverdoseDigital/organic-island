@@ -1,6 +1,6 @@
 // Mega menu
-function megamenuFunction(event, name) {
-  
+function megamenuFunction(event, menu_name) {
+  console.log(menu_name);
 }
 
 
