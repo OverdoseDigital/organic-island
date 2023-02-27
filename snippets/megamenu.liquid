@@ -14,7 +14,7 @@
 <nav class="header__inline-menu megamenu"  main_menu_title="{{menu.title}}" >
     <ul class="list-menu list-menu--inline" role="list">
       {%- for link in menu.links -%}
-        <li link_title="{{link.handle}}">
+        <li link_title="{{link.handle}}" link_level="{{link.levels}}">
           {%- if link.links != blank -%}
             <header-menu>
               <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu left-of-logo">
