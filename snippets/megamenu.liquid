@@ -52,8 +52,10 @@
                 </div>
 
                 {% for block in section.blocks %}
-                    {{block.settings.menu_name}}
+                    {%- assign menu_name = block.settings.menu_name | handle -%}
+                    {% if link.handle == menu_name %}
                     <img src="{{block.settings.image1 | img_url:'original' }}">
+                    {% endif %}
                 {% endfor %}
 
                 </div>
