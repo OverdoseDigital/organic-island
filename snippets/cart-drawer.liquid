@@ -398,13 +398,6 @@
         <!-- Subtotals -->
 
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
-
-        <div class="discount_con">
-            <h2 class="discount_t">{{ 'sections.cart.subtotal' | t }}</h2>
-            <p class="discount-value">{{ cart.total_price | money_with_currency }}</p>
-          </div>
-
-
           <div class="totals" role="status">
             <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
             <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
