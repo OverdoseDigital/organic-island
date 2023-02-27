@@ -11,10 +11,10 @@
                   <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   {% render 'icon-caret' %}
                 </summary>
-                <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
+                <div id="MegaMenu-Content-{{ forloop.index }}" class="page-width mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
                     <h2 content="noindex"> {{menu.title}} </h2>
                       {% assign breakingNumber = link.levels | divided_by: 2 %}
-                  <ul class="mega-menu__list page-width {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
+                  <ul class="mega-menu__list  {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
                    
                   
 
