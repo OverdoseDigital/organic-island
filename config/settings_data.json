@@ -127,6 +127,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "continue__shopping": "Continue Shopping",
+    "continue_url": "#",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
