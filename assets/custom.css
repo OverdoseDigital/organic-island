@@ -45,7 +45,7 @@ a.button {cursor: pointer;}
       display: -webkit-flex;
       display: flex;
     }
-    
+     
     .flex-align-center {
       -webkit-align-items: center;
       align-items: center;
