@@ -43,12 +43,12 @@
               </button>
 
             {%- if shop.customer_accounts_enabled and customer == null -%}
-                <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p>
+                {% comment %} <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p> {% endcomment %}
                 <p class="cart__login-paragraph">
                   {{ 'sections.cart.login.paragraph_html' | t: link: routes.account_login_url }}
                 </p>
               {%- endif -%}
-              
+
               <a href="{{ routes.all_products_collection_url }}" class="button w-100 button--primary">
                 {{ 'general.continue_shopping' | t }}
               </a>
