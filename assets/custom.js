@@ -10,8 +10,8 @@ function megamenuFunction(event, menu_name) {
   //   }
   // });  
 
-var topMenuElement = document.querySelectorAll("parent-element");
-var mainNavElements = parentElement.querySelectorAll(".sibling-class");
+var topMenuElement = document.querySelectorAll("nav.megamenu");
+var mainNavElements = parentElement.querySelectorAll(".topmenu li");
 for (var i = 0; i < topMenuElement.length; i++) {
   var nav_megamenu_title = mainNavElements[i].getAttribute('data_menu');
   var topMenuElement_title = topMenuElement[i].getAttribute('data-name');
