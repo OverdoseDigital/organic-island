@@ -224,8 +224,8 @@ nav.header__inline-menu.megamenu {display: none;}
 .mega-menu__content .subscribe-wrap h2{font-weight: 400; font-size: 2.5rem; margin:5px 0;}
 .mega-menu__content .subscribe-wrap a{font-weight: 400; font-size: 1.3rem; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px;}
 .mega-menu__content .subscribe-wrap a:hover, .mega-menu__content .subscribe-wrap a:focus{text-decoration: none;}
-
-
+.megamenu-image-wrap .image-wrap{position: relative;}
+.megamenu-image-wrap .image-wrap .content__wrap{position:absolute; top: 50%; left: 0; right: 0; margin: 0 auto; z-index: 2;}
 
 
 
