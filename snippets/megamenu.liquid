@@ -56,9 +56,19 @@
                 {% for block in section.blocks %}
                     {%- assign menu_name = block.settings.menu_name | handle -%}
                     {% if link.handle == menu_name %}
-                        <div class="image-wrap">
-                          <img src="{{block.settings.image | img_url:'original' }}">
-                        </div>
+                        {%- if block.settings.image != blank -%}
+                            <div class="image-wrap">
+                             <img src="{{block.settings.image | img_url:'original' }}">
+                            </div>
+                        {%- endif -%}
+                        {%- if block.settings.subtitle != blank and block.settings.subscribe_title != blank  -%}
+                            <div class="subscribe-wrap">
+                             <h3>{{block.settings.subtitle}}</h3>
+                             <h2>{{block.settings.subscribe_title}}</h2>
+                             <a>{{block.settings.subscribe_button_text}}</a>
+                            </div>
+                        {%- endif -%}
+                        
                     {% endif %}
                 {% endfor %}
               </div>
