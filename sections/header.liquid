@@ -492,7 +492,7 @@
           </ul>
         </nav>
       {%- else -%}
-        <nav class="header__inline-menu megamenu"  title="{{section.settings.menu.title}}">
+        {% comment %} <nav class="header__inline-menu megamenu"  title="{{section.settings.menu.title}}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -535,7 +535,7 @@
               </li>
             {%- endfor -%}
           </ul>
-        </nav>
+        </nav> {% endcomment %}
 
         {% render 'megamenu' %}
 
