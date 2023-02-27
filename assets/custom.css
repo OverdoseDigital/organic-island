@@ -208,7 +208,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 .cart-item__quantity-wrapper .button.button--tertiary{min-height: unset; margin-bottom: 0; line-height: 0px;}
 .cart-drawer .drawer__inner{padding: 0;}
 .cart-drawer .drawer__inner .drawer__header{padding: 1.5rem 2.4rem;}
-
+.cart-drawer .cart-drawer__form{padding: 0 2.4rem;}
 
 
  
