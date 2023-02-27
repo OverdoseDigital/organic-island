@@ -150,7 +150,9 @@
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
  <top-menu class="topmenu page-width small-hide">
   <ul class="d-flex">{% for link in top_menu.links %}
-    <li class="{% if forloop.first %} active {% endif %}" data-name="{{link.handle}}" onclick="myFunction(event,'{{link.handle}}')">  {{link.title}}</li>
+    <li class="{% if forloop.first %} active {% endif %}" data-name="{{link.handle}}" onclick="megamenuFunction(event,'{{link.handle}}')"> 
+     {{link.title}}
+    </li>
     {% endfor %}
   </ul>
 </top-menu>
