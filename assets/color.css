@@ -21,8 +21,8 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 .topmenu li.active{background:#fff; color: #232936;}
 .topmenu li{color: #fff;}
 
-
-
+/* cart drawer */
+.drawer__inner .cart-item__name{color: #212121;}
 
 
 
