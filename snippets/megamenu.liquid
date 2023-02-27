@@ -9,7 +9,7 @@
 </style>
 {% assign menu = section.settings.menu %}
 
-<nav class="header__inline-menu megamenu"  title="{{menu.title}}" >
+<nav class="header__inline-menu megamenu"  main_menu_title="{{menu.title}}" >
     <ul class="list-menu list-menu--inline" role="list">
       {%- for link in menu.links -%}
         <li>
