@@ -27,7 +27,7 @@
                 <div class="megamenu-content-wrap" menu_link_title="{{link.handle}}">
                   <h2 content="noindex"> {{menu.title}} </h2>
 
-                  {% if link.levels == 1 %}{% assign breakingNumber = link.links.size | divided_by: 2 %}{% endif %}
+                 {% assign breakingNumber = link.links.size | divided_by: 2 %}
 
                   <ul class="mega-menu__list  {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
                     {%- for childlink in link.links -%}
@@ -47,10 +47,12 @@
                           </ul>
                         {%- endif -%}
                       </li>
-                      {%- if forloop.index == breakingNumber -%}
-                      </ul>
-                      <ul class="mega-menu__list 52 {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
-                      {%- endif -%}
+                      {% if link.levels == 1 %}
+                        {%- if forloop.index == breakingNumber -%}
+                        </ul>
+                        <ul class="mega-menu__list 52 {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
+                        {%- endif -%}
+                      {% endif %}
                     {%- endfor -%}
                   </ul>
                 </div>
