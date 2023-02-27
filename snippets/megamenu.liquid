@@ -35,6 +35,10 @@
                           </ul>
                         {%- endif -%}
                       </li>
+                      {%- if forloop.index == breakingNumber -%}
+                      </ul>
+                      <ul class="mega-menu__list  {% if link.levels == 1 %} mega-menu__list--condensed {% endif %}" role="list"  breakingNumber="{{breakingNumber}}" links_levels="{{link.levels}}" links_size="{{link.links.size}}">
+                      {%- endif -%}
                     {%- endfor -%}
                   </ul>
                 </div>
