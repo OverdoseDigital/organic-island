@@ -13,7 +13,7 @@
 
 <nav class="header__inline-menu megamenu" data_menu="{{menu}}" main_menu_title="{{menu.title}}" >
     <ul class="list-menu list-menu--inline" role="list">
-      {%- for link in menu.links -%}
+      {%- for link in linklists[menu].links -%}
         <li link_title="{{link.handle}}" link_level="{{link.levels}}">
           {%- if link.links != blank -%}
             <header-menu>
