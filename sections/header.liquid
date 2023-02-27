@@ -546,10 +546,10 @@
         {% for link in linklists[section.settings.top_menu].links -%}
           {% assign top_menu = link.handle | escape %} 
 
-          {% for link in linklists[top_menu].links -%}
+          {% comment %} {% for link in linklists[top_menu].links -%}
             {{ link.title | link_to: link.url }}
-        {%- endfor %}
-          {% comment %} {% render 'megamenu' menu:top_menu %} {% endcomment %}
+        {%- endfor %} {% endcomment %}
+          {% render 'megamenu' menu:top_menu %}
         {%- endfor %}
 
 
