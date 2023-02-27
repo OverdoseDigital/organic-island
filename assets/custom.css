@@ -219,8 +219,8 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 nav.header__inline-menu.megamenu.active {display: block!important;}
 nav.header__inline-menu.megamenu {display: none;}
 
-
-
+.subscribe-wrap {background: #F3F0EA; padding: 30px;}
+.subscribe-wrap h3{font-weight: 400; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
 
 
 
