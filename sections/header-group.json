@@ -28,7 +28,8 @@
           "type": "megamenu",
           "settings": {
             "menu_name": "Shop",
-            "link_list": ""
+            "link_list": "",
+            "image1": "shopify:\/\/shop_images\/image.png"
           }
         }
       },
