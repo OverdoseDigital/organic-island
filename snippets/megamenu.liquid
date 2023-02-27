@@ -1,4 +1,4 @@
-<nav class="header__inline-menu megamenu" data_menu="{{menu}}" main_menu_title="{{menu.title}}" data-index="{{index}}" >
+<nav class="header__inline-menu megamenu {% if index == 1 %} active {% endif %}" data_menu="{{menu}}" main_menu_title="{{menu.title}}" data-index="{{index}}" >
     <ul class="list-menu list-menu--inline" role="list">
       {%- for link in linklists[menu].links -%}
         <li link_title="{{link.handle}}" link_level="{{link.levels}}">
