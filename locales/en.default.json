@@ -268,6 +268,7 @@
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
       "subtotal": "Your Total",
+      "discount_text": "Discount",
       "new_subtotal": "New subtotal",
       "note": "Order special instructions",
       "checkout": "Check out",
