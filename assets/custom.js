@@ -1,15 +1,37 @@
 // Mega menu
 function megamenuFunction(event, menu_name) {
   console.log(menu_name);
-  [...document.querySelectorAll('nav.megamenu')].forEach(function (item) {
-    console.log(item.getAttribute('data_menu'));
-    var nav_megamenu_title = item.getAttribute('data_menu');
-    if( menu_name == nav_megamenu_title ){
-      item.classList.add('active');
-    }else{
-      item.classList.remove('active');
-    }
-  });  
+  // [...document.querySelectorAll('nav.megamenu')].forEach(function (item) {
+  //   var nav_megamenu_title = item.getAttribute('data_menu');
+  //   if( menu_name == nav_megamenu_title ){
+  //     item.classList.add('active');
+  //   }else{
+  //     item.classList.remove('active');
+  //   }
+  // });  
+
+var topMenuElement = document.querySelectorAll("parent-element");
+var mainNavElements = parentElement.querySelectorAll(".sibling-class");
+for (var i = 0; i < topMenuElement.length; i++) {
+  var nav_megamenu_title = mainNavElements[i].getAttribute('data_menu');
+  var topMenuElement_title = topMenuElement[i].getAttribute('data-name');
+  if( menu_name == nav_megamenu_title ){
+    mainNavElements[i].classList.add('active');
+  }else{
+    mainNavElements[i].classList.remove('active');
+  }
+
+  if( menu_name == topMenuElement_title ){
+    topMenuElement[i].classList.add('active');
+  }else{
+    topMenuElement[i].classList.remove('active');
+  }
+
+  mainNavElements[i].classList.remove("class-to-remove");
+}
+
+
+
 }
 
 
