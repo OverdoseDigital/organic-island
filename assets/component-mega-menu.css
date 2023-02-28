@@ -35,12 +35,12 @@
 
 }
 
-.mega-menu__list {
+/* .mega-menu__list {
   display: grid;
   gap: 2.4rem 4rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
-}
+} */
 
 .mega-menu__link {
   color: rgba(var(--color-foreground), 0.75);
