@@ -248,7 +248,7 @@ nav.header__inline-menu.megamenu {display: none;}
 .megamenu-image-wrap .image-wrap .content__wrap{position:absolute; top: 32px; bottom: 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; left: 0; right: 0; margin: 0 auto; z-index: 2; width: calc(100% - 40px);}
 .megamenu-image-wrap .content__wrap h2{font-weight: 400; font-size: 2.5rem; margin:5px 0; text-align: center; line-height: 3rem;}
 
-.mega-menu[open] .mega-menu__content{display:flex; margin: 0 9rem;}
+.mega-menu[open] .mega-menu__content{display:flex; margin: 0 9rem; padding: 4rem;}
 .megamenu-image-wrap{display: flex; column-gap: 40px; width: 60%;}
 .m-top-gap{margin-top: 60px;}
 
