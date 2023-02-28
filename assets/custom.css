@@ -25,8 +25,9 @@ body{
 
 
   h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{
-    font-weight: bold;
+    font-weight: 400;
     letter-spacing: 0;
+    font-family: 'Adobe Garamond Pro';
   }
   /* for global use */
   .full-width {
