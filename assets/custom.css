@@ -5,7 +5,14 @@ body{
     font-size: 1.3rem;
   }
 
-
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('https://cdn.shopify.com/s/files/1/0683/6374/7618/files/AGaramondPro-Regular.woff2?v=1677566683.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0683/6374/7618/files/AGaramondPro-Regular.woff?v=1677566683.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'Adobe Garamond Pro';
     src: url('https://cdn.shopify.com/s/files/1/0683/6374/7618/files/AGaramondPro-Bold.woff2?v=1677566504.woff2') format('woff2'),
