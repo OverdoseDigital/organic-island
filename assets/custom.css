@@ -234,7 +234,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 
 /* mega menu */
 .megamenu-content-wrap{width:40%;}
-.megamenu-content-wrap ul.mega-menu__list.mega-menu__list--condensed {display: inline-block;padding-right: 20px;}
+.megamenu-content-wrap ul.mega-menu__list.mega-menu__list--condensed {display: inline-block;}
 .megamenu-content-wrap ul.mega-menu__list{padding-left: 0;}
 nav.header__inline-menu.megamenu.active {display: block!important;}
 nav.header__inline-menu.megamenu {display: none;}
