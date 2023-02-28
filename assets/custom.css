@@ -240,7 +240,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 nav.header__inline-menu.megamenu.active {display: block!important;}
 nav.header__inline-menu.megamenu {display: none;}
 
-.subscribe-wrap {background: #F3F0EA; padding: 30px; min-width: 304px; text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; flex-direction: column;}
+.subscribe-wrap {background: #F3F0EA; padding: 30px; max-width: 304px; text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; flex-direction: column;}
 .mega-menu__content .subscribe-wrap h3{font-weight: 400; font-size: 1.2rem; letter-spacing: 1px; text-transform: uppercase; font-family: 'Arial'; margin:0;}
 .mega-menu__content .subscribe-wrap h2{font-weight: 400; font-size: 2.5rem; margin:2px 0 14px;}
 .mega-menu__content .subscribe-wrap a{font-weight: 400; font-size: 1.3rem; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px;}
