@@ -4,6 +4,19 @@ body{
     font-style: normal;
     font-size: 1.3rem;
   }
+
+  
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('AGaramondPro-Bold.woff2') format('woff2'),
+        url('AGaramondPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
   h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5{
     font-weight: bold;
     letter-spacing: 0;
