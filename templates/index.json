@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Skincare inspired by wander and wellbeing",
+            "heading": "Skincare inspired by <br>wander and wellbeing",
             "heading_size": "h0"
           }
         },
@@ -167,6 +167,7 @@
         "color_scheme": "background-2",
         "heading_color": "#232936",
         "paragraph_color": "#4f5861",
+        "mobile_layout": "image_first",
         "mobile_content_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 80,
@@ -249,6 +250,7 @@
         "color_scheme": "background-2",
         "heading_color": "",
         "paragraph_color": "#232936",
+        "mobile_layout": "image_first",
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40,
@@ -304,6 +306,7 @@
         "color_scheme": "background-1",
         "heading_color": "#232936",
         "paragraph_color": "#4f5861",
+        "mobile_layout": "image_first",
         "mobile_content_alignment": "left",
         "padding_top": 120,
         "padding_bottom": 120,
