@@ -251,7 +251,7 @@ nav.header__inline-menu.megamenu {display: none;}
 .mega-menu[open] .mega-menu__content{display:flex; margin: 0 9rem; padding: 4rem;}
 .megamenu-image-wrap{display: flex; column-gap: 40px; width: 60%;}
 .m-top-gap{margin-top: 60px;}
-.megamenu .mega-menu__list .mega-menu__link{font-weight: 400; letter-spacing: 0.2px; font-size: 15px;}
+.megamenu .mega-menu__list .mega-menu__link{font-weight: 400; letter-spacing: 0.2px; font-size: 1.5rem;}
 
 
 
