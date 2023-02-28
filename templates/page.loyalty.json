@@ -161,7 +161,7 @@
       ],
       "settings": {
         "full_width": false,
-        "bg_color": "#fff",
+        "bg_color": "#ffffff",
         "image": "shopify:\/\/shop_images\/birthday-gifts.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "height": "adapt",
@@ -475,7 +475,7 @@
       "settings": {
         "caption": "",
         "heading": "FAQs",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "background-1",
