@@ -28,11 +28,10 @@
           "type": "megamenu",
           "settings": {
             "title": "Shop",
-            "link_list": "",
             "image": "shopify:\/\/shop_images\/image.png",
             "image_url": "",
             "img_title": "Organic skincare inspired by wander and wellbeing",
-            "button_text": "shop All",
+            "button_text": "shop all skincare",
             "subtitle": "SUBSCRIBE & Save",
             "subscribe_title": "Organic skincare inspired by wander and wellbeing",
             "subscribe_button_text": "Learn more",
@@ -43,7 +42,6 @@
           "type": "megamenu",
           "settings": {
             "title": "Rituals",
-            "link_list": "",
             "image_url": "",
             "img_title": "Organic skincare inspired by wander and wellbeing",
             "button_text": "shop All",
