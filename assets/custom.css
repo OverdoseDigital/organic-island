@@ -5,11 +5,11 @@ body{
     font-size: 1.3rem;
   }
 
-  
+
 @font-face {
     font-family: 'Adobe Garamond Pro';
-    src: url('AGaramondPro-Bold.woff2') format('woff2'),
-        url('AGaramondPro-Bold.woff') format('woff');
+    src: url('https://cdn.shopify.com/s/files/1/0683/6374/7618/files/AGaramondPro-Bold.woff2?v=1677566504.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0683/6374/7618/files/AGaramondPro-Bold.woff?v=1677566504.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
