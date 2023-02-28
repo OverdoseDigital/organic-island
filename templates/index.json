@@ -68,7 +68,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/organic-ingredients.png",
             "title": "100% organic ingredients",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque mattis.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -78,7 +78,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sustainable.png",
             "title": "Sustainable packaging",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ellentesque mattis.<\/p>",
             "link_label": "",
             "link": ""
           }
