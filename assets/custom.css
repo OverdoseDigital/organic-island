@@ -255,6 +255,10 @@ nav.header__inline-menu.megamenu {display: none;}
 .megamenu .mega-menu__list .mega-menu__link.mega-menu__link--level-2{font-weight: 400; letter-spacing: 0; margin-bottom: 0; font-size: 2rem; font-family: 'Adobe Garamond Pro';}
 .megamenu .mega-menu__list.mega-menu__list--condensed .mega-menu__link.mega-menu__link--level-2{font-family: 'Arial'; font-weight: 400; letter-spacing: 0.2px; font-size: 1.5rem;}
 .mega-menu__link--level-2:not(:only-child){padding-top: 0;}
+@media(min-width:1024px) and (max-width:1366px){
+.megamenu .mega-menu__content{overflow-y: auto;}
+}
+
 
 @media(min-width:989px){
   nav.header__inline-menu.megamenu.active {display: block;}
