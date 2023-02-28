@@ -258,6 +258,7 @@ nav.header__inline-menu.megamenu {display: none;}
 
 @media(min-width:989px){
   nav.header__inline-menu.megamenu.active {display: block;}
+  .megamenu-content-wrap{width:100%;}
 }
 
 
