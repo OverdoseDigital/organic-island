@@ -334,22 +334,6 @@
         "mob_padding_bottom": 20
       }
     },
-    "167759143842df778d": {
-      "type": "apps",
-      "blocks": {
-        "0588bd5d-0050-4c81-b94e-6d3afdd6bb81": {
-          "type": "shopify:\/\/apps\/yotpo-subscriptions\/blocks\/app-block\/ef25e582-ada5-4bb0-b4e7-f94e97ab1bb4",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "0588bd5d-0050-4c81-b94e-6d3afdd6bb81"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "188963f8-ca9f-462a-b51a-ebcb1e1e077a": {
       "type": "rich-text",
       "blocks": {
@@ -392,7 +376,6 @@
     "a5194981-8759-46d7-8063-1f8b38927900",
     "d3590daa-874a-4429-8cb9-6a5ceb1ed37f",
     "d961a777-8313-4299-ac7a-970ab830071b",
-    "167759143842df778d",
     "188963f8-ca9f-462a-b51a-ebcb1e1e077a"
   ]
 }
