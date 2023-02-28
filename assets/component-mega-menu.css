@@ -53,6 +53,7 @@
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
   font-family: 'Arial';
+  letter-spacing: 0.2px;
 }
 
 .mega-menu__link--level-2 {
