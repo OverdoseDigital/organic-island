@@ -281,6 +281,9 @@ summary .icon-caret{height: 0.5rem;}
   .facets-container .mobile-facets__open{padding: 11px 20px; letter-spacing: 1px; text-transform: uppercase; align-items: center; justify-content: center;}
   .facets-container{display: flex !important; flex-wrap: wrap;}
   .mobile-facets__wrapper, .mobile-facets__disclosure{width: 100%;}
+  .mobile-facets__header .mobile-facets__heading{font-weight: 400; font-size: 2rem;}
+
+
 }
 
 
