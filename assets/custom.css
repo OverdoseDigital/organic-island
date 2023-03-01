@@ -278,7 +278,7 @@ summary .icon-caret{height: 0.5rem;}
 
 /* mobile */
 @media(max-width:749px){
-  .facets-container .mobile-facets__open{background: #232936; padding: 5px 20px;}
+  .facets-container .mobile-facets__open{background: #232936; color: #fff; padding: 5px 20px;}
 }
 
 
