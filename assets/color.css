@@ -48,7 +48,7 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 .blog .read-more{color:#232936;}
 
  /* collection */
- .facets-container .facets__summary{color:#232936;}
+ .facets-container .facets__summary, summary .icon-caret{color:#232936;}
 
 
 
