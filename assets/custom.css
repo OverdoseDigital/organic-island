@@ -269,8 +269,8 @@ nav.header__inline-menu.megamenu {display: none;}
 .facets-container .facets__summary, .facets-container .facets__heading,
 .facet-filters__label, .product-count__text, .facets-container .facet-filters__sort{font-weight: 400; font-family: 'Arial'; font-size: 1.2rem !important; text-transform: uppercase; letter-spacing: 1px;}
 summary .icon-caret{height: 0.5rem;}
-.facet-filters__field .select{border-bottom: none;}
-
+.facets-container .facet-filters__field .select{border-bottom: none;}
+.facets-container .select__select:focus{border-bottom: none;}
 
 
 
