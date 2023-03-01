@@ -282,7 +282,7 @@ summary .icon-caret{height: 0.5rem;}
   .facets-container{display: flex !important; flex-wrap: wrap;}
   .mobile-facets__wrapper, .mobile-facets__disclosure{width: 100%;}
   .mobile-facets__header .mobile-facets__heading{font-weight: 400; font-size: 2rem;}
-  .mobile-facets__header .mobile-facets__count{}
+  .mobile-facets__header .mobile-facets__count{font-weight: 400; font-size: 13px;}
 
 }
 
