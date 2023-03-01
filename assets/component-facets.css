@@ -261,7 +261,7 @@
 
 .facets__header {
   border-bottom: 1px solid rgba(var(--color-foreground), 0.2);
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.6rem;
   display: flex;
   justify-content: space-between;
   font-size: 1.4rem;
@@ -272,7 +272,7 @@
 }
 
 .facets__list {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.6rem;
 }
 
 .facets__item {
