@@ -51,7 +51,7 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
  .facets-container .facets__summary, summary .icon-caret, 
  .facets-container .facets__heading,
  .facet-filters__label, .product-count__text, .facets-container .facet-filters__sort{color:#232936 !important;}
-
+ .facets-container .mobile-facets__open{background: #232936; color: #fff;}
 
 
 
