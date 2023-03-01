@@ -293,6 +293,7 @@
   font-weight: 400;
   display: flex;
   word-break: break-word;
+  color: #232936;
 }
 
 .facet-checkbox input[type='checkbox'] {
