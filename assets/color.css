@@ -53,7 +53,8 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
  .facet-filters__label, .product-count__text, .facets-container .facet-filters__sort{color:#232936 !important;}
  .facets-container .mobile-facets__open{background: #232936; color: #fff;}
  .mobile-facets__header .mobile-facets__count{color:#4F5861;}
- .mobile-facets__clear-wrapper .mobile-facets__clear{color: #232936;}
+ .mobile-facets__clear-wrapper .mobile-facets__clear,  
+ .mobile-facets .mobile-facets__summary{color: #232936;}
 
 
 
