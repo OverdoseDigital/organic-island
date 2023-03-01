@@ -289,7 +289,8 @@
   padding: 1rem 2rem 1rem 0;
   flex-grow: 1;
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
   display: flex;
   word-break: break-word;
 }
