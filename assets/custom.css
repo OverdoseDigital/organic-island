@@ -267,7 +267,7 @@ nav.header__inline-menu.megamenu {display: none;}
 
  /* collection */
 .facets-container .facets__summary, .facets-container .facets__heading,
-.facet-filters__label{font-weight: 400; font-family: 'Arial'; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
+.facet-filters__label, .product-count__text{font-weight: 400; font-family: 'Arial'; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
 summary .icon-caret{height: 0.5rem;}
 
 
