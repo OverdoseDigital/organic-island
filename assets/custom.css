@@ -276,7 +276,10 @@ summary .icon-caret{height: 0.5rem;}
 .facets-container .facet-filters__field .select__select{padding: 0px 7px;}
 .facets-container .facets__form .product-count{opacity: 1;}
 
-
+/* mobile */
+@media(max-width:749px){
+  .facets-container .mobile-facets__open{background: #232936; padding: 5px 20px;}
+}
 
 
 
