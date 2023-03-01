@@ -279,7 +279,7 @@ summary .icon-caret{height: 0.5rem;}
 /* mobile */
 @media(max-width:749px){
   .facets-container .mobile-facets__open{padding: 11px 20px; letter-spacing: 1px; text-transform: uppercase;}
-  
+  .facets-container{display: flex; flex-wrap: wrap;}
 }
 
 
