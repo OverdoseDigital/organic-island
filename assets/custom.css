@@ -285,7 +285,7 @@ summary .icon-caret{height: 0.5rem;}
   .mobile-facets__header .mobile-facets__count{font-weight: 400; font-size: 13px;}
   .mobile-facets__footer .button.button--primary{width:auto; justify-content: space-between;}
   .mobile-facets__clear-wrapper{justify-content: flex-start;}
-  .mobile-facets__clear-wrapper .mobile-facets__clear{color: #232936; font-weight: 400; font-size: 15px;}
+  .mobile-facets__clear-wrapper .mobile-facets__clear{font-weight: 400; font-size: 15px;}
 
 }
 
