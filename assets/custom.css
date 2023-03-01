@@ -271,7 +271,7 @@ nav.header__inline-menu.megamenu {display: none;}
 summary .icon-caret{height: 0.5rem;}
 .facets-container .facet-filters__field .select{border-bottom: none;}
 .facets-container .select__select:focus{border-bottom: none;}
-
+.facets-container .facet-filters__sort:focus-visible{outline: none; box-shadow: none;}
 
 
 
