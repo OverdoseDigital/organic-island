@@ -579,7 +579,7 @@ a.active-facets__button.focused .active-facets__button-inner,
 
 .mobile-facets__inner {
   background-color: rgb(var(--color-background));
-  width: calc(100% - 5rem);
+  width: calc(100% - 4rem);
   margin-left: auto;
   height: 100%;
   overflow-y: auto;
