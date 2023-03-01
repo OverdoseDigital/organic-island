@@ -291,7 +291,7 @@ summary .icon-caret{height: 0.5rem;}
   .mobile-facets__arrow, .mobile-facets__summary .icon-caret{display: inherit !important;}
   .mobile-facets .mobile-facets__sort:focus-visible{outline: none; box-shadow: none;}
   .mobile-facets .mobile-facets__sort .select{border-bottom: none;}
-
+  .mobile-facets__sort .select__select{font-weight: 400; font-family: 'Arial'; font-size: 1.2rem !important; text-transform: uppercase; letter-spacing: 1px;}
 }
 
 
