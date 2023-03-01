@@ -549,7 +549,7 @@ a.active-facets__button.focused .active-facets__button-inner,
 .mobile-facets__clear-wrapper {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .mobile-facets {
