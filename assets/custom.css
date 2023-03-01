@@ -266,7 +266,7 @@ nav.header__inline-menu.megamenu {display: none;}
 }
 
  /* collection */
-.facets-container .facets__summary{font-weight: 400; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
+.facets-container .facets__summary, .facets-container .facets__heading{font-weight: 400; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
 summary .icon-caret{height: 0.5rem;}
 
 
