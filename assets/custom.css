@@ -286,7 +286,8 @@ summary .icon-caret{height: 0.5rem;}
   .mobile-facets__footer .button.button--primary{width:auto; min-width: auto;}
   .mobile-facets__clear-wrapper .mobile-facets__clear{font-weight: 400; font-size: 1.5rem;}
   .mobile-facets .mobile-facets__summary, .mobile-facets .mobile-facets__close-button{font-weight: 400; font-size: 1.2rem; letter-spacing: 0.2px; text-transform: uppercase;}
-  
+  .mobile-facets__summary svg{width: 2.5rem;}
+
 }
 
 
