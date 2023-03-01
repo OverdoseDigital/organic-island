@@ -290,6 +290,7 @@ summary .icon-caret{height: 0.5rem;}
   .mobile-facets__close-button .icon-arrow{width: 2.5rem;}
   .mobile-facets__arrow, .mobile-facets__summary .icon-caret{display: inherit !important;}
   .mobile-facets .mobile-facets__sort:focus-visible{outline: none; box-shadow: none;}
+  .mobile-facets .facet-filters__field .select{border-bottom: none;}
 
 }
 
