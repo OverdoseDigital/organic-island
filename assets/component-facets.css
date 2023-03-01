@@ -876,6 +876,7 @@ input.mobile-facets__checkbox {
   margin-top: auto;
   background-color:rgb(var(--color-background));
   background: var(--gradient-background);
+  justify-content: space-between; 
 }
 
 .mobile-facets__footer > * + * {
