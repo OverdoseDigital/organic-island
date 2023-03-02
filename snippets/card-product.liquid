@@ -111,7 +111,7 @@
             </h3>
           </div>
           <div class="card__badge 113 {{ settings.badge_position }}">
-
+<script>console.log({{card_product | json }});</script>
             {% if card_product.tags contains 'sticker' or card_product.tags contains 'Sticker' %}
               {% for tag in card_product.tags %}
                 {% if tag contains 'sticker' or tag contains 'Sticker' %}
