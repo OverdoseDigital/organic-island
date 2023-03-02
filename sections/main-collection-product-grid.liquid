@@ -197,20 +197,19 @@
               {%- endfor -%}
             </ul>
 
-            {%- if paginate.pages > 1 -%}
-              {% comment %} {% render 'pagination', paginate: paginate, anchor: '' %} {% endcomment %}
-              <div class="load-more-wrapper center">
-                <button
-                  id="load-more-button"
-                  class="load-more button"
-                  total-page="{{paginate.parts.size}}"
-                  data-current-page="{{paginate.current_page}}"
-                  next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}"
-                  href="#">
-                  Load More
-                </button>
-              </div>
-            {%- endif -%}
+               {% comment %}{%- if paginate.pages > 1 -%}
+            {% render 'pagination', paginate: paginate, anchor: '' %}
+            {%- endif -%} {% endcomment %}
+
+            <paginate-section>
+              {%- if paginate.pages > 1 -%}
+                      <div class="load-more-wrapper center">
+                        <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}" next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load More</button>
+                      </div>
+              {%- endif -%}
+            </paginate-section>
+
+
           </div>
         {%- endif -%}
       {%- endpaginate -%}
@@ -218,26 +217,8 @@
   </div>
 </div>
 
-<script>
-  var loadMoreButton = document.getElementById('load-more-button');
-  var productGrid = document.getElementById('product-grid');
-  var nextPageUrl = loadMoreButton.getAttribute('next-page-url');
 
-  loadMoreButton.addEventListener('click', function () {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', nextPageUrl);
-    xhr.onload = function () {
-      if (xhr.status === 200) {
-        var parser = new DOMParser();
-        var responseDoc = parser.parseFromString(xhr.responseText, 'text/html');
-        var nextProductGrid = responseDoc.getElementById('product-grid');
-        productGrid.appendChild(nextProductGrid.innerHTML);
-        nextPageUrl = responseDoc.querySelector('#load-more-button').getAttribute('next-page-url');
-      }
-    };
-    xhr.send();
-  });
-</script>
+
 
 {% schema %}
 {
