@@ -41,6 +41,11 @@ class pagination extends HTMLElement {
             .then(html => {
                 var parser = new DOMParser();
                 var doc = parser.parseFromString(html, 'text/html');
+                // Find the div you want to remove
+                const divToRemove = doc.querySelector('.grid__item.text-image-grid-item');    
+                if (divToRemove) {
+                    divToRemove.remove();
+                  }
                 const nextPageContent = doc.querySelector('.product-grid').innerHTML;
 
                 var dataCurrentPage = doc.querySelector('.load-more.button').getAttribute('data-current-page');
