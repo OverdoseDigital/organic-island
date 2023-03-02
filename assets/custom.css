@@ -291,8 +291,9 @@ summary .icon-caret{height: 0.5rem;}
   justify-content: center;
   text-align: center;
 }
-.card__badge {
-  border-left: 2px solid #6D889F;
+.card__badge .badge {
+  border-left: 2px solid #6D889F!important;
+  border-radius: unset;
 }
 .card__badge .badge {
   background: transparent;
