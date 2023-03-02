@@ -291,7 +291,7 @@ summary .icon-caret{height: 0.5rem;}
   justify-content: center;
   text-align: center;
 }
-.custom-content_design .card__badge{display: block;}
+.custom-content_design .card__badge{display: block!important;}
 
 
 
