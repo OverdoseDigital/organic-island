@@ -64,6 +64,7 @@ class pagination extends HTMLElement {
                 if (nextPageurlCheck == 'empty') {
                     this.classList.add('hide');
                 }
+                document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid").getElementsByTagName("li").length;
 
 
             })
