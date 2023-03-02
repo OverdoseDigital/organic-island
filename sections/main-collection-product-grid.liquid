@@ -197,7 +197,8 @@
             <paginate-section>
               {%- if paginate.pages > 1 -%}
                       <div class="load-more-wrapper center">
-                        <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}" next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load More</button>
+                        <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}" 
+                          next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load more (8/{{collection.all_products_count}})</button>
                       </div>
               {%- endif -%}
             </paginate-section>
