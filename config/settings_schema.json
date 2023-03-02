@@ -619,6 +619,35 @@
         "unit": "px",
         "label": "t:settings_schema.global.settings.blur.label",
         "default": 0
+      },
+      {
+        "type": "header",
+        "content": "Collection promo item"
+      },
+      {
+        "type": "text",
+        "id": "adHeading",
+        "label": "Ad Heading"
+      },
+      {
+        "type": "text",
+        "id": "adContent",
+        "label": "Ad Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "adImage",
+        "label": "Ad Image"
+      },
+      {
+        "type": "text",
+        "id": "adbuttonText",
+        "label": "Ad button text"
+      },
+      {
+        "type": "url",
+        "id": "adButtonlink",
+        "label": "Ad button link"
       }
     ]
   },
