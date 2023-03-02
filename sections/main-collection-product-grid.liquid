@@ -146,11 +146,8 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                grid--{{ section.settings.columns_desktop }}-col-desktop
-              "
-            >
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                grid--{{ section.settings.columns_desktop }}-col-desktop ">
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -168,6 +165,26 @@
                     section_id: section.id
                   %}
                 </li>
+                {% if forloop.index == 3 %}
+                  <li class="grid__item text-image-grid-item">  
+                    <div class="collection-grid-image-con"> 
+                        <div class="boost-pfs-action-overlay" >
+                          <img src="${boostPFSThemeConfig.custom.adImage}">
+                          <div class="text-btn-wrap">
+                          <h2> ${boostPFSThemeConfig.custom.adHeading}</h2>
+                          <div class="mega-menu__richtext">            
+                            <p>${boostPFSThemeConfig.custom.adText}</p>
+                          </div> 
+                          <div class="banner__buttons">
+                          <a class="more-btn button button--primary" href=" ${boostPFSThemeConfig.custom.adButtonLink}"> 
+                          ${boostPFSThemeConfig.custom.adButtonText}
+                          </a> 
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                  </li>
+                {% endif %}
               {%- endfor -%}
             </ul>
 
