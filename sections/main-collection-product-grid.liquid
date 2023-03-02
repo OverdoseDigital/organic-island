@@ -35,6 +35,10 @@
   position: relative;
 }
 
+{% if settings.card_style == 'standard' %}
+.card__content.custom-content_design {display: block;}
+{% endif %}
+
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding">
