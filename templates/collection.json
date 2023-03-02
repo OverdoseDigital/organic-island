@@ -5,7 +5,11 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "background-2"
+        "color_scheme": "background-2",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "mob_padding_top": 20,
+        "mob_padding_bottom": 20
       }
     },
     "product-grid": {
