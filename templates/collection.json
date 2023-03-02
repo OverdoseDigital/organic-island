@@ -8,8 +8,8 @@
         "color_scheme": "background-2",
         "padding_top": 80,
         "padding_bottom": 80,
-        "mob_padding_top": 20,
-        "mob_padding_bottom": 20
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 30
       }
     },
     "product-grid": {
