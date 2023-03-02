@@ -201,6 +201,7 @@
               {% comment %} {% render 'pagination', paginate: paginate, anchor: '' %} {% endcomment %}
               <div class="load-more-wrapper center">
                 <button
+                  id="load-more-button"
                   class="load-more button"
                   total-page="{{paginate.parts.size}}"
                   data-current-page="{{paginate.current_page}}"
@@ -220,7 +221,7 @@
 <script>
   var loadMoreButton = document.getElementById('load-more-button');
   var productGrid = document.getElementById('product-grid');
-  var nextPageUrl = document.querySelector('.pagination-next a').getAttribute('href');
+  var nextPageUrl = loadMoreButton.getAttribute('next-page-url');
 
   loadMoreButton.addEventListener('click', function () {
     var xhr = new XMLHttpRequest();
@@ -231,7 +232,7 @@
         var responseDoc = parser.parseFromString(xhr.responseText, 'text/html');
         var nextProductGrid = responseDoc.getElementById('product-grid');
         productGrid.appendChild(nextProductGrid.innerHTML);
-        nextPageUrl = responseDoc.querySelector('.pagination-next a').getAttribute('href');
+        nextPageUrl = responseDoc.querySelector('#load-more-button').getAttribute('next-page-url');
       }
     };
     xhr.send();
