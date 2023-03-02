@@ -51,9 +51,9 @@
         "template--17870003536162__822ebd33-0ed7-446f-9aa9-851748d92337-16777522449aef3f56-1"
       ],
       "settings": {
-        "heading_text_size": 30,
-        "heading_color": "",
-        "heading_formate": "capitalize",
+        "heading_text_size": 12,
+        "heading_color": "#4f5861",
+        "heading_formate": "uppercase",
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
