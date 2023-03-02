@@ -635,9 +635,10 @@
         "label": "Ad Content"
       },
       {
-        "type": "image_picker",
-        "id": "adImage",
-        "label": "Ad Image"
+        "type": "color",
+        "id": "ad_background",
+        "default": "#F3F0EA",
+        "label": "Ad Background"
       },
       {
         "type": "text",
