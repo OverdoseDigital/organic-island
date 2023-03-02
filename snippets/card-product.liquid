@@ -112,6 +112,13 @@
           </div>
           <div class="card__badge 113 {{ settings.badge_position }}">
 <script>console.log({{card_product | json }});</script>
+{% for tag in card_product.tags %}
+  {{tag}}
+  {% if tag contains 'sticker' or tag contains 'Sticker' %}
+    <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"> {{tag | split:":" | last}} </span>
+  {% endif %}
+{% endfor %}
+
             {% if card_product.tags contains 'sticker' or card_product.tags contains 'Sticker' %}
               {% for tag in card_product.tags %}
                 {{tag}}
