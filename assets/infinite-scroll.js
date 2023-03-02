@@ -6,6 +6,8 @@ class pagination extends HTMLElement {
         this.loadMoreButton.addEventListener('click', this.onloadMoreButtonClick.bind(this));
 
         //window.onscroll = this.myScroll.bind(this);
+
+        document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid li").length;
     }
 
     // myScroll() {
