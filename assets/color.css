@@ -65,7 +65,7 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 .load-more-wrapper .load-more.button{background: #232936;}
 
 @media(min-width:990px){
-.collection .grid {column-gap: 80px;}
+.collection .grid {column-gap: 80px; row-gap:40px;}
 .collection .grid--3-col-desktop .grid__item {
     width: calc(33.33% - 80px * 2 / 3);
     max-width: calc(33.33% - 80px * 2 / 3);
