@@ -29,10 +29,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5be5bd56-bde1-4c9c-963a-ac9c45fb36f8": {
+      "type": "dynamic-collection-seo",
+      "settings": {
+        "heading_text_size": 12,
+        "heading_color": "",
+        "heading_formate": "capitalize",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "text_width": 100,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mob_padding_top": 20,
+        "mob_padding_bottom": 20
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "5be5bd56-bde1-4c9c-963a-ac9c45fb36f8"
   ]
 }
