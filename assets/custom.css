@@ -185,7 +185,7 @@ p{font-size: 1.3rem; font-weight: 400; line-height: 17px; letter-spacing: 0;}
   box-shadow: none; border-bottom: 1px solid #519DFC;
 }
 input:-internal-autofill-selected{background: transparent;}
-
+.hide{display: none;}
  
 
 @media(max-width:749px){
