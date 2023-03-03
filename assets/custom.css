@@ -285,7 +285,7 @@ summary .icon-caret{height: 0.5rem;}
 .card__badge .badge {background: transparent; border: none; color: #6D889F; padding-left: 10px;}
 
 .card__information .card__heading{font-weight: 400; font-size: 2rem;}
-.card__information .caption-large{font-size: 1.3rem; font-weight: 400; letter-spacing: 0;}
+.card__information .caption-large{font-size: 1.3rem; font-weight: 400; letter-spacing: 0; line-height: 17px;} 
 
 
 
