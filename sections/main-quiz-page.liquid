@@ -16,6 +16,8 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .section-{{ section.id }}-padding{background:{{section.settings.bg_color}};}
 {%- endstyle -%}
 
 <div class="page-width  section-{{ section.id }}-padding center">
@@ -40,6 +42,11 @@
   "tag": "section",
   "class": "section quiz-page",
   "settings": [
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Section Background Color"
+      },
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
