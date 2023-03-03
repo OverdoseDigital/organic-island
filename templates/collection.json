@@ -29,46 +29,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "822ebd33-0ed7-446f-9aa9-851748d92337": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17870003536162__822ebd33-0ed7-446f-9aa9-851748d92337-16777522449aef3f56-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Seo Title<\/p>"
-          }
-        },
-        "template--17870003536162__822ebd33-0ed7-446f-9aa9-851748d92337-16777522449aef3f56-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet massa. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus aenean vel elit scelerisque. Nisi lacus sed viverra tellus in. Nunc consequat interdum varius sit amet. Non arcu risus quis varius quam quisque id diam vel. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17870003536162__822ebd33-0ed7-446f-9aa9-851748d92337-16777522449aef3f56-0",
-        "template--17870003536162__822ebd33-0ed7-446f-9aa9-851748d92337-16777522449aef3f56-1"
-      ],
-      "settings": {
-        "heading_text_size": 12,
-        "heading_color": "#4f5861",
-        "heading_formate": "uppercase",
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "text_width": 100,
-        "padding_top": 40,
-        "padding_bottom": 20,
-        "mob_padding_top": 20,
-        "mob_padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "822ebd33-0ed7-446f-9aa9-851748d92337"
+    "product-grid"
   ]
 }
