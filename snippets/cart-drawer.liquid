@@ -85,11 +85,30 @@
           class="drawer__close"
           type="button"
           onclick="this.closest('cart-drawer').close()"
-          aria-label="{{ 'accessibility.close' | t }}"
-        >
+          aria-label="{{ 'accessibility.close' | t }}" >
           {% render 'icon-close' %}
         </button>
       </div>
+
+      <div>
+        {% for product in collections['free-sample'].products %}
+          <div class="grid__item">
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 3:2,
+              show_secondary_image: false,
+              show_vendor: false,
+              show_rating: false,
+              lazy_load: true,
+              show_quick_add: true,
+              section_id: section.id
+            %}
+          </div>
+        {% endfor %}
+      </div>
+
+
+
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"
