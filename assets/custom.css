@@ -288,7 +288,7 @@ summary .icon-caret{height: 0.5rem;}
 .card__information .caption-large{font-size: 1.3rem; font-weight: 400; letter-spacing: 0; line-height: 17px;} 
 #product-grid .button{min-height: calc(4rem + var(--buttons-border-width) * 2);}
 .price .price-item--sale{font-size: 1.3rem; font-weight: 400; letter-spacing: 0;}
-#product-grid .text-btn-wrap h2{font-weight: 400; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}
+#product-grid .text-btn-wrap h2{font-weight: 400; font-size: 12px; letter-spacing: 1px; font-family: 'Arial'; text-transform: uppercase;}
 
 
 
