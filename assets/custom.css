@@ -280,27 +280,12 @@ summary .icon-caret{height: 0.5rem;}
 .facets-container .facets__form .product-count{opacity: 1;}
 
 
-.collection-grid-image-con {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.card__badge .badge {
-  border-left: 2px solid #6D889F!important;
-  border-radius: unset;
-}
-.card__badge .badge {
-  background: transparent;
-  border: none;
-  color: #6D889F;
-  padding-left: 10px;
-}
+.collection-grid-image-con {position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; text-align: center;}
+.card__badge .badge {border-left: 2px solid #6D889F!important; border-radius: unset;}
+.card__badge .badge {background: transparent; border: none; color: #6D889F; padding-left: 10px;}
+
+.card__information .card__heading{font-weight: 400; font-size: 2rem;}
+
 
 
 
@@ -324,7 +309,7 @@ summary .icon-caret{height: 0.5rem;}
 
 
 }
-
+ 
   
  
 
