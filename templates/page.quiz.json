@@ -4,8 +4,8 @@
       "type": "main-quiz-page",
       "settings": {
         "bg_color": "#f3f0ea",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 108,
+        "padding_bottom": 108
       }
     }
   },
