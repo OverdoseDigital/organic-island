@@ -33,7 +33,7 @@ function megamenuFunction(event, menu_name) {
 // quiz page
 function quizFunction() {
   console.log('click');
-  document.querySelector('.octane-ai-quiz').classList.add('active');
+  document.querySelector('.trigger-class').classList.add('active');
 }
 
 
