@@ -290,7 +290,7 @@ summary .icon-caret{height: 0.5rem;}
 .price .price-item--sale{font-size: 1.3rem; font-weight: 400; letter-spacing: 0;}
 #product-grid .text-btn-wrap h3{font-weight: 400; font-size: 1.2rem; letter-spacing: 1px; font-family: 'Arial'; text-transform: uppercase;}
 #product-grid .text-btn-wrap h2{font-weight: 400; font-size: 2.5rem; line-height: 3rem;}
-.more-btn{font-weight: 400; font-size: 1.3rem; text-decoration: underline;}
+.more-btn{font-weight: 400; font-size: 1.3rem; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px;}
 .more-btn:hover, .more-btn:focus{text-decoration: none;}
 
 
