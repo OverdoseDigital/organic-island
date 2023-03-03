@@ -31,14 +31,14 @@ function megamenuFunction(event, menu_name) {
 }
 
 // quiz page
-function quizFunction() {
-  document.querySelector('.page-content-wraper').classList.add('hide');
-  document.querySelector('.trigger-class').classList.add('active');
-}
-function backFunction() {
-  document.querySelector('.page-content-wraper').classList.remove('hide');
-  document.querySelector('.trigger-class').classList.remove('active');
-}
+// function quizFunction() {
+//   document.querySelector('.page-content-wraper').classList.add('hide');
+//   document.querySelector('.trigger-class').classList.add('active');
+// }
+// function backFunction() {
+//   document.querySelector('.page-content-wraper').classList.remove('hide');
+//   document.querySelector('.trigger-class').classList.remove('active');
+// }
 
 
 
