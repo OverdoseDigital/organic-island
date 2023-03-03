@@ -129,10 +129,10 @@ h3.sample-product-heading {
         </button>
       </div>
 
+      {%- if cart != empty -%}
       <div class="sample-product">
         <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
-
-<div class="d-flex grid flex-justify-content-space-between">
+       <div class="d-flex grid flex-justify-content-space-between">
         {% for product in collections['free-sample'].products %}
           <div class="grid__item">
             {% render 'card-product',
@@ -149,6 +149,7 @@ h3.sample-product-heading {
         {% endfor %}
       </div>
       </div>
+    {%- endif -%}
 
 
 
