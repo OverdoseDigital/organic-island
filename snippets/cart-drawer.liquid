@@ -62,6 +62,14 @@
 .sample-product  .price {
   display: none;
 }
+h3.sample-product-heading {
+  font-size: 12px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #232936;
+}
 
 </style>
 
@@ -122,7 +130,7 @@
       </div>
 
       <div class="sample-product">
-        <h3 class="sample-product-heading">add a free sample to your order</h3>
+        <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
 
 <div class="d-flex grid flex-justify-content-space-between">
         {% for product in collections['free-sample'].products %}
