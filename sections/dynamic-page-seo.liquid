@@ -23,16 +23,16 @@
 
 {%- endstyle -%}
 
-{% if collection.metafields.custom.seo_title != blank %}
+{% if page.metafields.custom.seo_title != blank %}
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         <h2 class="rich-text__heading rte">  
-          <span>{{collection.metafields.custom.seo_title}}</span> 
+          <span>{{page.metafields.custom.seo_title}}</span> 
           </h2>
           <div class="rich-text__text rte">
-            {{collection.metafields.custom.seo_text.html}}
+            {{page.metafields.custom.seo_text.html}}
           </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
 
 {% schema %}
 {
-  "name": "Dynamic Collection SEO",
+  "name": "Dynamic Page SEO",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -339,7 +339,7 @@
   ],
   "presets": [
     {
-      "name": "Dynamic Collection SEO"
+      "name": "Dynamic Page SEO"
       /* ,
      "blocks": [
         {
