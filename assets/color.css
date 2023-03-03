@@ -58,7 +58,7 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
  .mobile-facets__sort .select__select{color: #4F5861;}
  .mobile-facets__open:hover{color: #fff !important; text-decoration: none;}
 .facets__selected{color: #4F5861;}
-.card__information .card__heading, #product-grid .text-btn-wrap h2, #product-grid .text-btn-wrap h3{color: #232936;}
+.card__information .card__heading, #product-grid .text-btn-wrap h2, #product-grid .text-btn-wrap h3, .more-btn{color: #232936;}
 .card__information .caption-large{color: #4F5861;}
 .price .price-item--sale{color:#4F5861;}
 .price--on-sale .price-item--regular{color: #C51918;}
