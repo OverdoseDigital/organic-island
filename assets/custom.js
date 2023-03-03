@@ -33,7 +33,7 @@ function megamenuFunction(event, menu_name) {
 // quiz page
 function quizFunction() {
   console.log('click');
-  document.querySelector('.page-content-wraper').classList.remove('active');
+  document.querySelector('.page-content-wraper').classList.add('hide');
   document.querySelector('.trigger-class').classList.add('active');
 }
 
