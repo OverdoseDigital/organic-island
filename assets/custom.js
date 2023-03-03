@@ -31,9 +31,8 @@ function megamenuFunction(event, menu_name) {
 }
 
 // quiz page
-document.getElementById("myButton").addEventListener("click", myFunction);
-
 function quizFunction() {
+  console.log('click');
   document.querySelector('.octane-ai-quiz').classList.add('active');
 }
 
