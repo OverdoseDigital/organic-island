@@ -286,7 +286,7 @@ summary .icon-caret{height: 0.5rem;}
 
 .card__information .card__heading{font-weight: 400; font-size: 2rem;}
 .card__information .caption-large{font-size: 1.3rem; font-weight: 400; letter-spacing: 0; line-height: 17px;} 
-
+.button{min-height: calc(4rem + var(--buttons-border-width) * 2);}
 
 
 /* mobile */
