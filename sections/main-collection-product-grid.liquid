@@ -211,26 +211,7 @@
   </div>
 </div>
 
-<style>
-  .section-{{ section.id }}-padding .rich-text__blocks{width:{{section.settings.text_width}}%; max-width:100%;}
-  .section-{{ section.id }}-padding .rich-text__blocks .rich-text__heading{font-size:12px; font-family: 'Arial'; line-height:normal; color:#4f5861; text-transform:uppercase; letter-spacing: 1px;}
-  .section-{{ section.id }}-padding .rich-text__blocks .rich-text__text{margin-top:5px;}  
-</style>
 
-<div class="isolate"> 
-  <div class="rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-{{ section.id }}-padding ">
-    <div class="rich-text__wrapper rich-text__wrapper--left page-width">
-      <div class="rich-text__blocks left">
-        <h2 class="rich-text__heading rte">  
-        <span>{{collection.metafields.custom.seo_title}}</span> 
-        </h2>
-        <div class="rich-text__text rte">
-          {{collection.metafields.custom.seo_text.html}}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 {% schema %}
 {
