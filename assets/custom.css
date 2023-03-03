@@ -311,7 +311,7 @@ summary .icon-caret{height: 0.5rem;}
 #product-grid .text-btn-wrap h2{font-weight: 400; font-size: 2.5rem; line-height: 3rem; margin-top:5px; margin-bottom: 16px;}
 .more-btn{font-weight: 400; font-size: 1.3rem; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px;}
 .more-btn:hover, .more-btn:focus{text-decoration: none;}
-.collection .load-more-wrapper{margin-top:9rem;}
+.collection .load-more-wrapper{margin-top:8rem;}
 
 
 @media(max-width:749px){
