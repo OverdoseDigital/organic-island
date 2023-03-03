@@ -84,6 +84,7 @@
   color: rgba(var(--color-foreground), 0.75); */
   font-size: 1.3rem;
   text-decoration: none;
+  letter-spacing: 0;
 }
 
 .unit-price {
