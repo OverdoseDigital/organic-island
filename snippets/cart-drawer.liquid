@@ -98,9 +98,9 @@
         </button>
       </div>
 
-      <div class="d-flex sample-product flex-justify-content-space-between">
+      <div class="d-flex grid sample-product flex-justify-content-space-between">
         {% for product in collections['free-sample'].products %}
-          <div class="sample_grid__item">
+          <div class="grid__item">
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: 3:2,
