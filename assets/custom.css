@@ -314,12 +314,20 @@ summary .icon-caret{height: 0.5rem;}
 .collection .load-more-wrapper{margin-top:8rem;}
 
 
-@media(max-width:749px){
-#product-grid .text-btn-wrap h2{font-size: 2.2rem; line-height: 2.6rem;}
-.collection-grid-image-con {padding: 0 2rem;}
-}
-
-
+@media(min-width:990px){
+  .collection .grid {column-gap: 80px; row-gap:40px;}
+  .collection .grid--3-col-desktop .grid__item {
+      width: calc(33.33% - 80px * 2 / 3);
+      max-width: calc(33.33% - 80px * 2 / 3);
+  }
+  }
+  
+  @media(max-width:989px){
+  .collection .grid {padding: 0 2.5rem;}
+  #product-grid .text-btn-wrap h2{font-size: 2.2rem; line-height: 2.6rem;}
+  .collection-grid-image-con {padding: 0 2rem;}
+  
+  }
  
   
  
