@@ -299,7 +299,7 @@ summary .icon-caret{height: 0.5rem;}
 }
 
 /* collection grid */
-.collection-grid-image-con {position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; text-align: center;}
+.collection-grid-image-con {position: absolute; top: 0; bottom: 0; left: 0; right: 0; padding: 0 3rem; display: flex; align-items: center; justify-content: center; text-align: center;}
 .card__badge .badge {border-left: 2px solid #6D889F!important; border-radius: unset;}
 .card__badge .badge {background: transparent; border: none; color: #6D889F; padding-left: 10px;}
 
@@ -316,7 +316,7 @@ summary .icon-caret{height: 0.5rem;}
 
 @media(max-width:749px){
 #product-grid .text-btn-wrap h2{font-size: 2.2rem; line-height: 2.6rem;}
-
+.collection-grid-image-con {padding: 0 2rem;}
 }
 
 
