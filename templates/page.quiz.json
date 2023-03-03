@@ -7,9 +7,27 @@
         "padding_top": 108,
         "padding_bottom": 108
       }
+    },
+    "ae6dfe7a-071b-403b-80cc-334c955e1ac7": {
+      "type": "dynamic-page-seo",
+      "settings": {
+        "heading_text_size": 12,
+        "heading_color": "",
+        "heading_formate": "uppercase",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "text_width": 100,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mob_padding_top": 20,
+        "mob_padding_bottom": 20
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ae6dfe7a-071b-403b-80cc-334c955e1ac7"
   ]
 }
