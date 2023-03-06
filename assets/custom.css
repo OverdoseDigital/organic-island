@@ -339,7 +339,7 @@ summary .icon-caret{height: 0.5rem;}
   .trigger-class .oct-quiz-title{font-family: 'Adobe Garamond Pro' !important;}
   .oct-quiz-picture-choice-options .oct-quiz-picture-choice-options__option{font-size: 1.4rem !important; font-weight: 400; text-transform: uppercase !important; font-family: 'Arial' !important;}
   .trigger-class .oct-quiz-picture-choice-options__option:hover{color: #fff !important;}
-
+.oct-quiz-btn.oct-quiz-btn--secondary-text:hover{box-shadow: none !important; transform: none;}
 
 
   
