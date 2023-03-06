@@ -51,7 +51,7 @@ class CartItems extends HTMLElement {
       .then((responseText) => {
         const html = new DOMParser().parseFromString(responseText, 'text/html');
         const sourceQty = html.querySelector('cart-items');
-        this.innerHTML = sourceQty.innerHTML;
+        
 
         const swiperquickshopslider = new Swiper('.quick-shop-slider', {
           slidesPerView: 3,
@@ -61,6 +61,7 @@ class CartItems extends HTMLElement {
             clickable: true,
           }
         });
+        this.innerHTML = sourceQty.innerHTML;
 
       })
       .catch(e => {
