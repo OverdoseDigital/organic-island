@@ -332,7 +332,7 @@ summary .icon-caret{height: 0.5rem;}
   }
   
   /* quiz */
-  .trigger-class .oct-quiz-rich-text p{margin: 0; padding: 0; font-size: 1.8rem; font-weight: 400;}
+  .trigger-class .oct-quiz-rich-text p{margin: 0 !important; padding: 0; font-size: 1.8rem !important; font-weight: 400;}
   @media(min-width:768px){
  .trigger-class .oct-quiz-title{font-size: 35px !important; line-height: 35px;}
 
