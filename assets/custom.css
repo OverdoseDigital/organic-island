@@ -331,10 +331,11 @@ summary .icon-caret{height: 0.5rem;}
   
   }
   
-  
- 
+  /* quiz */
+  @media(min-width:768px){
+ .trigger-class .oct-quiz-title{font-size: 35px;}
 
-
+  }
 
 
 
