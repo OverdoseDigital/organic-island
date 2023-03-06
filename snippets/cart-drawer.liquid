@@ -200,7 +200,9 @@
 
       {%- for item in cart.items -%}
       {% for product in collections['free-sample'].products %}
+        {% if item.product_id == product.id %}
         {{item.product_id}}=={{product.id}}
+        {% endif %}
       {% endfor %}
       {% endfor %}
 
