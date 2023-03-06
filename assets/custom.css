@@ -347,6 +347,7 @@ summary .icon-caret{height: 0.5rem;}
   @media(min-width:768px){
  .trigger-class .oct-quiz-title{font-size: 35px !important; line-height: 35px;}
  .trigger-class .oct-quiz-btn-wrapper{padding-top:4rem !important;}
+ .oct-quiz-picture-choice-options.oct-quiz-picture-choice-options--ratio-custom{grid-template-columns: repeat(5, calc(100% / 5)) !important;}
   }
 
 
