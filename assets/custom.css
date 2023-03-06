@@ -342,7 +342,7 @@ summary .icon-caret{height: 0.5rem;}
   .trigger-class .oct-quiz-picture-choice-options__option:hover{color: #fff !important;}
 .oct-quiz-btn.oct-quiz-btn--secondary-text{font-size: 1.3rem !important; margin-top:95px !important; font-weight: 400 !important; font-family: 'Arial' !important; text-transform: capitalize !important;}
 .oct-quiz-btn.oct-quiz-btn--secondary-text:hover{box-shadow: none !important; transform: none; font-size: 1.3rem !important; font-weight: 400 !important; font-family: 'Arial' !important;}
-.trigger-class .oct-quiz-multiple-choice-options__option{min-width: 192px; padding: 20px 16px;}
+.trigger-class .oct-quiz-multiple-choice-options__option{min-width: 192px; padding: 20px 16px !important;}
   
   @media(min-width:768px){
  .trigger-class .oct-quiz-title{font-size: 35px !important; line-height: 35px;}
