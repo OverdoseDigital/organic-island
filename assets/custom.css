@@ -360,7 +360,7 @@ summary .icon-caret{height: 0.5rem;}
 .oct-quiz-picture-choice-options .oct-quiz-picture-choice-options__option{padding:0 !important; margin: 0 0px 16px!important; display: flex !important; align-items: center;}
 .oct-quiz-picture-choice-options.oct-quiz-picture-choice-options--ratio-custom {margin:0 !important;} 
 .oct-quiz-wrapper.oct-quiz-wrapper--picture-choice, .oct-quiz-wrapper.oct-quiz-wrapper--multiple-choice,
-.oct-quiz-wrapper oct-quiz-wrapper--email{padding: 20px 0 !important;}
+.oct-quiz-wrapper.oct-quiz-wrapper--email{padding: 20px 0 !important;}
 .trigger-class .oct-quiz-multiple-choice-options__option{width: 100%;}
   }
 
