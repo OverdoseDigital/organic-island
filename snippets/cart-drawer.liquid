@@ -11,70 +11,135 @@
   .drawer {
     visibility: hidden;
   }
-  #CartDrawer .cart-drawer__warnings{justify-content: flex-start; flex-direction: unset;}
-.drawer__inner .drawer__inner-empty{padding:1.5rem 2.4rem;}
-.drawer__inner .cart__empty-text, .drawer__heading{font-size: 28px; font-weight:400; line-height:3.3rem; text-align: left;}
-.cart-drawer__empty-content{width:100%;}
-.drawer__inner .cart__login-paragraph{background:#F3F0EA; padding:10px 12px; display: flex; justify-content: space-between; margin-bottom:1.5rem; margin-top:1.7rem;}
-.drawer__inner .cart__login-paragraph span{text-transform:uppercase; letter-spacing: 1px; font-size:1.2rem; font-weight:400;}
-.drawer__inner .cart__login-paragraph a{font-size:1.3rem; font-weight:400;}
-.drawer__inner .cart-item__name{font-weight: 400; font-size: 18px;}
-.continue-shopping-text{margin-top:12px; text-align: center;}
-.continue-shopping-text a{font-size:1.3rem; font-weight:400; letter-spacing: 0; text-decoration:underline; color: #232936; text-decoration-thickness: 1px; text-underline-offset: 3px;}
-.continue-shopping-text a:hover, .continue-shopping-text a:focus{text-decoration:none;}
-.cart-drawer__footer .totals__subtotal, .cart-drawer__footer .totals__subtotal-value{font-weight: 700; font-size: 15px;}
+  #CartDrawer .cart-drawer__warnings {
+    justify-content: flex-start;
+    flex-direction: unset;
+  }
+  .drawer__inner .drawer__inner-empty {
+    padding: 1.5rem 2.4rem;
+  }
+  .drawer__inner .cart__empty-text,
+  .drawer__heading {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 3.3rem;
+    text-align: left;
+  }
+  .cart-drawer__empty-content {
+    width: 100%;
+  }
+  .drawer__inner .cart__login-paragraph {
+    background: #f3f0ea;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    margin-top: 1.7rem;
+  }
+  .drawer__inner .cart__login-paragraph span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .drawer__inner .cart__login-paragraph a {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .drawer__inner .cart-item__name {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .continue-shopping-text {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .continue-shopping-text a {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: underline;
+    color: #232936;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .continue-shopping-text a:hover,
+  .continue-shopping-text a:focus {
+    text-decoration: none;
+  }
+  .cart-drawer__footer .totals__subtotal,
+  .cart-drawer__footer .totals__subtotal-value {
+    font-weight: 700;
+    font-size: 15px;
+  }
 
-.cart-drawer__footer .discount_con{display:flex; justify-content:space-between;}
-.cart-drawer__footer .discount-t, .cart-drawer__footer .discount-value{color: #232936; font-weight: 400; letter-spacing: 0.2px; font-size: 15px; line-height:15px;}
-.discount_con{margin-bottom:11px;}
-.discount_con h2, .discount_con p{margin:0; padding:0;}
-.cart-drawer .drawer__cart-items-wrapper thead {display:none;}
+  .cart-drawer__footer .discount_con {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart-drawer__footer .discount-t,
+  .cart-drawer__footer .discount-value {
+    color: #232936;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .discount_con {
+    margin-bottom: 11px;
+  }
+  .discount_con h2,
+  .discount_con p {
+    margin: 0;
+    padding: 0;
+  }
+  .cart-drawer .drawer__cart-items-wrapper thead {
+    display: none;
+  }
 
-/*sample product*/
-.sample-product span.caption-large {
-  display: none;
-}
+  /*sample product*/
+  .sample-product span.caption-large {
+    display: none;
+  }
 
-.sample-product .badge {
-  display: none;
-}
-.sample-product .full-unstyled-link::after {
-  position: unset;
-}
-.sample-product {
-  margin: 0rem 2.4rem;
-  background: #F3F0EA;
-  padding: 20px 16px;
-}
+  .sample-product .badge {
+    display: none;
+  }
+  .sample-product .full-unstyled-link::after {
+    position: unset;
+  }
+  .sample-product {
+    margin: 0rem 2.4rem;
+    background: #f3f0ea;
+    padding: 20px 16px;
+  }
 
-.sample-product button {
-  font-size: 11px;
-  min-width: 90px;
-  padding: 0;
-  max-width: 18px;
-  margin: 0 auto;
-}
+  .sample-product button {
+    font-size: 11px;
+    min-width: 90px;
+    padding: 0;
+    max-width: 18px;
+    margin: 0 auto;
+  }
 
-.sample-product .card__heading {
-  font-size: 1.4rem;
-}
+  .sample-product .card__heading {
+    font-size: 1.4rem;
+  }
 
-.sample-product  .price {
-  display: none;
-}
-h3.sample-product-heading {
-  font-size: 12px;
-  line-height: 120%;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #232936;
-}
-.grid__item.swiper-slide {
-  width: 33.33%;
-}
-
-
+  .sample-product .price {
+    display: none;
+  }
+  h3.sample-product-heading {
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #232936;
+  }
+  .grid__item.swiper-slide {
+    width: 33.33%;
+  }
 </style>
 
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
@@ -101,7 +166,7 @@ h3.sample-product-heading {
                 {% render 'icon-close' %}
               </button>
 
-            {%- if shop.customer_accounts_enabled and customer == null -%}
+              {%- if shop.customer_accounts_enabled and customer == null -%}
                 {% comment %} <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p> {% endcomment %}
                 <p class="cart__login-paragraph">
                   {{ 'sections.cart.login.paragraph_html' | t: link: routes.account_login_url }}
@@ -111,8 +176,6 @@ h3.sample-product-heading {
               <a href="{{ routes.all_products_collection_url }}" class="button w-100 button--primary">
                 {{ 'general.continue_shopping' | t }}
               </a>
-
-              
             </div>
           </div>
           {%- if settings.cart_drawer_collection != blank -%}
@@ -128,36 +191,41 @@ h3.sample-product-heading {
           class="drawer__close"
           type="button"
           onclick="this.closest('cart-drawer').close()"
-          aria-label="{{ 'accessibility.close' | t }}" >
+          aria-label="{{ 'accessibility.close' | t }}"
+        >
           {% render 'icon-close' %}
         </button>
       </div>
 
+      {% for product in collections['free-sample'].products %}
+      {% endfor %}
+
+      {{cart | json}}
+
       {%- if cart != empty -%}
-      <div class="sample-product">
-        <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
-        <div class="swiper quick-shop-slider">
-       <div class="d-flexx gridd flex-justify-content-space-betweenn  swiper-wrapper">
-        {% for product in collections['free-sample'].products  %}
-          <div class="grid__item swiper-slide">
-            {% render 'card-product',
-              card_product: product,
-              media_aspect_ratio: 3:2,
-              show_secondary_image: false,
-              show_vendor: false,
-              show_rating: false,
-              lazy_load: true,
-              show_quick_add: true,
-              section_id: section.id
-            %}
+        <div class="sample-product">
+          <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
+          <div class="swiper quick-shop-slider">
+            <div class="d-flexx gridd flex-justify-content-space-betweenn  swiper-wrapper">
+              {% for product in collections['free-sample'].products %}
+                <div class="grid__item swiper-slide">
+                  {%
+                    render 'card-product',
+                    card_product: product,
+                    media_aspect_ratio: 3:2,
+                    show_secondary_image: false,
+                    show_vendor: false,
+                    show_rating: false,
+                    lazy_load: true,
+                    show_quick_add: true,
+                    section_id: section.id
+                  %}
+                </div>
+              {% endfor %}
+            </div>
           </div>
-        {% endfor %}
-      </div>
-      </div>
-      </div>
-    {%- endif -%}
-
-
+        </div>
+      {%- endif -%}
 
       <cart-drawer-items
         {% if cart == empty %}
@@ -405,10 +473,17 @@ h3.sample-product-heading {
                                 class="button button--tertiary"
                                 aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
                               >
-                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.75 4.25L4.25 11.75" stroke="#919191" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.25 4.25L11.75 11.75" stroke="#919191" stroke-linecap="round" stroke-linejoin="round"/> 
-</svg>Remove
+                                <svg
+                                  width="16"
+                                  height="16"
+                                  viewBox="0 0 16 16"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path d="M11.75 4.25L4.25 11.75" stroke="#919191" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M4.25 4.25L11.75 11.75" stroke="#919191" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Remove
                                 {% comment %} {% render 'icon-remove' %} {% endcomment %}
                               </button>
                             </cart-remove-button>
@@ -501,26 +576,28 @@ h3.sample-product-heading {
             {%- endif -%}
           </div>
 
-          {% comment %} <small class="tax-note caption-large rte">
-            {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
-            {%- elsif cart.taxes_included -%}
-              {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-            {%- elsif shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-            {%- else -%}
-              {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
-            {%- endif -%}
-          </small> {% endcomment %}
+          {% comment %}
+            <small class="tax-note caption-large rte">
+              {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+              {%- elsif cart.taxes_included -%}
+                {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+              {%- elsif shop.shipping_policy.body != blank -%}
+                {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+              {%- else -%}
+                {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+              {%- endif -%}
+            </small>
+          {% endcomment %}
         </div>
 
         <!-- CTAs -->
 
         {%- if shop.customer_accounts_enabled and customer == null -%}
-                <p class="cart__login-paragraph">
-                  {{ 'sections.cart.login.paragraph_html' | t: link: routes.account_login_url }}
-                </p>
-              {%- endif -%}
+          <p class="cart__login-paragraph">
+            {{ 'sections.cart.login.paragraph_html' | t: link: routes.account_login_url }}
+          </p>
+        {%- endif -%}
 
         <div class="cart__ctas" {{ block.shopify_attributes }}>
           <noscript>
@@ -542,11 +619,11 @@ h3.sample-product-heading {
             {{ 'sections.cart.checkout' | t }}
           </button>
         </div>
-          {% if settings.continue__shopping != blank %}
+        {% if settings.continue__shopping != blank %}
           <div class="continue-shopping-text">
-            <a href="{{settings.continue_url}}">{{settings.continue__shopping}}</a>
+            <a href="{{settings.continue_url}}">{{ settings.continue__shopping }}</a>
           </div>
-          {% endif %}
+        {% endif %}
       </div>
     </div>
   </div>
@@ -573,14 +650,13 @@ h3.sample-product-heading {
   });
 </script>
 
-
 <script>
   const swiperquickshopslider = new Swiper('.quick-shop-slider', {
     slidesPerView: 3,
     spaceBetween: 10,
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
-    }
+    },
   });
 </script>
