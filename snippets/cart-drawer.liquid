@@ -132,8 +132,8 @@ h3.sample-product-heading {
       {%- if cart != empty -%}
       <div class="sample-product">
         <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
-       <div class="d-flex grid flex-justify-content-space-between swiper">
-        <div class="swiper-wrapper">
+        <div class="swiper">
+       <div class="d-flex grid flex-justify-content-space-between  swiper-wrapper">
         {% for product in collections['free-sample'].products  %}
           <div class="grid__item swiper-slide">
             {% render 'card-product',
