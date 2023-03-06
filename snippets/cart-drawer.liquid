@@ -197,7 +197,11 @@
         </button>
       </div>
 
+
+      {%- for item in cart.items -%}
       {% for product in collections['free-sample'].products %}
+        {{item.product_id}}=={{product.id}}
+      {% endfor %}
       {% endfor %}
 
      <script>console.log({{cart | json}}) ;</script>
