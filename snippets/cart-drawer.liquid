@@ -200,7 +200,7 @@
       {% for product in collections['free-sample'].products %}
       {% endfor %}
 
-      {{cart | json}}
+     <script>console.log({{cart | json}}) ;</script>
 
       {%- if cart != empty -%}
         <div class="sample-product">
