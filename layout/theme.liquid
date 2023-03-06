@@ -28,7 +28,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-
+    <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -218,6 +218,7 @@
       }
     {% endstyle %}
 
+{{ 'vendor.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
     {{ 'color.css' | asset_url | stylesheet_tag }}
