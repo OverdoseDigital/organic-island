@@ -42,6 +42,7 @@ class CartItems extends HTMLElement {
   }
 
   onChange(event) {
+    
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
   }
 
@@ -50,17 +51,7 @@ class CartItems extends HTMLElement {
       .then((response) => response.text())
       .then((responseText) => {
         const html = new DOMParser().parseFromString(responseText, 'text/html');
-        const sourceQty = html.querySelector('cart-items');
-        
-
-        const swiperquickshopslider = new Swiper('.quick-shop-slider', {
-          slidesPerView: 3,
-          spaceBetween: 10,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          }
-        });
+        const sourceQty = html.querySelector('cart-items');        
         this.innerHTML = sourceQty.innerHTML;
 
       })
@@ -152,6 +143,14 @@ class CartItems extends HTMLElement {
           trapFocus(cartDrawerWrapper, document.querySelector('.cart-item__name'))
         }
         publish(PUB_SUB_EVENTS.cartUpdate, {source: 'cart-items'});
+        const swiperquickshopslider = new Swiper('.quick-shop-slider', {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          }
+        });
       }).catch(() => {
         this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
         const errors = document.getElementById('cart-errors') || document.getElementById('CartDrawer-CartErrors');
