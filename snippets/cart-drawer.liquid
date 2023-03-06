@@ -72,16 +72,7 @@ h3.sample-product-heading {
 }
 
 </style>
-<script>
-  const swiperquickshopslider = new Swiper('.quick-shop-slider', {
-    slidesPerView: 3,
-    spaceBetween: 10,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    }
-  });
-</script>
+
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %}">
   <div id="CartDrawer" class="cart-drawer">
     <div id="CartDrawer-Overlay" class="cart-drawer__overlay"></div>
@@ -579,3 +570,13 @@ h3.sample-product-heading {
 </script>
 
 
+<script>
+  const swiperquickshopslider = new Swiper('.quick-shop-slider', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }
+  });
+</script>
