@@ -361,7 +361,7 @@ summary .icon-caret{height: 0.5rem;}
 .oct-quiz-picture-choice-options.oct-quiz-picture-choice-options--ratio-custom {margin:0 !important;} 
 .oct-quiz-wrapper.oct-quiz-wrapper--picture-choice{padding: 20px 0 !important;}
 .oct-quiz-wrapper.oct-quiz-wrapper--multiple-choice{padding: 20px 0 !important;}
-
+.trigger-class .oct-quiz-multiple-choice-options__option{width: 100%;}
   }
 
 
