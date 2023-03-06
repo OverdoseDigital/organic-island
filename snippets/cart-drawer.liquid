@@ -132,9 +132,10 @@ h3.sample-product-heading {
       {%- if cart != empty -%}
       <div class="sample-product">
         <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
-       <div class="d-flex grid flex-justify-content-space-between">
-        {% for product in collections['free-sample'].products %}
-          <div class="grid__item">
+       <div class="d-flex grid flex-justify-content-space-between swiper">
+        <div class="swiper-wrapper">
+        {% for product in collections['free-sample'].products  %}
+          <div class="grid__item swiper-slide">
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: 3:2,
@@ -143,11 +144,11 @@ h3.sample-product-heading {
               show_rating: false,
               lazy_load: true,
               show_quick_add: true,
-              section_id: section.id,
-              slider:true
+              section_id: section.id
             %}
           </div>
         {% endfor %}
+      </div>
       </div>
       </div>
     {%- endif -%}
