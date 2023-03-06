@@ -197,10 +197,11 @@
         </button>
       </div>
 
-
+{% assign foundProduct = false %}
       {%- for item in cart.items -%}
       {% for product in collections['free-sample'].products %}
         {% if item.product_id == product.id %}
+          {% assign foundProduct = true %}
         {{item.product_id}}=={{product.id}}
         {% endif %}
       {% endfor %}
@@ -209,28 +210,30 @@
      <script>console.log({{cart | json}}) ;</script>
 
       {%- if cart != empty -%}
-        <div class="sample-product">
-          <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
-          <div class="swiper quick-shop-slider">
-            <div class="d-flexx gridd flex-justify-content-space-betweenn  swiper-wrapper">
-              {% for product in collections['free-sample'].products %}
-                <div class="grid__item swiper-slide">
-                  {%
-                    render 'card-product',
-                    card_product: product,
-                    media_aspect_ratio: 3:2,
-                    show_secondary_image: false,
-                    show_vendor: false,
-                    show_rating: false,
-                    lazy_load: true,
-                    show_quick_add: true,
-                    section_id: section.id
-                  %}
-                </div>
-              {% endfor %}
+        {% unless foundProduct %}
+          <div class="sample-product">
+            <h3 class="sample-product-heading">add a <b>free sample</b> to your order</h3>
+            <div class="swiper quick-shop-slider">
+              <div class="d-flexx gridd flex-justify-content-space-betweenn  swiper-wrapper">
+                {% for product in collections['free-sample'].products %}
+                  <div class="grid__item swiper-slide">
+                    {%
+                      render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: 3:2,
+                      show_secondary_image: false,
+                      show_vendor: false,
+                      show_rating: false,
+                      lazy_load: true,
+                      show_quick_add: true,
+                      section_id: section.id
+                    %}
+                  </div>
+                {% endfor %}
+              </div>
             </div>
           </div>
-        </div>
+        {% endunless %}
       {%- endif -%}
 
       <cart-drawer-items
