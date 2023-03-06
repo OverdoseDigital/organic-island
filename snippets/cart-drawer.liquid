@@ -197,17 +197,14 @@
         </button>
       </div>
 
-{% assign foundProduct = false %}
+      {% assign foundProduct = false %}
       {%- for item in cart.items -%}
       {% for product in collections['free-sample'].products %}
         {% if item.product_id == product.id %}
           {% assign foundProduct = true %}
-        {{item.product_id}}=={{product.id}}
         {% endif %}
       {% endfor %}
       {% endfor %}
-
-     <script>console.log({{cart | json}}) ;</script>
 
       {%- if cart != empty -%}
         {% unless foundProduct %}
