@@ -162,7 +162,10 @@
               data-description="{{ card_product.description | escape }}"
               data-bread-crumbs="{% for tag in card_product.tags %}{{ tag | escape }};{% endfor %}">
           </div>
-          
+          <div class='yotpo QABottomLine'
+            data-appkey='UvEGuUcwhYjpOn2CinYsqChDXFz177IXV5vKclvM'
+            data-product-id='{{ card_product.id }}'></div>
+
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
