@@ -80,6 +80,7 @@
     },
     "d80148d2-d362-4fac-a374-d302b4087d42": {
       "type": "icon-text",
+      "disabled": true,
       "blocks": {
         "template--17949026844962__d80148d2-d362-4fac-a374-d302b4087d42-1677145470ecb3f7bf-0": {
           "type": "column",
