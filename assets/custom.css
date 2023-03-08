@@ -370,7 +370,7 @@ summary .icon-caret{height: 0.5rem;}
 
   /* Loyal */
 
-  .yotpo-reward-steps-item.yotpo-reward-steps-item-1 {
+  .yotpo-reward-steps-item.yotpo-reward-steps-item-1,.yotpo-reward-steps-item.yotpo-reward-steps-item-2,.yotpo-reward-steps-item.yotpo-reward-steps-item-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 0fr);
