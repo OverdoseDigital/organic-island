@@ -56,6 +56,15 @@
         "padding_bottom": 28
       }
     },
+    "393c2273-7acc-4579-bcf6-527aa6fc8fca": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"351854\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "d80148d2-d362-4fac-a374-d302b4087d42": {
       "type": "icon-text",
       "blocks": {
@@ -573,13 +582,16 @@
         "full_width": true,
         "text_width": 100,
         "padding_top": 60,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "mob_padding_top": 20,
+        "mob_padding_bottom": 20
       }
     }
   },
   "order": [
     "8b7cd6cc-b61e-4416-9021-30c623ba684d",
     "main",
+    "393c2273-7acc-4579-bcf6-527aa6fc8fca",
     "d80148d2-d362-4fac-a374-d302b4087d42",
     "1a3f6eaa-07f4-45c1-8d43-1cb6b93961bc",
     "52b70854-3d77-48bc-ab47-c281a776bf47",
