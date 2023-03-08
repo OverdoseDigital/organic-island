@@ -123,8 +123,10 @@
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }}">
     <div class="banner__box content-container content-container--full-width-mobile">
     {% render 'breadcrumbs' %}
-    <div class="yotpo-widget-instance" data-yotpo-instance-id="351855"></div>
     
+    {% if customer %}
+      <div class="yotpo-widget-instance" data-yotpo-instance-id="355834"></div>    
+    {% else %}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
@@ -136,10 +138,7 @@
               <span>{{ block.settings.text | escape }}</span>
             </div>
           {%- when 'buttons' -%}
-            <div
-              class="banner__buttons_custom{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
-              {{ block.shopify_attributes }}
-            >
+            <div class="banner__buttons_custom{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}  >
               {%- if block.settings.button_label_1 != blank -%}
                 <a
                   {% if block.settings.button_link_1 == blank %}
@@ -167,6 +166,7 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
+    {% endif %}
     
 </div>
     
