@@ -369,8 +369,16 @@ summary .icon-caret{height: 0.5rem;}
 
 
   /* Loyal */
+  .yotpo-widget-hero-section .yotpo-text-on-background {
+    min-height: auto;
+}
 
-  .yotpo-reward-steps-item.yotpo-reward-steps-item-1,.yotpo-reward-steps-item.yotpo-reward-steps-item-2,.yotpo-reward-steps-item.yotpo-reward-steps-item-3 {
+.yotpo-widget-hero-section .yotpo-text-on-background:not(.yotpo-is-mobile) .yotpo-text-container.yotpo-left-layout {
+    left: 0;
+    top: 0;
+}
+
+  /* .yotpo-reward-steps-item.yotpo-reward-steps-item-1,.yotpo-reward-steps-item.yotpo-reward-steps-item-2,.yotpo-reward-steps-item.yotpo-reward-steps-item-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 0fr);
@@ -412,7 +420,7 @@ summary .icon-caret{height: 0.5rem;}
     font-weight: 400!important;
     line-height: 17px!important;
     font-family: Arial!important;
-}
+} */
 
 
 
