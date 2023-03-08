@@ -202,7 +202,7 @@
                {% comment %}{%- if paginate.pages > 1 -%}
             {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%} {% endcomment %}
-{{collection | json}}
+{{collection.products.size}}
             <paginate-section>
               {%- if paginate.pages > 1 -%}
                       <div class="load-more-wrapper center">
