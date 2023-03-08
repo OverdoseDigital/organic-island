@@ -413,7 +413,23 @@ summary .icon-caret{height: 0.5rem;}
     line-height: 17px!important;
     font-family: Arial!important;
 }
+.yotpo-title {
+  letter-spacing: 0!important;
+  font-family: Adobe Garamond Pro!important;
+  font-size: 3.5rem!important;
+  font-weight: 400!important;
+  line-height: 42px!important;
+  color: #232936!important;
+}
 
+.yotpo-description {
+  font-size: 1.5rem!important;
+  font-weight: 400!important;
+  line-height: 21px!important;
+  letter-spacing: 0.2px!important;
+  font-family: Arial!important;
+  color: rgba(var(--color-foreground))!important;
+}
 
 
 
