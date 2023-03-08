@@ -68,6 +68,7 @@
     },
     "6cd75d65-0909-42ed-80e7-3e9af2bf3c31": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "#swell-overlay {display: none !important;}"
       ],
