@@ -202,7 +202,6 @@
                {% comment %}{%- if paginate.pages > 1 -%}
             {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%} {% endcomment %}
-{{collection.products_count}}
             <paginate-section>
               {%- if paginate.pages > 1 -%}
                       <div class="load-more-wrapper center">
@@ -210,7 +209,7 @@
                           next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load more (<span class="current_count">{{section.settings.products_per_page}}</span>/{{collection.products_count }})</button>
                       </div>
               {%- endif -%}
-              <script>collection.log({{collection | json}});</script>
+              <script>collection.log({{collection.products_count | json}});</script>
             </paginate-section>
 
 
