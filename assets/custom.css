@@ -413,7 +413,7 @@ summary .icon-caret{height: 0.5rem;}
     line-height: 17px!important;
     font-family: Arial!important;
 }
-.yotpo-title {
+.yotpo-title,.yotpo-inner-text {
   letter-spacing: 0!important;
   font-family: Adobe Garamond Pro!important;
   font-size: 3.5rem!important;
