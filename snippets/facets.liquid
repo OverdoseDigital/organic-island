@@ -499,7 +499,7 @@
           {%- endif -%}
           <div class="product-count light" role="status">
             <h2 class="product-count__text text-body">
-              <span id="ProductCountDesktop"  collectionproductcount="{{collection.products.size}}*{{ collection.all_products_count }}">
+              <span id="ProductCountDesktop" collection_total_product="{{results.products.size}}" collectionproductcount="{{collection.products.size}}*{{ collection.all_products_count }}">
                 {%- if results.results_count -%}
                   {{ 'templates.search.results_with_count' | t: terms: results.terms, count: results.results_count }}
                 {%- elsif results.products_count == results.all_products_count -%}
