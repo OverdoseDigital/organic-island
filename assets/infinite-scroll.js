@@ -65,7 +65,7 @@ class pagination extends HTMLElement {
                     this.classList.add('hide');
                 }
                 document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid").getElementsByTagName("li").length;
-
+                yotpo.initWidgets();
 
             })
             .catch(errorMsg => { console.log(errorMsg); });
