@@ -66,7 +66,7 @@ class pagination extends HTMLElement {
                 
 
                 console.log(nextPageurlCheck);
-                console.log("totalPage = " + totalPage);
+                console.log("totalPage = " + document.querySelector("#product-grid").getElementsByTagName("li").length );
                 console.log("dataCurrentPage = " + dataCurrentPage);
 
                 if (nextPageurlCheck == 'empty') {
