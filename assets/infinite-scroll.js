@@ -59,9 +59,9 @@ class pagination extends HTMLElement {
                 (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/UvEGuUcwhYjpOn2CinYsqChDXFz177IXV5vKclvM/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
 
                 console.log(yotpo);
-                if (typeof yotpo !== 'undefined' && typeof yotpo.initWidgets === 'function') {
-                    yotpo.initWidgets();
-                  }
+                // if (typeof yotpo !== 'undefined' && typeof yotpo.refreshWidgets === 'function') {  }
+                    yotpo.refreshWidgets();
+                
               
                 
 
