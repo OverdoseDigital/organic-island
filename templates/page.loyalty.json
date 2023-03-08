@@ -19,6 +19,7 @@
         },
         "template--17949026844962__8b7cd6cc-b61e-4416-9021-30c623ba684d-1677135219d098103c-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Join now",
             "button_link_1": "#",
