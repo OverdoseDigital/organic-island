@@ -431,6 +431,31 @@ summary .icon-caret{height: 0.5rem;}
   color: rgba(var(--color-foreground))!important;
 }
 
+a.yotpo-primary-button-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.yotpo-action-button-widget .yotpo-filled-button span,button.yotpo-button-style.yotpo-button-standard-size.yotpo-rectangular-btn-type span {
+  font-style: normal!important;
+  font-weight: 400!important;
+  font-size: 1.4rem!important;
+  line-height: 14px!important;
+  letter-spacing: 1px!important;
+  text-transform: uppercase!important;
+}
+
+.yotpo-primary-button button.yotpo-button-style.yotpo-button-standard-size.yotpo-rectangular-btn-type {
+  background: #232936!important;
+}
+
+.yotpo-secondary-button button.yotpo-button-style.yotpo-button-standard-size.yotpo-rectangular-btn-type {
+  color: #232936!important;
+}
 
 
 
