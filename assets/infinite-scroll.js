@@ -58,8 +58,12 @@ class pagination extends HTMLElement {
                 sourceLoadMoreButton.setAttribute('data-current-page', dataCurrentPage);
                 (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/UvEGuUcwhYjpOn2CinYsqChDXFz177IXV5vKclvM/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
 
-console.log(yotpo);
-                yotpo.initWidgets();
+                console.log(yotpo);
+                if (typeof yotpo !== 'undefined' && typeof yotpo.initWidgets === 'function') {
+                    yotpo.initWidgets();
+                  }
+              
+                
 
                 console.log(nextPageurlCheck);
                 console.log("totalPage = " + totalPage);
