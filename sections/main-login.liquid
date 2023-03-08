@@ -144,6 +144,8 @@
       <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
       </a>
+
+      <input type="hidden" id="return_to" name="return_to" value="/account">
     {%- endform -%}
   </div>
 
@@ -160,7 +162,12 @@
     </div>
   {%- endif -%}
 </div>
+<script>
+  localStorage.setItem('tabSelector', 'myDashboard');
 
+  const url = localStorage.getItem('redirection_Page');
+  document.getElementById("return_to").setAttribute("value", url);
+</script>
 {% schema %}
 {
   "name": "t:sections.main-login.name",
