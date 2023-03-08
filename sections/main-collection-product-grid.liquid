@@ -206,7 +206,7 @@
               {%- if paginate.pages > 1 -%}
                       <div class="load-more-wrapper center">
                         <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}" 
-                          next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load more (<span class="current_count">{{section.settings.products_per_page}}</span>/{{collection.products_count }})</button>
+                          next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#">Load more (<span class="current_count">{{section.settings.products_per_page}}</span>/<span class="total_count">{{collection.products_count }}</span>)</button>
                       </div>
               {%- endif -%}
             
@@ -221,7 +221,10 @@
 </div>
 
 
-  <script>console.log({{collection | json}});</script>
+  <script>
+    const totalCount = document.getElementById('ProductCountDesktop').getAttribute('collection_total_product');
+    document.querySelector('.total_count').innerHTML = totalCount;
+  </script>
 
 
 {% schema %}
