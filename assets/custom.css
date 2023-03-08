@@ -369,15 +369,7 @@ summary .icon-caret{height: 0.5rem;}
 
 
   /* Loyal */
-  .yotpo-widget-hero-section .yotpo-text-on-background {
-    min-height: auto!important;
-}
-
-.yotpo-widget-hero-section .yotpo-text-on-background:not(.yotpo-is-mobile) .yotpo-text-container.yotpo-left-layout {
-    left: 0;
-    top: 0;
-}
-
+  
   /* .yotpo-reward-steps-item.yotpo-reward-steps-item-1,.yotpo-reward-steps-item.yotpo-reward-steps-item-2,.yotpo-reward-steps-item.yotpo-reward-steps-item-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
