@@ -56,7 +56,9 @@ class pagination extends HTMLElement {
                 sourceMainItemWrapDiv.innerHTML += nextPageContent;
                 sourceLoadMoreButton.setAttribute('next-page-url', nextPageurlCheck);
                 sourceLoadMoreButton.setAttribute('data-current-page', dataCurrentPage);
-
+console.log(yotpo);
+                yotpo.initWidgets();
+                
                 console.log(nextPageurlCheck);
                 console.log("totalPage = " + totalPage);
                 console.log("dataCurrentPage = " + dataCurrentPage);
@@ -65,8 +67,7 @@ class pagination extends HTMLElement {
                     this.classList.add('hide');
                 }
                 document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid").getElementsByTagName("li").length;
-                console.log(yotpo);
-                yotpo.initWidgets();
+                
 
             })
             .catch(errorMsg => { console.log(errorMsg); });
