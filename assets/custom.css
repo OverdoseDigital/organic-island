@@ -368,6 +368,52 @@ summary .icon-caret{height: 0.5rem;}
   #swell-overlay{display: none!important;}
 
 
+  /* Loyal */
+
+  .yotpo-reward-steps-item.yotpo-reward-steps-item-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 0fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.yotpo-step-icons.yotpo-reward-steps-icon {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.yotpo-customized-text.yotpo-reward-steps-title {
+    grid-area: 1 / 2 / 2 / 4;
+    padding: 0!important;
+    margin: 0;
+    min-height: 25px;
+    height: 27px;
+    text-align: left;
+}
+
+.yotpo-customized-text.yotpo-reward-steps-description {
+    grid-area: 2 / 2 / 3 / 4;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.yotpo-customized-text.yotpo-reward-steps-title .yotpo-inner-text {
+    font-size: 20px!important;
+    font-family: 'Adobe Garamond Pro'!important;
+    color: #000000!important;
+    font-weight: 400!important;
+}
+.yotpo-customized-text.yotpo-reward-steps-description .yotpo-inner-text {
+    font-size: 1.5rem!important;
+    font-weight: 400!important;
+    line-height: 17px!important;
+    font-family: Arial!important;
+}
+
 
 
 
