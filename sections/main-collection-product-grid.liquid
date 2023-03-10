@@ -122,7 +122,13 @@
                 {%- if collection.products.size == 0 -%}
                   <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
                     <div class="loading-overlay gradient"></div>
-                    <div class="title-wrapper center"> <h2 class="title title--primary"> {{ 'sections.collection_template.empty' | t -}} <br> {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: 'underlined-link link' }}</h2></div>
+                    <div class="title-wrapper center">
+                      <h2 class="title title--primary">
+                        {{ 'sections.collection_template.empty' | t -}}
+                        <br>
+                        {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: 'underlined-link link' }}
+                      </h2>
+                    </div>
                   </div>
                 {%- else -%}
                   <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
@@ -135,8 +141,17 @@
                           {%- assign lazy_load = true -%}
                         {%- endif -%}
                         <li class="grid__item">
-                          
-                        </li> 
+                          {% render 'card-product',
+                            card_product: product,
+                            media_aspect_ratio: section.settings.image_ratio,
+                            show_secondary_image: section.settings.show_secondary_image,
+                            show_vendor: section.settings.show_vendor,
+                            show_rating: section.settings.show_rating,
+                            lazy_load: lazy_load,
+                            show_quick_add: section.settings.enable_quick_add,
+                            section_id: section.id
+                          %}
+                        </li>
                         {% if forloop.index == 3 %}
                           <li class="grid__item text-image-grid-item">
                             <div class="collection-grid-image-con">
@@ -159,18 +174,19 @@
                       {%- endfor -%}
                     </ul>
         
-                      
+                       {% comment %}{%- if paginate.pages > 1 -%}
+                    {% render 'pagination', paginate: paginate, anchor: '' %}
+                    {%- endif -%} {% endcomment %}
                     <paginate-section>
-                      {% comment %} <div class="contentContainer">
+                      <div class="contentContainer">
                         <div class="skillBar">
                           <div class="skillBarContainer">
-                            <div class="skillBarValue"> &nbsp;</div>
+                            <div class="skillBarValue"> &nbsp </div>
                         </div>
-                      </div> {% endcomment %}
+                      </div>
                       {%- if paginate.pages > 1 -%}
                         <div class="load-more-wrapper center">
-                          <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}"  
-                            next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#"> Load more (<span class="current_count" current_count="{{section.settings.products_per_page}}">{{section.settings.products_per_page}}</span>/<span class="total_count" products_count="{{collection.products_count }}">{{collection.products_count }}</span>)</button>
+                          <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}"  next-page-url="{% if paginate.next %}{{ paginate.next.url }}{% else %}empty{% endif %}" href="#"> Load more (<span class="current_count" current_count="{{section.settings.products_per_page}}">{{section.settings.products_per_page}}</span>/<span class="total_count" products_count="{{collection.products_count }}">{{collection.products_count }}</span>)</button>
                         </div>
                       {%- endif -%}
                     </paginate-section>
