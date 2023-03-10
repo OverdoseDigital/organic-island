@@ -264,10 +264,10 @@
                 </div>
               </quick-add-modal>
             {%- else -%}
-              {% comment %} <product-form>
+              <product-form>
                 {%- form 'product',
                   card_product,
-                  id: product_form_id,
+                  id: product_form_idd,
                   class: 'form',
                   novalidate: 'novalidate',
                   data-type: 'add-to-cart-form'
@@ -317,7 +317,7 @@
                     </div>
                   </button>
                 {%- endform -%}
-              </product-form> {% endcomment %}
+              </product-form>
             {%- endif -%}
           </div>
         {%- endif -%}
