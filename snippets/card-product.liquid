@@ -215,7 +215,7 @@
             {%- endif -%}
             
 
-            {% render 'price', product: card_product, price_class: '' %} <span> • {{card_product.metafields.custom.product_weight_on_collection_page}}</span>
+            {% render 'price', product: card_product, price_class: '' %} {% if card_product.metafields.custom.product_weight_on_collection_page != blank %}<span> • {{card_product.metafields.custom.product_weight_on_collection_page}}</span>{% endif %}
           </div>
         </div>
         {%- if show_quick_add -%}
