@@ -102,7 +102,7 @@
               {% if card_product.featured_media == null and settings.card_style == 'standard' %}
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}>
-              <a href="{{ card_product.url | within: collection  }}"
+              <a href="{{ card_product.url }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" >
@@ -146,7 +146,7 @@
             {% endif %}
           >
             <a
-              href="{{ card_product.url | within: collection  }}"
+              href="{{ card_product.url }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
@@ -192,7 +192,11 @@
                   assign rating_decimal = 1
                 endif
               %}
-              <div class="rating" role="img" aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: card_product.metafields.reviews.rating.value, rating_max: card_product.metafields.reviews.rating.value.scale_max }}" >
+              <div
+                class="rating"
+                role="img"
+                aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: card_product.metafields.reviews.rating.value, rating_max: card_product.metafields.reviews.rating.value.scale_max }}"
+              >
                 <span
                   aria-hidden="true"
                   class="rating-star color-icon-{{ settings.accent_icons }}"
@@ -213,6 +217,8 @@
                 </span>
               </p>
             {%- endif -%}
+            
+
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
