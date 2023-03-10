@@ -322,7 +322,7 @@ summary .icon-caret{height: 0.5rem;}
       max-width: calc(33.33% - 80px * 2 / 3);
   }
   }
-  .load-more-wrapper .load-more.button{padding: 0 1.4rem;}
+  .load-more-wrapper .load-more.button{padding: 0 1.4rem;width: 194px;}
   @media(max-width:989px){
   .collection .grid {padding: 0 2.5rem; row-gap: 30px; margin-top: 2rem;}
   #product-grid .text-btn-wrap h2{font-size: 2.2rem; line-height: 2.6rem;}
