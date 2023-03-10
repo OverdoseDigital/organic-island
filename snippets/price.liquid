@@ -88,7 +88,7 @@
     </small>
 
 
-   
+    {% if product.metafields.custom.product_weight_on_collection_page != blank %}<span class="metafield_weight"> • {{product.metafields.custom.product_weight_on_collection_page}}</span>{% endif %}
   </div>
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
