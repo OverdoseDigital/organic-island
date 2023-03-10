@@ -9,7 +9,10 @@ class pagination extends HTMLElement {
 
         document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid").getElementsByTagName("li").length - 1;
 
-        console.log(document.querySelector("#product-grid").getElementsByTagName("li").length - 1);
+        const currentShowCount = document.querySelector("#product-grid").getElementsByTagName("li").length - 1;
+        const totalCount = document.getElementById('ProductCountDesktop').getAttribute('collection_total_product');
+
+        console.log('currentShowCount = '+currentShowCount+' totalCount = '+totalCount);
 
 
     }
