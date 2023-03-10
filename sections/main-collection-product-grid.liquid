@@ -161,12 +161,12 @@
         
                       
                     <paginate-section>
-                      <div class="contentContainer">
+                      {% comment %} <div class="contentContainer">
                         <div class="skillBar">
                           <div class="skillBarContainer">
                             <div class="skillBarValue"> &nbsp;</div>
                         </div>
-                      </div>
+                      </div> {% endcomment %}
                       {%- if paginate.pages > 1 -%}
                         <div class="load-more-wrapper center">
                           <button class="load-more button" total-page="{{paginate.parts.size}}" data-current-page="{{paginate.current_page}}"  
