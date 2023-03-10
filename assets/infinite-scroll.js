@@ -14,6 +14,8 @@ class pagination extends HTMLElement {
 
         console.log('currentShowCount = '+currentShowCount+' totalCount = '+totalCount);
 
+        console.log((currentShowCount / totalCount)*100+'%');
+
 
     }
 
