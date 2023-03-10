@@ -8,6 +8,10 @@ class pagination extends HTMLElement {
         //window.onscroll = this.myScroll.bind(this);
 
         document.querySelector('.current_count').innerHTML = document.querySelector("#product-grid").getElementsByTagName("li").length - 1;
+
+        console.log(document.querySelector("#product-grid").getElementsByTagName("li").length - 1);
+
+
     }
 
     // myScroll() {
