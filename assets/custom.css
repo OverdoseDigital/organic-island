@@ -333,6 +333,59 @@ summary .icon-caret{height: 0.5rem;}
 
   /* collection page */
   span.metafield_weight {font-family: 'Arial';font-style: normal;font-weight: 400;font-size: 13px;line-height: 130%;}
+  .skillBar {
+    padding: 0px 1px;
+}
+  .contentContainer {
+    max-width: 194px;
+    min-width: 127px;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0;
+  }
+  .skillBarContainer {
+    width: 100%;
+    max-width: 350px;
+    height:3px;
+    background: #E2E2E2;
+    overflow: hidden;    border-radius: 21px;
+  }
+  .skillBarValue {
+    height: 3px;
+    float: left;
+    background:#232936;
+  }
+  @-webkit-keyframes slideIn {
+    0% { width: 0; }
+    25% { width:100%; }
+    100% { width: normal; }
+  }
+  @-moz-keyframes slideIn {
+    0% { width: 0; }
+    25% { width:100%; }
+    100% { width: normal; }
+  }
+  @-ms-keyframes slideIn {
+    0% { width: 0; }
+    25% { width:100%; }
+    100% { width: normal; }
+  }
+  @-o-keyframes slideIn {
+    0% { width: 0; }
+    25% { width:100%; }
+    100% { width: normal; }
+  }
+  @keyframes slideIn {
+    0% { width: 0; }
+    25% { width:100%; }
+    100% { width: normal; }
+  }
+  .skillBarValue {
+    -webkit-animation: slideIn 2s;
+    -moz-animation: slideIn 2s;
+    -o-animation: slideIn 2s;
+    animation: slideIn 2s;
+  }
   
   /* quiz */
   .trigger-class .oct-quiz-rich-text p{margin: 0 !important; padding: 0; font-size: 1.8rem !important; font-weight: 400; line-height: 21px; font-family: 'Arial' !important;}
