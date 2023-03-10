@@ -332,13 +332,7 @@ summary .icon-caret{height: 0.5rem;}
   }
 
   /* collection page */
-  span.metafield_weight {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 130%;
-}
+  span.metafield_weight {font-family: 'Arial';font-style: normal;font-weight: 400;font-size: 13px;line-height: 130%;}
   
   /* quiz */
   .trigger-class .oct-quiz-rich-text p{margin: 0 !important; padding: 0; font-size: 1.8rem !important; font-weight: 400; line-height: 21px; font-family: 'Arial' !important;}
