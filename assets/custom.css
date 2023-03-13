@@ -538,7 +538,8 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo-widget-subscriptions-add-to-cart .yotpo-select-wrapper{height: auto !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-and-dropdown-label{font-size: 1.5rem!important; font-family: 'Arial' !important; letter-spacing: 0.2px !important; font-weight: 400 !important;}
 
-
+/* ingredients-con */
+.ingredients-con ul{list-style: none; padding: 0;}
 
 /* feature collections */
 .title-tab-wrap, .title-tab-wrap ul {display: flex; align-items: center; justify-content: space-between; padding-left: 0;}
