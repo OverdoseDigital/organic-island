@@ -191,6 +191,21 @@
             </ul>
             </div>
 
+
+          {% comment %} awards {% endcomment %}
+          <div class="awards-con">
+            <ul>
+              <li>
+                <h4>Awards</h4>
+                <p>Hyaluronic Acid, Niacinamide</p>
+              </li>
+              <li>
+                <h4>How to</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Elementum vitae molestie purus est mauris netus vivamus sit.</p>
+              </li>
+            </ul>
+            </div>
+
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
