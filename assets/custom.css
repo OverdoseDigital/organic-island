@@ -540,6 +540,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 
 /* ingredients-con */
 .ingredients-con ul{list-style: none; padding: 0;}
+.ingredients-con ul li{border-bottom: 1px solid #E2E2E2; padding: 10px 0;}
+
+
 
 /* feature collections */
 .title-tab-wrap, .title-tab-wrap ul {display: flex; align-items: center; justify-content: space-between; padding-left: 0;}
