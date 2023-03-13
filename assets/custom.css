@@ -535,7 +535,7 @@ a.yotpo-primary-button-link {
 button.shopify-payment-button__button--unbranded, .product-form__buttons .button{min-height: calc(4.3rem + var(--buttons-border-width) * 2) !important; line-height: 14px !important;}
 .product-form__buttons{margin-top:2rem !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-subscription-label-price{font-size: 1.5rem!important; font-family: 'Arial' !important; font-weight: 700 !important;}
-
+.yotpo-widget-subscriptions-add-to-cart .yotpo-select-wrapper{height: auto !important;}
 
 
 
