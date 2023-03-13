@@ -560,7 +560,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .write-question-review-buttons-container .yotpo-default-button.write-question-review-button{height: 50px !important; padding: 8px 30px!important;}
 .main-widget .bottom-line-items{text-align: left !important;}
 .bottom-line-items-container .reviews-qa-labels-container .reviews-qa-label{font-family: 'Arial' !important; font-weight: 400; font-size: 1.8rem !important;}
-
+.yotpo-display-wrapper .yotpo-regular-box.bottom-line-items-container{padding: 0 !important;}
 
 
 
