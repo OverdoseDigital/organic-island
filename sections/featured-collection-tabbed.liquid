@@ -162,6 +162,14 @@
   </div>
 </div>
 
+
+<script>
+    function openTab(evt, cityName) {
+        document.getElementById(cityName).classList.add('active');
+        evt.currentTarget.className += " active";    
+      }
+</script>
+
 {% schema %}
 {
   "name": "Featured collection tab",
