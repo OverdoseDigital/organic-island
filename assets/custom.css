@@ -304,7 +304,7 @@ summary .icon-caret{height: 0.5rem;}
 .card__badge .badge {border-left: 2px solid #6D889F!important; font-size: 1.2rem; border-radius: unset; text-transform: uppercase; background: transparent; border: none; letter-spacing: 1px; padding-left: 10px;}
 
 
-.card__information .card__heading{font-weight: 400; font-size: 2rem;}
+.card__information .card__heading{font-weight: 400; font-size: 2rem; margin-bottom: 5px;}
 .card__information .caption-large{font-size: 1.3rem; font-weight: 400; letter-spacing: 0; line-height: 17px;} 
 #product-grid .button{min-height: calc(4rem + var(--buttons-border-width) * 2);}
 .price .price-item--sale{font-size: 1.3rem; font-weight: 400; letter-spacing: 0;}
