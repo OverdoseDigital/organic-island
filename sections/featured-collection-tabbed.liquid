@@ -56,7 +56,7 @@
       {%- endif -%}
       <ul>
         {% for block in section.blocks %}
-            <li class="target_{{block.id}} {% if forloop.first %} active {% endif%}" onclick="openTab(event, 'myDashboard')">{{block.settings.collection.title}}</li>
+            <li class="target_{{block.id}} {% if forloop.first %} active {% endif%}" onclick="openTab(event, 'block_{{block.id}}')">{{block.settings.collection.title}}</li>
         {% endfor %}
       </ul>
     </div>
