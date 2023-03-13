@@ -576,6 +576,13 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .yotpo-review .yotpo-main{margin-top: 15px !important; margin-left: 65px !important;}
 .yotpo .yotpo-review .yotpo-header .yotpo-icon-profile{margin-right: 20px !important;}
 .yotpo .yotpo-review .yotpo-footer, .yotpo .yotpo-comment .yotpo-footer, .yotpo .yotpo-question .yotpo-footer, .yotpo .yotpo-onsite-upload .yotpo-footer{ margin-left: 65px !important;}
+.yotpo .y-label, .yotpo span.y-label{font-size: 1.3rem !important; font-weight: 400 !important;}
+
+
+
+
+
+
 
 
 /* feature collections */
