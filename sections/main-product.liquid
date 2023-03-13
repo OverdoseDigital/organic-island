@@ -167,7 +167,7 @@
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {% comment %} {{ product.description }} {% endcomment %}
                     {{ product.description | truncate: 100 }}
-                    <a class="click_on_popup" id="click_on_popup_{{product.id}}" onclick="openPopupFunction(event, 'click_on_popup_{{product.id}}','popup_{{product.id}}')">View product details</a>       
+                    <a class="click_on_popup" id="click_on_popup_{{product.id}}" >View product details</a>       
                 </div>
               {%- endif -%}
 
@@ -666,17 +666,19 @@
 </div>
 </div>
 <script>
-  function openPopupFunction(evt, popup_selector, trigger_selector) {
-  const popup = document.getElementById(popup_selector);
-  const trigger = document.getElementById(trigger_selector);
+  const popup = document.getElementById("popup_{{product.id}}");
+  const trigger = document.getElementById("click_on_popup_{{product.id}}");
+  trigger.addEventListener("click", () => {
     popup.classList.add("active");
+  });
+
   // Close popup when user clicks outside of it
   document.addEventListener("click", (event) => {
     if (event.target !== popup && event.target !== trigger) {
       popup.classList.remove("active");
     }
 });
-}
+
 
 </script>
 
