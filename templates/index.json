@@ -318,6 +318,7 @@
     },
     "c1b7fac8-4d46-4b58-bed1-20e94440a456": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"yotpo yotpo-reviews-carousel\"  data-background-color=\"transparent\"  data-mode=\"most_recent\"  data-type=\"product\"  data-count=\"3\"  data-show-bottomline=\"1\"  data-autoplay-enabled=\"1\"  data-autoplay-speed=\"3000\"  data-show-navigation=\"1\">&nbsp;<\/div>",
         "color_scheme": "background-1",
