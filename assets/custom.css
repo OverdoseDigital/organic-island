@@ -523,7 +523,7 @@ a.yotpo-primary-button-link {
 .product .product-form__input .form__label{font-size: 1.2rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px;} */
 .product .product-form__input input[type=radio]+label{font-size: 1.5rem; font-weight: 400; padding: 1.4rem 1.6rem; text-transform: uppercase; letter-spacing: 0.2px;} 
 
-.yotpo-widget-subscriptions-add-to-cart .yotpo-radio-container.yotpo-selected{background: #fff!important; border:1px solid #232936 !important;}
+.yotpo-widget-subscriptions-add-to-cart .yotpo-radio-container.yotpo-selected{background: #fff!important; border:1px solid #232936 !important; border-radius: 0 !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-label .yotpo-radio-label-text{font-size: 1.5rem!important; font-weight: 400; letter-spacing: 0.2px!important; color: #232936!important;}
 
 
