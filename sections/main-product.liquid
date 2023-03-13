@@ -627,6 +627,7 @@
   // Show popup when trigger is clicked
   trigger.addEventListener("click", () => {
     console.log(trigger);
+    console.log(popup);
     popup.classList.add("active");
   });
 
@@ -634,6 +635,10 @@
   document.addEventListener("click", (event) => {
     if (!popup.contains(event.target) && event.target !== trigger) {
       popup.classList.remove("active");
+    }else{
+      console.log(trigger);
+      console.log(popup);
+      popup.classList.add("active");
     }
 });
 
