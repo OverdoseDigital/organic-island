@@ -684,6 +684,7 @@
 
   // Close popup when user clicks outside of it
   document.addEventListener("click", (event) => {
+    console.log(trigger);
     console.log(event.target);
     if (!popup.contains(event.target) && event.target !== trigger) {
       popup.classList.remove("active");
