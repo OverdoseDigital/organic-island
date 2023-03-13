@@ -525,6 +525,6 @@ a.yotpo-primary-button-link {
 
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-container.yotpo-selected{background: #fff!important; border:1px solid #232936 !important; border-radius: 0 !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-label .yotpo-radio-label-text{font-size: 1.5rem!important; font-weight: 400; letter-spacing: 0.2px!important; color: #232936!important;}
-.yotpo-widget-subscriptions-add-to-cart .yotpo-radio-container{padding: 12px 15px !important; background: #F8F6F2 !important; border: 1px solid #BDBFC3 !important; border-radius: 0 !important;}
+.yotpo-widget-subscriptions-add-to-cart .yotpo-radio-container{padding: 12px 15px !important; margin: 8px 0 !important; background: #F8F6F2 !important; border: 1px solid #BDBFC3 !important; border-radius: 0 !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-label-input{display: none !important;}
 
