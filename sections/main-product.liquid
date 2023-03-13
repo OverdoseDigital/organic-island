@@ -167,7 +167,7 @@
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {% comment %} {{ product.description }} {% endcomment %}
                     {{ product.description | truncate: 200 }}
-                    <a class="click_on_popup" onclick="openTab(event, 'popup_{{product.id}}'">View product details</a>       
+                    <a class="click_on_popup" onclick="openTab(event, 'popup_{{product.id}}')">View product details</a>       
                 </div>
               {%- endif -%}
 
