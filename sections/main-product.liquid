@@ -308,7 +308,22 @@
               </div>
 
         
-              
+              <div class="ingredients-con">
+            <ul>
+              <li>
+                <h4>Active ingredients</h4>
+                <p>Hyaluronic Acid, Niacinamide</p>
+              </li>
+              <li>
+                <h4>Key benefits</h4>
+                <p>Firmer skin, hydration, improve skin elasticity</p>
+              </li>
+              <li>
+                <h4>ritual</h4>
+                <a href="#">Daily Morning Ritual</a>
+              </li>
+            </ul>
+            </div>
 
             {%- when 'popup' -%}
               <modal-opener
@@ -375,22 +390,6 @@
                   </span>
                 </p>
               {%- endif -%}
-              <div class="ingredients-con">
-            <ul>
-              <li>
-                <h4>Active ingredients</h4>
-                <p>Hyaluronic Acid, Niacinamide</p>
-              </li>
-              <li>
-                <h4>Key benefits</h4>
-                <p>Firmer skin, hydration, improve skin elasticity</p>
-              </li>
-              <li>
-                <h4>ritual</h4>
-                <a href="#">Daily Morning Ritual</a>
-              </li>
-            </ul>
-            </div>
             {%- when 'complementary' -%}
               <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
                 {%- if recommendations.performed and recommendations.products_count > 0 -%}
