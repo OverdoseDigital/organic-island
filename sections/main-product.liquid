@@ -669,10 +669,7 @@
   function openPopupFunction(evt, popup_selector, trigger_selector) {
   const popup = document.getElementById(popup_selector);
   const trigger = document.getElementById(trigger_selector);
-  trigger.addEventListener("click", () => {
     popup.classList.add("active");
-  });
-
   // Close popup when user clicks outside of it
   document.addEventListener("click", (event) => {
     if (event.target !== popup && event.target !== trigger) {
