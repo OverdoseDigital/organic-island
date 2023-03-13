@@ -26,6 +26,12 @@
   }
 {%- endstyle -%}
 
+<style>
+    .tabbed-featuredCollection-content.active {display: block;}
+
+.tabbed-featuredCollection-content {display: none;}
+</style>
+
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
 
@@ -45,6 +51,8 @@
     assign show_desktop_slider = true
   endif
 -%}
+
+
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
