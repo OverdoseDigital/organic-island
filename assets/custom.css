@@ -573,8 +573,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .yotpo-review .yotpo-header .yotpo-user-name{font-family: 'Adobe Garamond Pro' !important; font-size: 1.8rem !important; font-weight: 400 !important;}
 .yotpo .yotpo-review .yotpo-main .content-title{font-size: 1.5rem !important; font-weight: 400 !important; letter-spacing: 0.2px;}
 .yotpo .yotpo-review .yotpo-main .content-review{font-size: 1.3rem !important; font-weight: 400 !important; line-height: 17px !important;}
-.yotpo .yotpo-review .yotpo-main{margin-top: 15px !important; margin-left: 65px !important;}
+.yotpo .yotpo-review .yotpo-main{margin-top: 15px !important;}
 .yotpo .yotpo-review .yotpo-header .yotpo-icon-profile{margin-right: 20px !important;}
+.yotpo .yotpo-review .yotpo-header .yotpo-icon-profile, .yotpo .yotpo-comment .yotpo-header .yotpo-icon-profile, .yotpo .yotpo-question .yotpo-header .yotpo-icon-profile, .yotpo .yotpo-onsite-upload .yotpo-header .yotpo-icon-profile{ margin-left: 65px !important;}
 .yotpo .yotpo-review .yotpo-footer, .yotpo .yotpo-comment .yotpo-footer, .yotpo .yotpo-question .yotpo-footer, .yotpo .yotpo-onsite-upload .yotpo-footer{ margin-left: 65px !important;}
 
 
