@@ -630,7 +630,7 @@
   transition: right 0.3s ease-in-out;
 }
 .right-side-drawer {
-  display: none;
+  visibility: hidden;
 }
   .right-side-drawer.active {
     position: absolute;
@@ -638,6 +638,7 @@
     border: 1px solid;
     height: 100vh;
     top: 0;
+    visibility: visible;
 }
   .right-side-drawer.active .right_drawer_content_wraper {
     position: fixed;
