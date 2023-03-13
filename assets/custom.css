@@ -519,8 +519,8 @@ a.yotpo-primary-button-link {
 /* product page */
 .product .product__title h1{font-weight: 400; font-size: 2.8rem;}
 .yotpo .text-m{font-size: 1.3rem!important; text-underline-offset: 3px; text-decoration-thickness: 1px; font-weight: 400; text-decoration: underline !important;}
-.product__description{font-size: 1.5rem; font-weight: 400; letter-spacing: 0.2px; line-height: 21px;}
-
+.product .product__description{font-size: 1.5rem; font-weight: 400; letter-spacing: 0.2px; line-height: 21px;}
+.product .product-form__input .form__label{font-size: 1.2rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px;}
 
 
 
