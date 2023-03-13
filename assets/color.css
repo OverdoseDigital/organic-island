@@ -67,7 +67,8 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 span.metafield_weight{color: #232936;}
 
 /* product page */
-.product .product__title h1{color:#232936;}
+.product .product__title h1, 
+.product .product-form__input .form__label{color:#232936;}
 .yotpo .text-m{color: #4F5861!important;}
 .product .product__description{color: #4F5861;}
 
