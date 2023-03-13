@@ -28,13 +28,24 @@
 
 <style>
 
-    .tabbed-featuredCollection-viewall.active,
-    .tabbed-featuredCollection-content.active {display: block;}
-    .tabbed-featuredCollection-viewall,
-    .tabbed-featuredCollection-content {display: none;}
-    .tabbed-featuredCollection-target.active {
-        border-bottom: 1px solid;
+    .section-{{ section.id }}-padding .tabbed-featuredCollection-viewall.active,
+    .section-{{ section.id }}-padding .tabbed-featuredCollection-content.active {display: block;}
+    .section-{{ section.id }}-padding .tabbed-featuredCollection-viewall,
+    .section-{{ section.id }}-padding .tabbed-featuredCollection-content {display: none;}
+    .section-{{ section.id }}-padding .tabbed-featuredCollection-target.active {border-bottom: 1px solid;}
+
+    @media screen and (max-width: 989px) {
+    .section-{{ section.id }}-padding .title-tab-wrap {
+        display: block;
+        text-align: center;
     }
+    
+    .section-{{ section.id }}-padding .title-tab-wrap ul {
+        justify-content: center;
+        margin-top: 0;
+    }
+   }
+
 </style>
 
 
