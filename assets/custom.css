@@ -541,7 +541,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 /* ingredients-con */
 .ingredients-con ul{list-style: none; padding: 0;}
 .ingredients-con ul li{border-bottom: 1px solid #E2E2E2; padding: 10px 0;}
-
+.ingredients-con ul li h4{font-size: 1.2rem; font-weight: 400; letter-spacing: 1px; text-transform: uppercase;}
 
 
 /* feature collections */
