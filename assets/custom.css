@@ -548,6 +548,23 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .ingredients-con ul li a:hover{text-decoration: none;}
 
 
+.awards-con ul{list-style: none; padding: 0; margin: 10px 0;}
+.awards-con ul li{border-bottom: 1px solid #E2E2E2; padding: 13px 0;}
+.awards-con ul li h4{font-size: 1.2rem; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; margin: 0; padding: 0; font-family: 'Arial' !important;}
+.awards-con ul li p, .ingredients-con ul li a{font-size: 1.3rem; font-weight: 400; letter-spacing: 0px; margin: 0; padding: 5px 0 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* feature collections */
 .title-tab-wrap, .title-tab-wrap ul {display: flex; align-items: center; justify-content: space-between; padding-left: 0;}
