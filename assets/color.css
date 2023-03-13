@@ -73,7 +73,7 @@ span.metafield_weight{color: #232936;}
 .product .product__description{color: #4F5861;}
 .product .product-form__input input[type=radio]:checked+label{background: #fff; color: #232936; border: 1px solid #232936;}
 .product .product-form__input input[type=radio]+label{color: #4F5861; border: 1px solid #BDBFC3;}
-
+.yotpo-widget-subscriptions-add-to-cart .yotpo-selected .yotpo-subscription-label-price{color: #C51918 !important;}
 
 
 
