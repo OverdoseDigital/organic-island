@@ -573,6 +573,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .yotpo-review .yotpo-header .yotpo-user-name{font-family: 'Adobe Garamond Pro' !important; font-size: 1.8rem !important; font-weight: 400 !important;}
 .yotpo .yotpo-review .yotpo-main .content-title{font-size: 1.5rem !important; font-weight: 400 !important; letter-spacing: 0.2px;}
 .yotpo .yotpo-review .yotpo-main .content-review{font-size: 1.3rem !important; font-weight: 400 !important; line-height: 17px !important;}
+.yotpo .yotpo-review .yotpo-main{margin-top: 15px !important;}
+
+
 
 
 /* feature collections */
