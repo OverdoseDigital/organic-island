@@ -166,6 +166,11 @@
 <script>
     function openTab(evt, cityName) {
 
+        var tab_target_links = document.getElementsByClassName("tabbed-featuredCollection-target");
+        for (i = 0; i < tab_target_links.length; i++) {
+            tab_target_links[i].className = tab_target_links[i].className.replace(" active", "");
+        }
+
        var tablinks = document.getElementsByClassName("tabbed-featuredCollection-content");
         for (i = 0; i < tablinks.length; i++) {
           tablinks[i].className = tablinks[i].className.replace(" active", "");
