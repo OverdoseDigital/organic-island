@@ -159,7 +159,7 @@
     {%- endif -%}
 
     <script>
-        const swiperblock_{{block.id}} = new Swiper('#block_{{block.id}}', {
+        const swiperblock{{forloop.index}} = new Swiper('#block_{{block.id}}', {
             // Default parameters
             slidesPerView: 1.2,
             spaceBetween: 20,
