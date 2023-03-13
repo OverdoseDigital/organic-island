@@ -666,29 +666,14 @@
 </div>
 </div>
 <script>
-  {% comment %} function openTab(evt, cityName) {
-    document.getElementById(cityName).classList.add('active');   
-    evt.currentTarget.className += " active";    
-  } {% endcomment %}
-
   const popup = document.getElementById("popup_{{product.id}}");
   const trigger = document.getElementById("click_on_popup_{{product.id}}");
-  console.log(trigger);
-  console.log(popup);
-  // Show popup when trigger is clicked
   trigger.addEventListener("click", () => {
-    console.log(trigger);
-    console.log(popup);
     popup.classList.add("active");
   });
 
   // Close popup when user clicks outside of it
   document.addEventListener("click", (event) => {
-    console.log(trigger);
-    console.log( event.target);
-    console.log(!popup.contains(event.target) );
-    console.log( event.target !== trigger);
-
     if (event.target !== popup && event.target !== trigger) {
       popup.classList.remove("active");
     }
