@@ -686,6 +686,7 @@
   document.addEventListener("click", (event) => {
     console.log(trigger);
     console.log(popup.contains(event.target) );
+    console.log( event.target !== trigger);
 
     if (!popup.contains(event.target) && event.target !== trigger) {
       popup.classList.remove("active");
