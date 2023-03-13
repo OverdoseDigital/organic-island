@@ -177,6 +177,24 @@
     },
     "221cf721-b9a0-4c89-9563-636a44181577": {
       "type": "featured-collection-tabbed",
+      "blocks": {
+        "275ef4e1-115e-4619-9def-0d4511986773": {
+          "type": "select_collection",
+          "settings": {
+            "collection": "all-skincare"
+          }
+        },
+        "3cc021e9-c493-4232-8a6a-80beda229588": {
+          "type": "select_collection",
+          "settings": {
+            "collection": "free-sample"
+          }
+        }
+      },
+      "block_order": [
+        "275ef4e1-115e-4619-9def-0d4511986773",
+        "3cc021e9-c493-4232-8a6a-80beda229588"
+      ],
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
