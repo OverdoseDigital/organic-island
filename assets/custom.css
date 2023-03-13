@@ -556,7 +556,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .awards-img img{margin-right:5px; width:66px;}
 
 /* customer reviews */
-.write-question-review-buttons-container .write-question-review-button .write-question-review-button-text{font-family: 'Arial' !important; font-size: 1.4rem !important; font-weight: 400 !important;}
+.write-question-review-buttons-container .write-question-review-button .write-question-review-button-text{font-family: 'Arial' !important; letter-spacing: 1px !important; text-transform: uppercase; font-size: 1.4rem !important; font-weight: 400 !important;}
 
 
 
