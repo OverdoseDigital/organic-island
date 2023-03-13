@@ -37,6 +37,14 @@ class CartDrawer extends HTMLElement {
     }, { once: true });
 
     document.body.classList.add('overflow-hidden');
+    const swiperquickshopslider = new Swiper('.quick-shop-slider', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      }
+    });
   }
 
   close() {
