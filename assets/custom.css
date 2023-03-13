@@ -562,8 +562,8 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .bottom-line-items-container .reviews-qa-labels-container .reviews-qa-label{font-family: 'Arial' !important; font-weight: 400; font-size: 1.8rem !important;}
 .yotpo-display-wrapper .yotpo-regular-box.bottom-line-items-container{padding: 0 !important;}
 .yotpo-display-wrapper{display: inline-block !important;}
-
-
+.yotpo .yotpo-nav ul .yotpo-nav-tab.yotpo-active .yotpo-nav-wrapper{border-bottom: 1px solid #232936 !important;}
+.yotpo .yotpo-nav li{margin-bottom: 0 !important;}
 
 
 /* feature collections */
