@@ -175,33 +175,33 @@
         "mob_padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "221cf721-b9a0-4c89-9563-636a44181577": {
+      "type": "featured-collection-tabbed",
       "settings": {
-        "title": "Our Favourites",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "<p>sdadaf<\/p>",
+        "show_description": true,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 3,
+        "collection": "skincare",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 148,
-        "padding_bottom": 156,
-        "mob_padding_top": 80,
-        "mob_padding_bottom": 80
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 20,
+        "mob_padding_bottom": 20
       }
     },
     "a5194981-8759-46d7-8063-1f8b38927900": {
@@ -385,7 +385,7 @@
     "image_banner",
     "81304df3-454d-47eb-a03f-cd12df4ea830",
     "9a8a36c2-6e9a-40b0-abe2-f0c1090d5f2b",
-    "featured_collection",
+    "221cf721-b9a0-4c89-9563-636a44181577",
     "a5194981-8759-46d7-8063-1f8b38927900",
     "d3590daa-874a-4429-8cb9-6a5ceb1ed37f",
     "c1b7fac8-4d46-4b58-bed1-20e94440a456",
