@@ -68,7 +68,7 @@
       {%- endif -%}
       <ul>
         {% for block in section.blocks %}
-            <li class="target_{{block.id}} tabbed-featuredCollection-target  {% if forloop.first %} active {% endif%}" onclick="openTab(event, 'block_{{block.id}}')">{{block.settings.collection.title}}</li>
+            <li class="target_{{block.id}} tabbed-featuredCollection-target  {% if forloop.first %} active {% endif%}" onclick="openTab(event, 'block_{{block.id}}','viewall_{{block.id}}')">{{block.settings.collection.title}}</li>
         {% endfor %}
       </ul>
     </div>
@@ -157,7 +157,7 @@
         </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all tabbed-featuredCollection-viewall {% if forloop.first %} active {% endif%} ">
+      <div id="viewall_{{block.id}}" class="center collection__view-all tabbed-featuredCollection-viewall {% if forloop.first %} active {% endif%} ">
         <a
           href="{{ block.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
@@ -174,7 +174,7 @@
 
 
 <script>
-    function openTab(evt, cityName) {
+    function openTab(evt, cityName, viewall) {
 
         var tab_target_links = document.getElementsByClassName("tabbed-featuredCollection-target");
         for (i = 0; i < tab_target_links.length; i++) {
@@ -193,6 +193,7 @@
 
 
         document.getElementById(cityName).classList.add('active');
+        document.getElementById(viewall).classList.add('active');
         evt.currentTarget.className += " active";    
       }
 </script>
