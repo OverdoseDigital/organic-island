@@ -569,6 +569,10 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .yotpo-nav ul .yotpo-nav-tab.yotpo-active span{color: #232936 !important;}
 .yotpo .yotpo-nav li .yotpo-nav-wrapper{font-size: 14px !important; font-weight: 400 !important; color: #4F5861 !important; letter-spacing: 1px; text-transform: uppercase;}
 .yotpo .yotpo-nav li{margin-bottom: 0 !important;}
+.yotpo .yotpo-nav{border-color: #E2E2E2 !important; opacity: 1 !important;}
+
+
+
 
 
 /* feature collections */
