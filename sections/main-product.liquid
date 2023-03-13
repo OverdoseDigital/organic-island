@@ -614,11 +614,27 @@
   </script>
 </section>
 
+
+<style>
+  .right-side-drawer.active .right_drawer_content_wraper {
+    position: fixed;
+    width: 392px;
+    height: 100vw;
+    border: 1px solid red;
+    background: red;
+    z-index: 9;
+    top: 0;
+    right: 0;
+}
+</style>
 <div class="right-side-drawer" id="popup_{{product.id}}">
+  <div class="ovarlay_right_drawer"></div>
+  <div class="right_drawer_content_wraper">
   <a class="cross">X</a>
   <div class="content-wraper">
     {{product.description}}
   </div>
+</div>
 </div>
 
 
