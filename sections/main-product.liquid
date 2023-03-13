@@ -336,6 +336,23 @@
               %}
 
             {%- when 'variant_picker' -%}
+
+            <div class="ingredients-con">
+            <ul>
+              <li>
+                <h4>Active ingredients</h4>
+                <p>Hyaluronic Acid, Niacinamide</p>
+              </li>
+              <li>
+                <h4>Key benefits</h4>
+                <p>Firmer skin, hydration, improve skin elasticity</p>
+              </li>
+              <li>
+                <h4>ritual</h4>
+                <a href="#">Daily Morning Ritual</a>
+              </li>
+            </ul>
+            </div>
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
