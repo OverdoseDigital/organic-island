@@ -566,6 +566,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo-display-wrapper .yotpo-regular-box.bottom-line-items-container{padding: 0 !important;}
 .yotpo-display-wrapper{display: inline-block !important;}
 .yotpo .yotpo-nav ul .yotpo-nav-tab.yotpo-active .yotpo-nav-wrapper{border-bottom: 1px solid #232936 !important; color: #232936 !important;}
+.yotpo .yotpo-nav li .yotpo-nav-wrapper{font-size: 14px !important; font-weight: 400 !important; color: #4F5861 !important;}
 .yotpo .yotpo-nav li{margin-bottom: 0 !important;}
 
 
