@@ -166,7 +166,7 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {% comment %} {{ product.description }} {% endcomment %}
-                    {{ product.description | truncate: 200 }}
+                    {{ product.description | truncate: 100 }}
                     <a class="click_on_popup" id="click_on_popup_{{product.id}}">View product details</a>       
                 </div>
               {%- endif -%}
