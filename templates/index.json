@@ -200,8 +200,8 @@
         "swipe_on_mobile": false,
         "padding_top": 148,
         "padding_bottom": 156,
-        "mob_padding_top": 20,
-        "mob_padding_bottom": 20
+        "mob_padding_top": 80,
+        "mob_padding_bottom": 80
       }
     },
     "a5194981-8759-46d7-8063-1f8b38927900": {
