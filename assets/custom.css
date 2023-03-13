@@ -301,7 +301,7 @@ summary .icon-caret{height: 0.5rem;}
 
 /* collection grid */
 .collection-grid-image-con {position: absolute; top: 0; bottom: 0; left: 0; right: 0; padding: 0 3rem; display: flex; align-items: center; justify-content: center; text-align: center;}
-.card__badge .badge {border-left: 2px solid #6D889F!important; border-radius: unset; background: transparent; border: none; color: #6D889F; padding-left: 10px;}
+.card__badge .badge {border-left: 2px solid #6D889F!important; border-radius: unset; text-transform: uppercase; background: transparent; border: none; padding-left: 10px;}
 
 
 .card__information .card__heading{font-weight: 400; font-size: 2rem;}
