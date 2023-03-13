@@ -87,7 +87,8 @@ span.metafield_weight{color: #232936;}
 .ingredients-con ul li p, .ingredients-con ul li a, .awards-con ul li p{color: #4F5861;}
 
 /* product reviews */
-.yotpo .yotpo-review .yotpo-header .yotpo-user-name{color: #232936 !important;}
+.yotpo .yotpo-review .yotpo-header .yotpo-user-name,
+.yotpo .yotpo-review .yotpo-main .content-title{color: #232936 !important;}
 
 
 
