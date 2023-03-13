@@ -545,6 +545,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .ingredients-con ul li h4{font-size: 1.2rem; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; margin: 0; padding: 0; font-family: 'Arial' !important;}
 .ingredients-con ul li p, .ingredients-con ul li a{font-size: 1.5rem; font-weight: 400; letter-spacing: 0.2px; margin: 0; padding: 5px 0 0 0;}
 .ingredients-con ul li a{text-decoration: underline;}
+.ingredients-con ul li a:hover{text-decoration: none;}
+
+
 
 /* feature collections */
 .title-tab-wrap, .title-tab-wrap ul {display: flex; align-items: center; justify-content: space-between; padding-left: 0;}
