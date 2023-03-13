@@ -35,13 +35,12 @@
 }
 </style>
 
-{%- liquid
-  assign products_to_display = section.settings.collection.all_products_count
 
-  if section.settings.collection.all_products_count > section.settings.products_to_show
-    assign products_to_display = section.settings.products_to_show
-    assign more_in_collection = true
-  endif
+
+    
+
+{%- liquid
+ 
 
   assign columns_mobile_int = section.settings.columns_mobile | plus: 0
   assign show_mobile_slider = false
@@ -88,6 +87,13 @@
 
 
     {% for block in section.blocks %}
+        {%- assign products_to_display = block.settings.collection.all_products_count -%}  
+        {%- if block.settings.collection.all_products_count > section.settings.products_to_show -%}
+        {%-  assign products_to_display = section.settings.products_to_show -%}
+            {%-  assign more_in_collection = true -%}
+        {%- endif-%}
+
+
         <slider-component id="block_{{block.id}}" class="tabbed-featuredCollection-content {% if forloop.first %} active {% endif%} slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width == false %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}">
         <ul
             id="Slider-{{ section.id }}"
@@ -147,21 +153,20 @@
             </div>
         {%- endif -%}
         </slider-component>
-    {% endfor %}
-
-
-
-    {%- if section.settings.show_view_all and more_in_collection -%}
+        
+    {%- if section.settings.show_view_all -%}
       <div class="center collection__view-all">
         <a
-          href="{{ section.settings.collection.url }}"
+          href="{{ block.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
-          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: block.settings.collection.title }}"
         >
           {{ 'sections.featured_collection.view_all' | t }}
         </a>
       </div>
     {%- endif -%}
+{% endfor %}
+
   </div>
 </div>
 
