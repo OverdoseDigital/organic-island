@@ -199,7 +199,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 148,
-        "padding_bottom": 148,
+        "padding_bottom": 156,
         "mob_padding_top": 20,
         "mob_padding_bottom": 20
       }
