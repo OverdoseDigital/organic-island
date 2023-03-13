@@ -615,6 +615,13 @@
 </section>
 
 
+<script>
+  function openTab(evt, cityName) {
+    document.getElementById(cityName).classList.add('active');   
+    evt.currentTarget.className += " active";    
+  }
+</script>
+
 <style>
   .right-side-drawer.active {
     position: absolute;
