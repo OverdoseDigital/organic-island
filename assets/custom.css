@@ -600,11 +600,12 @@ border-color: #fff;
 .grid__item.product__media-wrapper {
   background: #F3F0EA;
 }
-
+@media screen and (max-width: 749px){
 .product-media-container.media-type-image.media-fit-contain {
   --viewport-offset: 250px;
   border: 1px solid;
   margin-left: 24px;
+}
 }
 .product-media-container {
   background: transparent;
