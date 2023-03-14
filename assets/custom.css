@@ -641,7 +641,7 @@ border-color: #fff;
 .card__badge.productpage {
   position: absolute;
   top: 53px;
-  left: 46px;
+  left: 35px;
   z-index: 1;
 }
 button.product__media-toggle.quick-add-hidden.product__media-zoom-lightbox {
