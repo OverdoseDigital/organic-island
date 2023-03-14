@@ -509,6 +509,7 @@
             </li>
 
             <li>
+              <product-recommendations class="related-products page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
               {% if recommendations.performed and recommendations.products_count > 0 %}
                 <h2 class="related-products__heading h2">
                   {{ section.settings.heading | escape }}
@@ -527,6 +528,7 @@
                   {% endfor %}
                 </ul>
               {% endif %}
+            </product-recommendations>
             </li>
 
           </ul>
