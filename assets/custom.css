@@ -601,7 +601,11 @@ border-color: #fff;
   background: #F3F0EA;
 }
 
-
+.product-media-container.media-type-image.media-fit-contain {
+  --viewport-offset: 250px;
+  border: 1px solid;
+  margin-left: 24px;
+}
 .product-media-container {
   background: transparent;
   border:none;
