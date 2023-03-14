@@ -12,7 +12,16 @@
 {% endcomment %}
 <style>
     .swiper-slide {
-        display: block;
+        display: block!important;
+    }
+    .swiper-slide-thumb-active .thumbnail.global-media-settings {
+        box-shadow: 0 0 0 0.1rem rgb(var(--color-foreground));
+        border-color: rgb(var(--color-foreground));
+    }
+    
+    .thumbnail-list__item .thumbnail {
+        box-shadow: none;
+        border: none;
     }
 </style>
 {%- liquid
