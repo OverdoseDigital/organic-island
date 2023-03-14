@@ -53,6 +53,17 @@
         left: 46px;
         z-index: 1;
     }
+    button.product__media-toggle.quick-add-hidden.product__media-zoom-lightbox {
+        width: 3rem;
+        height: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    span.product__media-icon.motion-reduce.quick-add-hidden.product__media-icon--lightbox {
+        right: 1.2rem;
+        left: auto;
+    }
 </style>
 {%- liquid
     if section.settings.hide_variants and variant_images.size == product.media.size
