@@ -125,7 +125,9 @@
         "5b0b8015-bada-43dc-a48b-5adc5d0111c2"
       ],
       "settings": {
-        "title": "Our unique formulations <br>were expertly developed over 10 years.",
+        "title": "Our unique formulations were expertly developed over 10 years.",
+        "viewall": "View all ingredients",
+        "viewall_link": "shopify:\/\/collections",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
