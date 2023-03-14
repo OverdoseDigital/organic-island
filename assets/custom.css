@@ -578,6 +578,12 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .awards-img{display: flex; margin-top: 5px;}
 .awards-img img{margin-right:5px; width:66px;}
 
+/* view product details slide */
+.right-side-drawer.active .right_drawer_content_wraper{padding: 20px 40px;}
+
+
+
+
 /* customer reviews */
 
 .yotpo div{font-family: 'Arial' !important;}
