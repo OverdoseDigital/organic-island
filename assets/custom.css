@@ -629,6 +629,11 @@ border-color: #fff;
   background: #F8F6F2;
   padding: 91.5px 138px!important;
 }
+.swiper-slide.product__media-item img {
+  width: 80%!important;
+  margin: 0 auto;
+  right: 0!important;
+}
 }
 
 
