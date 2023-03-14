@@ -93,6 +93,49 @@
         "mob_padding_bottom": 20
       }
     },
+    "a54a268c-67bd-420a-bb34-0816c53ca382": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17870004191522__a54a268c-67bd-420a-bb34-0816c53ca382-1678791935a0fd11ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Shelter Me Sunscreen is known for being the perfect beach bag essential.",
+            "heading_size": "h1"
+          }
+        },
+        "template--17870004191522__a54a268c-67bd-420a-bb34-0816c53ca382-1678791935a0fd11ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Sammy Robinson, Influencer<br\/>@sammyrobinson<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17870004191522__a54a268c-67bd-420a-bb34-0816c53ca382-1678791935a0fd11ab-0",
+        "template--17870004191522__a54a268c-67bd-420a-bb34-0816c53ca382-1678791935a0fd11ab-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "bg_color": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "heading_color": "",
+        "paragraph_color": "",
+        "mobile_layout": "image_first",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 36
+      }
+    },
     "16780878762198e408": {
       "type": "apps",
       "blocks": {
@@ -137,6 +180,7 @@
   "order": [
     "main",
     "related-products",
+    "a54a268c-67bd-420a-bb34-0816c53ca382",
     "16780878762198e408",
     "9990fb63-c73d-490e-ab95-9fe406d2f2a1"
   ]
