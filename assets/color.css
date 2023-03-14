@@ -30,7 +30,8 @@ h2, .h0, h2, .h1, h2, .h2{color: #232936;}
 .cart-drawer__footer .discount-t, .cart-drawer__footer .discount-value{color: #232936;}
 
 /* sample product */
-.sample-product .sample-product-heading{color: #232936;}
+.sample-product .sample-product-heading,
+.sample-product button{color: #232936;}
 
 
 
