@@ -605,6 +605,11 @@ border-color: #fff;
   border:none;
   
 }
+.product__info-wrapper {
+  background: #F8F6F2;
+  padding: 0 2rem;
+}
+
 @media screen and (min-width: 750px){
 .product__info-wrapper, .product__media-wrapper {
   width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2)!important;
@@ -618,6 +623,8 @@ border-color: #fff;
   padding: 91.5px 138px;
 }
 }
+
+
 .card__badge.productpage {
   position: absolute;
   top: 53px;
