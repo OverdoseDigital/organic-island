@@ -578,16 +578,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .awards-img{display: flex; margin-top: 5px;}
 .awards-img img{margin-right:5px; width:66px;}
 
-
-
-
-
-
-
 /* customer reviews */
 
 .yotpo div{font-family: 'Arial' !important;}
-
 .write-question-review-buttons-container .write-question-review-button .write-question-review-button-text{font-family: 'Arial' !important; letter-spacing: 1px !important; text-transform: uppercase; font-size: 1.4rem !important; font-weight: 400 !important;}
 .write-question-review-buttons-container .yotpo-default-button.write-question-review-button{height: 50px !important; padding: 8px 30px!important;}
 .main-widget .bottom-line-items{text-align: left !important;}
@@ -606,7 +599,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .yotpo-review .yotpo-header .yotpo-icon-profile{margin-right: 20px !important;}
 .yotpo .yotpo-review .yotpo-footer, .yotpo .yotpo-comment .yotpo-footer, .yotpo .yotpo-question .yotpo-footer, .yotpo .yotpo-onsite-upload .yotpo-footer{ margin-left: 65px !important;}
 .yotpo .y-label, .yotpo span.y-label{font-size: 1.3rem !important; font-weight: 400 !important;}
-
+.yotpo .yotpo-regular-box{border-top:none !important; border-bottom: 1px solid #E2E2E2;}
  
 
 
