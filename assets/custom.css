@@ -599,10 +599,7 @@ border-color: #fff;
   background: #F3F0EA;
 }
 
-.product__info-wrapper {
-  background: #F8F6F2;
-  padding: 91.5px 138px;
-}
+
 .product-media-container {
   background: transparent;
   border:none;
@@ -615,6 +612,10 @@ border-color: #fff;
 }
 .thumbnail-slider .thumbnail-list.slider--tablet-up {
   justify-content:center ;
+}
+.product__info-wrapper {
+  background: #F8F6F2;
+  padding: 91.5px 138px;
 }
 }
 .card__badge.productpage {
