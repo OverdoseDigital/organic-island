@@ -116,7 +116,7 @@
         "template--17870004191522__a54a268c-67bd-420a-bb34-0816c53ca382-1678791935a0fd11ab-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "bg_color": "#f3f0ea",
         "image": "shopify:\/\/shop_images\/sammy.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
