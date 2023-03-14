@@ -33,6 +33,9 @@
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
+        {% if section.settings.viewall != blank %}
+        <a href="{{section.settings.viewall_link}}">{{section.settings.viewall_link}}</a>
+        {% endif %}
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
             {{- section.settings.button_label | escape -}}
