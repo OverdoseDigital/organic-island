@@ -492,9 +492,8 @@
               <h4>{{product.metafields.custom.how_to_use}}</h4>
               <p>{{product.metafields.custom.how_to_use_subtitle.html}}</p>
               {% for item in product.metafields.custom.how_to_use_video %} 
-              {{item.src}}<br>
               <video width="400" controls>
-                <source src="{{ video.src }}" type="video/mp4">
+                <source src="{{item.src}}" type="video/mp4">
                 Your browser does not support HTML video.
               </video> 
               {% endfor %}
