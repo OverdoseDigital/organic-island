@@ -37,7 +37,10 @@
         border:none;
         
     }
-    
+    .product__info-wrapper, .product__media-wrapper {
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2)!important;
+        max-width: 50%!important;
+    }
 </style>
 {%- liquid
     if section.settings.hide_variants and variant_images.size == product.media.size
