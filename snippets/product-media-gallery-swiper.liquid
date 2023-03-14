@@ -119,28 +119,26 @@
                 %}
             </div>
         {%- endfor -%}
-        <div class="card__badge productpage 113 {{ settings.badge_position }}">
-
-            {%- assign show_other_badge = false -%}
-              {% for tag in product.tags %}    
-                {% if tag contains 'sticker' or tag contains 'Sticker' %}
-                  {%- assign show_other_badge = true -%}
-                  <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"> {{tag | split:":" | last}} </span>
-                {% endif %}
-              {% endfor %}
-
-            {% unless show_other_badge %}
-              {%- if product.available == false -%}
-                <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"> {{- 'products.product.sold_out' | t -}} </span>
-              {%- elsif product.compare_at_price > product.price and product.available -%}
-                <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"> 
-                {{- 'products.product.on_sale' | t -}} {{  product.price | times: 100 | divided_by: product.compare_at_price | minus:100 | round }}%</span>
-              {%- endif -%}
-            {% endunless %}
-
-
-          </div>
       </div>
+      <div class="card__badge productpage 113 {{ settings.badge_position }}">
+        {%- assign show_other_badge = false -%}
+          {% for tag in product.tags %}    
+            {% if tag contains 'sticker' or tag contains 'Sticker' %}
+              {%- assign show_other_badge = true -%}
+              <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"> {{tag | split:":" | last}} </span>
+            {% endif %}
+          {% endfor %}
+
+        {% unless show_other_badge %}
+          {%- if product.available == false -%}
+            <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"> {{- 'products.product.sold_out' | t -}} </span>
+          {%- elsif product.compare_at_price > product.price and product.available -%}
+            <span id="NoMediaStandardBadge-{{ section_id }}-{{ product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"> 
+            {{- 'products.product.on_sale' | t -}} {{  product.price | times: 100 | divided_by: product.compare_at_price | minus:100 | round }}%</span>
+          {%- endif -%}
+        {% endunless %}
+      </div>
+      
       <div class="swiper-button-next">&nbsp; </div>
     <div class="swiper-button-prev">&nbsp; </div>
 
