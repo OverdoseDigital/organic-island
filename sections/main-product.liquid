@@ -513,9 +513,9 @@
               {% if recommendations.performed and recommendations.products_count > 0 %}
                 <h2 class="related-products__heading h2"> You may also like </h2>
                 <div class="swiper recomended_slider">
-                    <div class="grid swiper-wrapper product-grid  grid--2-col-desktop grid--2-col-tablet-down" role="list">
+                    <div class="gridd swiper-wrapper product-grid  grid--2-col-desktop grid--2-col-tablet-down" role="list">
                       {% for recommendation in recommendations.products %}
-                        <div class="grid__item swiper-slide">
+                        <div class="grid__itemm swiper-slide">
                           {% render 'card-product',
                             card_product: recommendation,
                             media_aspect_ratio: 'adapt',
