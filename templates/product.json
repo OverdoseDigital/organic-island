@@ -90,6 +90,7 @@
         "template--17870004191522__a06f012d-c03c-43c6-9919-963cdfa74def-1678794336a7243806-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/formula2.png",
             "title": "Aloe Vera Juice",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing dui urna metus sodales ut ornare.<\/p>",
             "link_label": "",
@@ -99,6 +100,7 @@
         "template--17870004191522__a06f012d-c03c-43c6-9919-963cdfa74def-1678794336a7243806-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/formula3.png",
             "title": "Aloe Vera Juice",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing dui urna metus sodales ut ornare.<\/p>",
             "link_label": "",
@@ -108,6 +110,7 @@
         "5b0b8015-bada-43dc-a48b-5adc5d0111c2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/formula4.png",
             "title": "Aloe Vera Juice",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing dui urna metus sodales ut ornare.<\/p>",
             "link_label": "",
