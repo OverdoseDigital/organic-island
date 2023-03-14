@@ -495,10 +495,15 @@
 
                 {% assign poster = product.metafields.custom.poster | first %} 
               {% for item in product.metafields.custom.how_to_use_video %} 
+              <div class="video___section">
               <video  controls="false" poster="{{poster.src}}">
                 <source src="{{item.src}}" type="video/mp4">
                 Your browser does not support HTML video.
               </video> 
+              <span class="deferred-media__poster-button motion-reduce">
+                {%- render 'icon-play' -%}
+              </span>
+            </div>
               {% endfor %}
             </div>
 
