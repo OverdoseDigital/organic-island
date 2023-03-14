@@ -241,7 +241,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 .sample-product .card__heading{font-size: 1.4rem; font-weight: 400;}
 .sample-product button{font-weight: 400; font-size: 1.2rem; letter-spacing: 1px; text-transform: uppercase; height: auto; max-width: max-content; min-width: 93px; min-height: 2.6rem;}
 .mini-cart-card-product .card__media .media img{padding: 0px 27px;}
-.no-thanks{font-weight: 400; font-size: 1rem; letter-spacing: 0.2px; text-transform: uppercase; text-decoration: none;}
+.no-thanks{font-weight: 400; font-size: 1rem; letter-spacing: 0.2px; text-transform: uppercase; text-decoration: none; display: flex; align-items: center; justify-content: center; margin-top: 8px;}
 .no-thanks svg{margin-right: 4px;}
 
 
