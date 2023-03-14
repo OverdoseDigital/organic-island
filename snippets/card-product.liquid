@@ -155,7 +155,7 @@
             </a>
           </h3>
 
-          <div class="yotpo bottomLine"
+          {% comment %} <div class="yotpo bottomLine"
               data-appkey="UvEGuUcwhYjpOn2CinYsqChDXFz177IXV5vKclvM"
               data-domain="{{shop.permanent_domain | escape }}"
               data-product-id="{{ card_product.id }}"
@@ -166,7 +166,7 @@
               data-description="{{ card_product.description | escape }}"
               data-bread-crumbs="{% for tag in card_product.tags %}{{ tag | escape }};{% endfor %}">
           </div>
-          
+           {% endcomment %}
 
           <div class="card-information">
             {%- if show_vendor -%}
