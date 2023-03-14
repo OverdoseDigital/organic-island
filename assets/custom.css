@@ -601,6 +601,9 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo .y-label, .yotpo span.y-label{font-size: 1.3rem !important; font-weight: 400 !important;}
 .yotpo .yotpo-regular-box{border-top:none !important;}
 .yotpo .yotpo-regular-box:last-child{border-bottom: 1px solid #E2E2E2;}
+.yotpo .yotpo-label-container{display: none;}
+
+
 
 
 /* feature collections */
