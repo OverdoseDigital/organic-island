@@ -76,6 +76,7 @@
     },
     "a06f012d-c03c-43c6-9919-963cdfa74def": {
       "type": "product-multicolumn",
+      "disabled": true,
       "blocks": {
         "template--17870004191522__a06f012d-c03c-43c6-9919-963cdfa74def-1678794336a7243806-0": {
           "type": "column",
