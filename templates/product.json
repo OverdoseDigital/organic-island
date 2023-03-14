@@ -120,7 +120,7 @@
         "bg_color": "#f3f0ea",
         "image": "shopify:\/\/shop_images\/sammy.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
