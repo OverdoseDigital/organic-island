@@ -198,7 +198,7 @@
       "settings": {
         "title": "Our Favourites",
         "heading_size": "h1",
-        "description": "<p>A luxurious, lightweight crème that hydrates, delivers superior firmness and improves skin elasticity.<a>View product details<\/a><\/p>",
+        "description": "",
         "description_style": "body",
         "products_to_show": 3,
         "columns_desktop": 3,
