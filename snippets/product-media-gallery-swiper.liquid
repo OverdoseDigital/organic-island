@@ -95,8 +95,8 @@
 
 
 
-      <div id="GalleryThumbnails-{{ section.id }}{{ id_append }}"class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
-        <div id="Slider-Thumbnails-{{ section.id }}{{ id_append }}" class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}" >
+      <div id="GalleryThumbnails-{{ section.id }}{{ id_append }}"class="swiper mySwiper thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
+        <div id="Slider-Thumbnails-{{ section.id }}{{ id_append }}" class="swiper-wrapper thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}" >
           {%- capture sizes -%}
             (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4),
             (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4),
@@ -117,7 +117,7 @@
                 endcapture
                 assign media_index = media_index | plus: 1
               -%}
-              <div id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}{{ id_append }}" class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}" data-target="{{ section.id }}-{{ media.id }}" data-media-position="{{ media_index }}" >
+              <div id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}{{ id_append }}" class="swiper-slide thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}" data-target="{{ section.id }}-{{ media.id }}" data-media-position="{{ media_index }}" >
                 {%- if media.media_type == 'model' -%}
                   <span class="thumbnail__badge" aria-hidden="true">
                     {%- render 'icon-3d-model' -%}
@@ -161,3 +161,23 @@
     {%- endif -%}
   </media-gallery>
   
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
