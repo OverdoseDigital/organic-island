@@ -620,7 +620,7 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   display:none;
   }
-
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{display:none;}
 
 
 
