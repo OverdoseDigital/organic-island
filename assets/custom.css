@@ -580,7 +580,9 @@ a.click_on_popup {display: block; cursor: pointer; text-decoration: underline;}
 .product_custom_recommendation  .swiper-button-prev {top: 39%;}
 .metafields_video-wrap {position: relative;}
 span#metaplayButton.hide {display: none!important;}
-
+.swiper-slide .product-media-container {
+  width: 100%!important;
+}
 .swiper-slide {
   display: block!important;
 }
