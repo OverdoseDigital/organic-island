@@ -762,7 +762,7 @@ span#metaplayButton.hide {
 <script>
 var video = document.getElementById("metaVideo");
 var button = document.getElementById("metaplayButton");
-
+video.controls = false;
 button.addEventListener("click", function() {
   button.classList.add('hide');
   video.play();
