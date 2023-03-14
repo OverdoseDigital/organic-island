@@ -10,7 +10,11 @@
   Usage:
   {% render 'product-media-gallery', is_duplicate: true %}
 {% endcomment %}
-
+<style>
+    .swiper-slide {
+        display: block;
+    }
+</style>
 {%- liquid
     if section.settings.hide_variants and variant_images.size == product.media.size
       assign single_media_visible = true
