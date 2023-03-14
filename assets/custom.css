@@ -252,7 +252,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 @media(max-width:749px){
   .drawer__inner .cart__login-paragraph span{letter-spacing: 0;}
   .sample-product button{min-width: 75px;}
-  .sample-product{margin: 0rem 2rem;}
+  .sample-product{margin: 0rem 2rem !important;}
   .cart-drawer .drawer__inner .drawer__header {padding: 1.5rem 2rem;}
 
 }
