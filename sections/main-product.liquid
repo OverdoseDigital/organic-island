@@ -181,7 +181,7 @@
               <li>
                 {% comment %} <h4>Active ingredients</h4>
                 <p>Hyaluronic Acid, Niacinamide</p> {% endcomment %}
-                {{product.metafields.custom.content_1}}
+                {{product.metafields.custom.content_1.html}}
               </li>
             {% endif %}
             
@@ -189,7 +189,7 @@
               <li>
                 {% comment %}<h4>Key benefits</h4>
                 <p>Firmer skin, hydration, improve skin elasticity</p> {% endcomment %}
-                {{product.metafields.custom.content_2}}
+                {{product.metafields.custom.content_2.html}}
               </li>
             {% endif %}
 
@@ -197,7 +197,7 @@
               <li>
                 {% comment %} <h4>ritual</h4>
                 <a href="#">Daily Morning Ritual</a> {% endcomment %}
-                {{product.metafields.custom.content_3}}
+                {{product.metafields.custom.content_3.html}}
               </li>
             {% endif %}
 
