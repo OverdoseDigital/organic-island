@@ -215,7 +215,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 84,
-        "padding_bottom": 140,
+        "padding_bottom": 144,
         "mob_padding_top": 20,
         "mob_padding_bottom": 20
       }
