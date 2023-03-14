@@ -627,7 +627,7 @@ border-color: #fff;
 }
 .product__info-wrapper {
   background: #F8F6F2;
-  padding: 91.5px 138px;
+  padding: 91.5px 138px!important;
 }
 }
 
