@@ -565,65 +565,21 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 
 a.click_on_popup {display: block; cursor: pointer; text-decoration: underline;}
 .right-side-drawer .right_drawer_content_wraper {right: -400px; transition: right 0.3s ease-in-out;}
-.right-side-drawer {
-visibility: hidden;
-position: absolute;
-width: 100%;
-border: 1px solid;
-height: 100vh;
-top: 0;
-}
-.right-side-drawer.active {
-
-visibility: visible;
-}
-.right-side-drawer.active .right_drawer_content_wraper {
-position: fixed;
-width: 392px;
-height: 100vw;
-background: white;
-z-index: 9;
-top: 0;
-right: 0;
-}
-.right-side-drawer.active .ovarlay_right_drawer{
-position: absolute;
-content: "";
-background: rgba(129, 129, 129, 0.5);
-width: 100%;
-height: 100%;
-left: 0;
-right: 0;
-z-index: 9;
-display: block!important;
-top: 0;
-}
+.right-side-drawer {visibility: hidden; position: absolute; width: 100%; border: 1px solid; height: 100vh; top: 0;}
+.right-side-drawer.active {visibility: visible;}
+.right-side-drawer.active .right_drawer_content_wraper {position: fixed; width: 392px; height: 100vw; background: white; z-index: 9; top: 0; right: 0;}
+.right-side-drawer.active .ovarlay_right_drawer{position: absolute; content: ""; background: rgba(129, 129, 129, 0.5); width: 100%; height: 100%; left: 0; right: 0; z-index: 9; display: block!important; top: 0;}
 .right-side-drawer.active .right_drawer_content_wraper{padding:40px;}
 .cross{position: absolute; right: 20px; top:20px;}
 .content-wraper h2{font-weight: 400; font-size: 2.5rem; margin-top:4rem; margin-bottom:0.8rem;}
 .content-wraper, .content-wraper p{font-size:1.5rem; font-weight:400; letter-spacing: 0.2px; line-height:21px;}
-
-.metafields_video-wrap {
-margin-top: 8px;
-}
-.metafields_video-wrap video {
-width: 100%;
-}
-.product_custom_recommendation  .swiper-button-prev svg {
-transform: rotate(180deg);
-}
-
+.metafields_video-wrap {margin-top: 8px;}
+.metafields_video-wrap video {width: 100%;}
+.product_custom_recommendation  .swiper-button-prev svg {transform: rotate(180deg);}
 .product_custom_recommendation  .swiper-button-next, 
-.product_custom_recommendation  .swiper-button-prev {
-top: 39%;
-}
-
-.metafields_video-wrap {
-position: relative;
-}
-span#metaplayButton.hide {
-display: none!important;
-}
+.product_custom_recommendation  .swiper-button-prev {top: 39%;}
+.metafields_video-wrap {position: relative;}
+span#metaplayButton.hide {display: none!important;}
 
 
 
