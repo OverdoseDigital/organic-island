@@ -560,8 +560,8 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 .yotpo-widget-subscriptions-add-to-cart .yotpo-subscription-label-price{font-size: 1.5rem!important; font-family: 'Arial' !important; font-weight: 700 !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-select-wrapper{height: auto !important;}
 .yotpo-widget-subscriptions-add-to-cart .yotpo-radio-and-dropdown-label{font-size: 1.5rem!important; font-family: 'Arial' !important; letter-spacing: 0.2px !important; font-weight: 400 !important;}
-.product .swiper-button-next, .swiper-rtl .swiper-button-prev{right: 35px;}
-.product .swiper-button-prev, .swiper-rtl .swiper-button-next{left: 35px;}
+.product .swiper-button-next, .swiper-rtl .swiper-button-prev{right: 30px;}
+.product .swiper-button-prev, .swiper-rtl .swiper-button-next{left: 30px;}
 
 
 a.click_on_popup {display: block; cursor: pointer; text-decoration: underline;}
