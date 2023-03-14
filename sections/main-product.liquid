@@ -490,7 +490,7 @@
             </li>
             <li>
               <h4>{{product.metafields.custom.how_to_use}}</h4>
-              <p>{{product.metafields.custom.how_to_use_subtitle}}</p>
+              <p>{{product.metafields.custom.how_to_use_subtitle.html}}</p>
 
               {% assign video_files = product.metafields.custom.how_to_use_video | where: 'media_type', 'mp4' %}
               {% for video in video_files %} 
