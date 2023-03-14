@@ -174,7 +174,9 @@
               <div class="caption-with-letter-spacing">{{ card_product.vendor }}</div>
             {%- endif -%}
 
+            {% unless hide_description %}
             <span class="caption-large">{{ card_product.description | truncatewords: 50 }}</span>
+            {% endunless %}
 
 
             <span class="caption-large">{{ block.settings.description | escape }}</span>
