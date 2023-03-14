@@ -111,7 +111,7 @@
             </h3>
           </div>
  
-          <div class="yotpo-widget-instance" data-yotpo-instance-id="350551" product-handle="{{card_product.handle}}" widget-type="SubscriptionsAddToCartWidget" full-format-product-price="{{ card_product.price | money }}"></div>
+          {% comment %} <div class="yotpo-widget-instance" data-yotpo-instance-id="350551" product-handle="{{card_product.handle}}" widget-type="SubscriptionsAddToCartWidget" full-format-product-price="{{ card_product.price | money }}"></div> {% endcomment %}
 
 
           <div class="card__badge 113 {{ settings.badge_position }}">
@@ -155,7 +155,7 @@
             </a>
           </h3>
 
-          {% comment %} <div class="yotpo bottomLine"
+          <div class="yotpo bottomLine"
               data-appkey="UvEGuUcwhYjpOn2CinYsqChDXFz177IXV5vKclvM"
               data-domain="{{shop.permanent_domain | escape }}"
               data-product-id="{{ card_product.id }}"
@@ -166,7 +166,7 @@
               data-description="{{ card_product.description | escape }}"
               data-bread-crumbs="{% for tag in card_product.tags %}{{ tag | escape }};{% endfor %}">
           </div>
-           {% endcomment %}
+          
 
           <div class="card-information">
             {%- if show_vendor -%}
