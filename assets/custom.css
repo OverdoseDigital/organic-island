@@ -238,6 +238,7 @@ h2, .h2 {font-size: 2.4rem; line-height: 31px;}
 @media(max-width:749px){
   .cart-drawer .drawer__footer{padding: 2rem;}
   .drawer__inner .cart__login-paragraph span{letter-spacing: 0;}
+  .sample-product button{min-width: 75px;}
 }
 
 
