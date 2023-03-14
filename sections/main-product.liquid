@@ -723,7 +723,9 @@
 .metafields_video-wrap {
   position: relative;
 }
-
+span#metaplayButton.hide {
+  display: none;
+}
 
 
 </style>
@@ -764,6 +766,7 @@ var button = document.getElementById("metaplayButton");
 button.addEventListener("click", function() {
   button.classList.add('hide');
   video.play();
+  video.controls = true;
 });
 </script>
 
