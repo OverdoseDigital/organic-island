@@ -479,14 +479,14 @@
         <div class="awards-con">
           <ul>
             <li>
-
-              {{product.metafields.custom.awards_badges.html}}
-
-              {% comment %} <h4>Awards</h4>
+              <h4>Awards</h4>
               <div class="awards-img">
-              <img src="https://cdn.shopify.com/s/files/1/0683/6374/7618/files/finalist.png?v=1678706517" alt="Eye Care">
-              <img src="https://cdn.shopify.com/s/files/1/0683/6374/7618/files/beauty.png?v=1678706555" alt="Beauty">
-              </div> {% endcomment %}
+                {% for image in product.metafields.custom.award_badges %}
+                  <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+                {% endfor %}
+             {% comment %}  <img src="https://cdn.shopify.com/s/files/1/0683/6374/7618/files/finalist.png?v=1678706517" alt="Eye Care">
+              <img src="https://cdn.shopify.com/s/files/1/0683/6374/7618/files/beauty.png?v=1678706555" alt="Beauty"> {% endcomment %}
+              </div>
             </li>
             <li>
               <h4>How to</h4>
