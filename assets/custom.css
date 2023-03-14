@@ -563,35 +563,28 @@ button.shopify-payment-button__button--unbranded, .product-form__buttons .button
 
 
 
-a.click_on_popup {
-  display: block;
-  cursor: pointer;
-  text-decoration: underline;
-}
-.right-side-drawer .right_drawer_content_wraper {
-right: -400px;
-transition: right 0.3s ease-in-out;
-}
+a.click_on_popup {display: block; cursor: pointer; text-decoration: underline;}
+.right-side-drawer .right_drawer_content_wraper {right: -400px; transition: right 0.3s ease-in-out;}
 .right-side-drawer {
 visibility: hidden;
 position: absolute;
-  width: 100%;
-  border: 1px solid;
-  height: 100vh;
-  top: 0;
+width: 100%;
+border: 1px solid;
+height: 100vh;
+top: 0;
 }
 .right-side-drawer.active {
-  
-  visibility: visible;
+
+visibility: visible;
 }
 .right-side-drawer.active .right_drawer_content_wraper {
-  position: fixed;
-  width: 392px;
-  height: 100vw;
-  background: white;
-  z-index: 9;
-  top: 0;
-  right: 0;
+position: fixed;
+width: 392px;
+height: 100vw;
+background: white;
+z-index: 9;
+top: 0;
+right: 0;
 }
 .right-side-drawer.active .ovarlay_right_drawer{
 position: absolute;
