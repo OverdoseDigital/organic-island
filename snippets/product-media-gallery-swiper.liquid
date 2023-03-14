@@ -143,24 +143,11 @@
       and section.settings.gallery_layout contains 'thumbnail'
       or section.settings.mobile_thumbnails == 'show'
     -%}
-      <slider-component
-        id="GalleryThumbnails-{{ section.id }}{{ id_append }}"
-        class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
-      >
-        <button
-          type="button"
-          class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}"
-          name="previous"
-          aria-label="{{ 'general.slider.previous_slide' | t }}"
-          aria-controls="GalleryThumbnails-{{ section.id }}"
-          data-step="3"
-        >
+      <slider-component id="GalleryThumbnails-{{ section.id }}{{ id_append }}"class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% unless section.settings.gallery_layout contains 'thumbnail' %} medium-hide large-up-hide{% endunless %}{% if section.settings.mobile_thumbnails != 'show' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
+        <button type="button" class="slider-button slider-button--prev{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3" >
           {% render 'icon-caret' %}
         </button>
-        <ul
-          id="Slider-Thumbnails-{{ section.id }}{{ id_append }}"
-          class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
-        >
+        <ul id="Slider-Thumbnails-{{ section.id }}{{ id_append }}" class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}" >
           {%- capture sizes -%}
             (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4),
             (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4),
@@ -181,12 +168,7 @@
               endcapture
               assign media_index = media_index | plus: 1
             -%}
-            <li
-              id="Slide-Thumbnails-{{ section.id }}-0{{ id_append }}"
-              class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}"
-              data-target="{{ section.id }}-{{ featured_media.id }}"
-              data-media-position="{{ media_index }}"
-            >
+            <li id="Slide-Thumbnails-{{ section.id }}-0{{ id_append }}" class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}" data-target="{{ section.id }}-{{ featured_media.id }}"  data-media-position="{{ media_index }}">
               {%- capture thumbnail_id -%}
                 Thumbnail-{{ section.id }}-0{{ id_append }}
               {%- endcapture -%}
@@ -195,8 +177,7 @@
                 aria-label="{%- if featured_media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif featured_media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
                 aria-current="true"
                 aria-controls="GalleryViewer-{{ section.id }}{{ id_append }}"
-                aria-describedby="{{ thumbnail_id }}"
-              >
+                aria-describedby="{{ thumbnail_id }}">
                 {{ featured_media.preview_image | image_url: width: 416 | image_tag:
                   loading: 'lazy',
                   sizes: sizes,
